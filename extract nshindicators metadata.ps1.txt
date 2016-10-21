@@ -1,0 +1,78 @@
+# extract nshindicators metadata
+<#
+USAGE:
+change date
+copy all up to #wrap up in powershell window
+if restarts needed, change restart number and copy begining that line up to #warp up 
+if all OK and no further restarts needed copy two last lines in window
+
+dissect the resulting .html in T-SQL (seperate T-SQL script)
+#>
+
+$extractiondate = "20161010"                                               # <-- CHANGE      used in filenames
+$filename = "phec_NHS_indicators_$extractiondate.html"    
+ 
+# change window title
+$host.ui.RawUI.WindowTitle = "NHS indicators metadata extraction"
+
+$nl = [Environment]::NewLine
+$metadata = $null
+$retries = 5       # number of retries if failed
+$secondsDelay = 20 # seconds delay before retry
+$lastpage = 2500   # number of pages to try; las indicator in lower 2100s 
+$restart = 1       # set initially to 1; number to restart, if needed      <-- CHANGE !!!!!!!!!
+$j = $restart - 1  
+
+For ($i=$j; $i -le $lastpage; $i++){
+  Write-Progress -Activity "Gathering Metadata" -Status "Found indicator $i" -PercentComplete ($i / $lastpage * 100)
+	$ind = $i.ToString("00000")
+	$ind = "P$ind"
+# detect page by opening the righthand frame in a seperate window; you should see correct url now
+# old till about 20160308
+#	$url = "https://indicators.ic.nhs.uk/webview/velocity?v=2&mode=documentation&submode=ddi&study=http://172.16.9.26:80/obj/fStudy/$ind"
+# 20160314
+# https://indicators.hscic.gov.uk/webview/velocity?v=2&mode=documentation&submode=ddi&study=https%3A%2F%2F192.168.228.51%3A443%2Fobj%2FfStudy%2FP00844
+# https://indicators.hscic.gov.uk/webview/velocity?v=2&mode=documentation&submode=ddi&study=https://192.168.228.51:443/obj/fStudy/P00844
+# $url = "https://indicators.hscic.gov.uk/webview/velocity?v=2&mode=documentation&submode=ddi&study=https://192.168.228.51:443/obj/fStudy/$ind"
+# 20161010
+  $url = "https://indicators.hscic.gov.uk/webview/velocity?v=2&mode=documentation&submode=ddi&study=http://192.168.229.23:80/obj/fStudy/$ind"
+
+  $data = $null
+  $retrycount = 0
+  $completed = $false
+  while (-not $completed) {                            # begin repeat loop
+    $completed = $false
+    try { 
+      $page = Invoke-WebRequest -Uri $url 
+      $completed = $true                               # get out of repeat loop
+    } catch { 
+      $errorcode = $_.Exception.Response.StatusCode.Value__ 
+      Write-Host ("ErrorCode : $errorcode") 
+      Write-Host ("On Line   : $i") 
+      #Write-Host ("With Ids  : $line") 
+      if ($retrycount -ge $retries) {
+        Write-Host ("Failed $retries times, stopping")
+        throw                                          # get out all
+      } else {
+        Write-Host ("Failed $retrycount times, retrying in $secondsDelay seconds")
+        Start-Sleep $secondsDelay
+        $retrycount++
+      }
+    }
+  } # end repeat loop
+
+  $data = $page.ParsedHtml.body.InnerHTML
+  If ($data -ne $null){
+    # for valid pages
+    $metadata = "$metadata<!--¬ind:$i-->$nl"
+    $metadata = "$metadata$data$nl"
+  }
+
+  Write-Progress -Activity "Gathering pages" -Status "Found Page $i" -percentComplete ($i / $lastpage * 100)
+}
+
+
+# wrap up
+$metadata2 = "$metadata$nl<!--¬ind:end-->$nl"
+# normalising all linebreaks on CRLF and safe as UTF8 to preserve any 'strange' characters
+$metadata2 |% {$_.Replace("`r`n","`n").Replace("`r","`n").Replace("`n","`r`n")} | Out-File -Filepath $filename -Encoding Unicode
