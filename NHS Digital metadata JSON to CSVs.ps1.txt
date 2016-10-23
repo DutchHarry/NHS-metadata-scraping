@@ -1,0 +1,377 @@
+<#
+Purpose:
+Dissect NHS Digital (HSCIC) metadata JSON in CSVs
+
+#>
+
+<#
+structure of JSON file a bit like this:
+
+{ -> columns
+[ -> rows
+
+title
+topics
+  [
+  ]
+summary
+date_range
+source
+geographical_coverage
+  [
+  ]
+key_facts
+  [
+  ]
+publication_date
+keywords
+  [
+  ]
+information_types
+  [
+  ]
+sources
+  [
+    {
+      url
+      filetype
+      description
+    }
+  ]
+id
+
+#>
+
+# remove html codes with
+# -replace "<.*?>" 
+
+$datemark = "20161022"                                          # <-- CHANGE: only determines filenames 
+#$testfile = "phec HSCIC ProductID $datemark.json"
+$testfile = "phec HSCIC PUB id $datemark.json"
+$path_results = ".\Data_HSCIC_pid_results_$datemark.csv"
+$path_sources = ".\Data_HSCIC_pid_sources_$datemark.csv"
+$path_topics = ".\Data_HSCIC_pid_topics_$datemark.csv"
+$path_geographical_coverage = ".\Data_HSCIC_pid_geographical_coverage_$datemark.csv"
+$path_key_facts = ".\Data_HSCIC_pid_key_facts_$datemark.csv"
+$path_keywords = ".\Data_HSCIC_pid_keywords_$datemark.csv"
+$path_information_types = ".\Data_HSCIC_pid_information_types_$datemark.csv"
+
+[void][System.Reflection.Assembly]::LoadWithPartialName("System.Web.Extensions")        
+$jsonserial= New-Object -TypeName System.Web.Script.Serialization.JavaScriptSerializer 
+$jsonserial.MaxJsonLength = [int]::MaxValue
+$jsonserial.RecursionLimit = [int]::MaxValue
+$json = ($jsonserial.DeserializeObject((Get-Content $testfile) -join "`n"))
+
+
+# Dataset details: Level 1
+$i=1
+$level1_results = foreach($row in $json )`
+  {
+    #Loop through input.
+		$PHEC_result_ID = $i -join ","
+		
+		$title = ($row | %{"$($_.title)"}) -join ","
+		$summary = ($row | %{"$($_.summary)"}) -join ","
+		$date_range = ($row | %{"$($_.date_range)"}) -join ","
+		$source = ($row | %{"$($_.source)"}) -join ","
+		$publication_date = ($row | %{"$($_.publication_date)"}) -join ","
+		$id = ($row | %{"$($_.id)"}) -join ","
+
+		$information_types = ($row | %{"$($_.information_types)"}) -join ","
+		$topics = ($row | %{"$($_.topics)"}) -join ","
+<#		$key_facts = ($row | %{"$($_.key_facts)"}) -join "," #>
+
+    #Build your flat custom object
+    [pscustomobject]@{
+			PHEC_result_ID = $PHEC_result_ID
+			
+			title = $title
+			summary = ($summary -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+			date_range = $date_range
+			source = $source
+			publication_date = $publication_date
+			id = $id
+
+			information_types = $information_types
+			topics = $topics
+<#			key_facts = $key_facts #>
+
+    }
+		$i++
+  }
+
+$level1_results | Select-Object $Output | Export-Csv -NoTypeInformation -Path $path_results
+
+
+# Dataset details: Level 2:  sources
+$i=1
+$level1_results = foreach($row in $json )`
+  {
+    #Loop through input.
+		$PHEC_result_ID = $i -join ","
+
+ 		$j=1   
+ 		foreach($row2 in $json[$i-1].sources )`
+   		{
+     		#Loop through 
+				$PHEC_sources_ID = $j -join ","
+
+				$url = ($row2 | %{"$($_.url)"}) -join ","
+				$filetype = ($row2 | %{"$($_.filetype)"}) -join ","
+				$description = ($row2 | %{"$($_.description)"}) -join ","
+
+	    #Build your flat custom object
+        [pscustomobject]@{
+					PHEC_result_ID = $PHEC_result_ID
+	        PHEC_sources_ID = $PHEC_sources_ID
+	
+					url = $url
+					filetype = $filetype
+					description = $description
+				
+      	}
+   			$j++
+    	}
+		$i++
+  }
+
+
+$level1_results | Select-Object $Output | Export-Csv -NoTypeInformation -Path $path_sources
+
+
+# Dataset details: Level 2:  topics
+$i=1
+$level1_results = foreach($row in $json )`
+  {
+    #Loop through input.
+		$PHEC_result_ID = $i -join ","
+
+ 		$j=1   
+ 		foreach($row2 in $json[$i-1].topics )`
+   		{
+     		#Loop through 
+				$PHEC_topics_ID = $j -join ","
+
+				$topics = ($row2 | %{"$($_)"}) -join ","
+
+	    #Build your flat custom object
+        [pscustomobject]@{
+					PHEC_result_ID = $PHEC_result_ID
+	        PHEC_topics_ID = $PHEC_topics_ID
+	
+					topics = $topics
+				
+      	}
+   			$j++
+    	}
+		$i++
+  }
+
+
+$level1_results | Select-Object $Output | Export-Csv -NoTypeInformation -Path $path_topics
+
+
+# Dataset details: Level 2:  geographical_coverage
+$i=1
+$level1_results = foreach($row in $json )`
+  {
+    #Loop through input.
+		$PHEC_result_ID = $i -join ","
+
+ 		$j=1   
+ 		foreach($row2 in $json[$i-1].geographical_coverage )`
+   		{
+     		#Loop through 
+				$PHEC_geographical_coverage_ID = $j -join ","
+
+				$geographical_coverage = ($row2 | %{"$($_)"}) -join ","
+
+	    #Build your flat custom object
+        [pscustomobject]@{
+					PHEC_result_ID = $PHEC_result_ID
+	        PHEC_geographical_coverage_ID = $PHEC_geographical_coverage_ID
+	
+					geographical_coverage = $geographical_coverage
+				
+      	}
+   			$j++
+    	}
+		$i++
+  }
+
+
+$level1_results | Select-Object $Output | Export-Csv -NoTypeInformation -Path $path_geographical_coverage
+
+
+# Dataset details: Level 2:  key_facts
+$i=1
+$level1_results = foreach($row in $json )`
+  {
+    #Loop through input.
+		$PHEC_result_ID = $i -join ","
+
+ 		$j=1   
+ 		foreach($row2 in $json[$i-1].key_facts )`
+   		{
+     		#Loop through 
+				$PHEC_key_facts_ID = $j -join ","
+
+				$key_facts = ($row2 | %{"$($_)"}) -join ","
+
+	    #Build your flat custom object
+        [pscustomobject]@{
+					PHEC_result_ID = $PHEC_result_ID
+	        PHEC_key_facts_ID = $PHEC_key_facts_ID
+	
+					key_facts = $key_facts
+				
+      	}
+   			$j++
+    	}
+		$i++
+  }
+
+
+$level1_results | Select-Object $Output | Export-Csv -NoTypeInformation -Path $path_key_facts
+
+
+# Dataset details: Level 2:  keywords
+$i=1
+$level1_results = foreach($row in $json )`
+  {
+    #Loop through input.
+		$PHEC_result_ID = $i -join ","
+
+ 		$j=1   
+ 		foreach($row2 in $json[$i-1].keywords )`
+   		{
+     		#Loop through 
+				$PHEC_keywords_ID = $j -join ","
+
+				$keywords = ($row2 | %{"$($_)"}) -join ","
+
+	    #Build your flat custom object
+        [pscustomobject]@{
+					PHEC_result_ID = $PHEC_result_ID
+	        PHEC_keywords_ID = $PHEC_keywords_ID
+	
+					keywords = $keywords
+				
+      	}
+   			$j++
+    	}
+		$i++
+  }
+
+
+$level1_results | Select-Object $Output | Export-Csv -NoTypeInformation -Path $path_keywords
+
+
+# Dataset details: Level 2:  information_types
+$i=1
+$level1_results = foreach($row in $json )`
+  {
+    #Loop through input.
+		$PHEC_result_ID = $i -join ","
+
+ 		$j=1   
+ 		foreach($row2 in $json[$i-1].information_types )`
+   		{
+     		#Loop through 
+				$PHEC_information_types_ID = $j -join ","
+
+				$information_types = ($row2 | %{"$($_)"}) -join ","
+
+	    #Build your flat custom object
+        [pscustomobject]@{
+					PHEC_result_ID = $PHEC_result_ID
+	        PHEC_information_types_ID = $PHEC_information_types_ID
+	
+					information_types = $information_types
+				
+      	}
+   			$j++
+    	}
+		$i++
+  }
+
+
+$level1_results | Select-Object $Output | Export-Csv -NoTypeInformation -Path $path_information_types
+
+
+
+# Dataset details: finish
+
+
+<#
+# for analysing structure JSON file
+
+$json | Sort-Object | Get-Unique
+date_range
+geographical_coverage
+id
+information_types
+keywords
+key_facts
+publication_date
+source
+sources
+summary
+title
+topics
+
+$json.geographical_coverage | Sort-Object | Get-Unique
+England
+England and Wales
+England, Wales and Northern Ireland
+Great Britain
+International
+Northern Ireland
+Scotland
+UK
+Wales
+
+$json.information_types | Sort-Object | Get-Unique
+
+Audit
+Audit|0/Official statistics
+Audit|0/Official statistics|0/Other reports and statistics
+Audit|0/Open data
+Audit|0/Other reports and statistics
+Audit|0/Survey
+Official statistics
+Official statistics|0/Open data
+Official statistics|0/Other reports and statistics
+Open data
+Other reports and statistics
+Survey
+Survey|0/Official statistics
+Survey|0/Other reports and statistics
+
+$json.keywords | Sort-Object | Get-Unique
+#1394
+
+$json.sources | Sort-Object | Get-Unique
+url
+filetype
+description
+
+$json.topics | Sort-Object | Get-Unique
+
+Data quality
+Hospital care
+Illnesses and conditions
+Mental health
+Patient experience
+Prescribing
+Primary care services
+Public health
+Social care
+Workforce
+
+$json.topics | Sort-Object | Get-Unique
+
+
+#>
+
+
