@@ -1,0 +1,85 @@
+<#
+Purpose: 
+extract HSCIC metadata from all possible publication pages
+walking through range 0 to 25000
+saving file as proper json for dissection by:
+
+http://content.digital.nhs.uk/catalogue/PUB03062
+http://content.digital.nhs.uk/searchcatalogue?productid=8907
+
+previously:
+http://www.hscic.gov.uk/catalogue/PUB00089
+http://www.hscic.gov.uk/searchcatalogue?productid=8907
+
+#>
+
+# change window title
+$host.ui.RawUI.WindowTitle = "HSCIC publications by PUB id"
+$datemark = "20161022"                                   # <-- CHANGE: only determines filename 
+#$filename = "NHS HSCIC ProductID $datemark.json"         # json lookalike file
+$filename = "NHS HSCIC PUB id $datemark.json"            # json lookalike file
+$nl = [Environment]::NewLine
+$metadata = $null
+$retries = 5                    # number of retries before giving up
+$secondsDelay = 20              # delay before a retry
+$lastpage = 25000               # they just passed 20k, so fairly safe
+
+#COPY FROM HERE TILL BOTTOM IF RESTART IS NEEDED; not above as that would nullify all that went right
+$restart = 1  # set initially to 1                        <-- change after restart !!!!!!!!!
+$j = $restart - 1 #
+
+for($i=$j; $i -le $lastpage ; $i++){
+  $url = "http://content.digital.nhs.uk/catalogue/PUB" + $i.ToString("00000")
+  #$url = "http://content.digital.nhs.uk/searchcatalogue?productid=$i"
+  #$url = "http://www.hscic.gov.uk/catalogue/PUB" + $i.ToString("00000")
+  #$url = "http://www.hscic.gov.uk/searchcatalogue?productid=$i"
+  $data = $null
+  $retrycount = 0
+  $completed = $false
+  while (-not $completed) {                            # begin repeat loop
+    try { 
+      $page = Invoke-WebRequest -Uri $url 
+      $completed = $true                               # get out of repeat loop
+    } catch { 
+      $errorcode = $_.Exception.Response.StatusCode.Value__ 
+      $retrycount++
+      Write-Host ("ErrorCode : $errorcode") 
+      Write-Host ("On Line   : $i") 
+      #Write-Host ("With Ids  : $line") 
+      if ($retrycount -gt $retries) {
+        Write-Host ("Failed $retries times, stopping")
+        throw                                          # get out all
+      } else {
+        Write-Host ("Failed $retrycount times, retrying in $secondsDelay seconds")
+        Start-Sleep $secondsDelay
+      }
+    }
+  } # end repeat loop
+
+  $data = $page.ParsedHtml.GetElementbyID("jsonresults").InnerHTML
+  If ($data -ne $null){
+    # for valid pages
+    #$metadata = "$metadata$nl{""pid"":""$i""}"
+    # change as HSCIC var jsonProduct becomes var jsonProducts occasionally
+    if ($data -Contains "jsonProducts") {
+    $metadata = $metadata + ($data -Replace "$nl<SCRIPT type=text/javascript>$nl.+var jsonProducts = [{(.+)}];$nl.+</SCRIPT>", '{$1}')
+    } else {
+    $metadata = $metadata + ($data -Replace "$nl<SCRIPT type=text/javascript>$nl.+var jsonProduct = {(.+)};$nl.+</SCRIPT>", '{$1}')
+    }
+  }
+
+  Write-Progress -Activity "Gathering pages" -status "Found Page $i" -percentComplete ($i / $lastpage * 100)
+  # Write-Host "Line $i : TrustId $line"
+}
+
+# wrap up
+# make proper json
+$metadata2 = "[" + ($metadata -Replace "}{", "},{") + "]"
+# normalising all linebreaks on CRLF and safe as UTF8 to preserve any 'strange' characters
+#$metadata2 |% {$_.Replace("`r`n","`n").Replace("`r","`n").Replace("`n","`r`n")} | Out-File -Filepath $filename -Encoding UTF8
+$metadata2 |% {$_.Replace("`r`n","`n").Replace("`r","`n").Replace("`n","`r`n")} | Out-File -Filepath $filename -Encoding Unicode
+
+#
+
+
+
