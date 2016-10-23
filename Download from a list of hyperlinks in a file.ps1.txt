@@ -1,0 +1,298 @@
+<#
+Purpose:
+Download from a list of hyperlinks in a file
+replicate directory structure from servers
+record results
+document link and download path
+
+#>
+<#
+stopped using invoke-Webrequest, as to slow for downloading (parses pages)
+
+DEFAULT WEBCLIENT, OTHERS FOR ANY FAILED REMAINDER
+
+# 3 methods:
+# 1     fast
+$wc = New-Object net.webclient
+$wc.Downloadfile($source, $destination)
+
+# 2     slow due to parsing the page, but catches a few where webclient fails
+Invoke-WebRequest $source -OutFile $destination
+
+# 3     in parallel; give it a try if both other failed
+Import-Module BitsTransfer
+Start-BitsTransfer -Source $source -Destination $destination
+#OR
+Start-BitsTransfer -Source $destination -Destination $destination -Asynchronous
+
+$start_time = Get-Date
+
+Write-Output "Time taken: $((Get-Date).Subtract($start_time).Seconds) second(s)"
+
+#>
+
+
+#file with links
+$files = "E:\d\nhs downloads.txt"                                                  <# CHANGE #>
+# destination directory  with trailing \
+$DestinationDirectory = "E:\d\"                                                        <# CHANGE #>
+
+
+#change window title
+$host.ui.RawUI.WindowTitle = "READING URL LINES AND DOWNLOADING IN DIR STRUCTURE"
+
+$sleepdelay = 5   #seconds to wait after each request in BITSTRANSFER
+
+
+# logging the output
+$logs = $null
+$logs = "$files.log"   
+#summary counters
+$FilesAlreadyExisting = 0
+$NewFilesAdded = 0
+$FilesErrored = 0
+#logging urls and filenames
+$url2file = $null
+$url2file = "$files url2file tab delimited.txt"
+#delete old url2file
+$fileexists = Test-Path $url2file
+if ($fileexists -eq $true) {
+Remove-Item -Force -Path $url2file  
+}
+$fileexists = Test-Path $logs
+if ($fileexists -eq $true) {
+Remove-Item -Force -Path $logs  
+}
+
+# add headers in tab delimited file
+Add-Content $url2file "url¬file"   # changed from tab to ¬ on 20160826
+
+
+<# 
+MOUSE CLICK IN WINDOW PAUSES THE SCRIPT AFTER END OF RUNNING STATEMENT TILL YOU PRESS ENTER KEY 
+#>
+
+# 1
+# needed for some servers
+ [Net.ServicePointManager]::SecurityProtocol = 'Tls12'
+# [System.Net.ServicePointManager]::SecurityProtocol |= SecurityProtocolType.Tls | SecurityProtocolType.Tls11 | SecurityProtocolType.Tls12;
+
+<#
+namespace System.Net
+{
+[System.Flags]
+public enum SecurityProtocolType
+{
+Ssl3 = 48,
+Tls = 192,
+Tls11 = 768,
+Tls12 = 3072,
+}
+}
+# turn on tls 1.1 and tls 1.2 
+System.Net.ServicePointManager.SecurityProtocol |= SecurityProtocolType.Tls11 | SecurityProtocolType.Tls12;
+# turn off SSL3 wh affecting others:
+System.Net.ServicePointManager.SecurityProtocol &= ~SecurityProtocolType.Ssl3;
+# all
+System.Net.ServicePointManager.SecurityProtocol |= SecurityProtocolType.Tls | SecurityProtocolType.Tls11 | SecurityProtocolType.Tls12;
+#>
+
+# 2
+# for error:
+# Exception calling "DownloadFile" with "2" argument(s): "The underlying connection was closed: An unexpected error occurred on a send."
+# [Net.ServicePointManager]::SecurityProtocol = 'Tls12'
+
+#initialise client
+$wc = New-Object System.Net.WebClient
+
+# 3
+Import-Module BitsTransfer
+
+$counter = 0
+
+$reader = [System.IO.File]::OpenText($files)
+try {
+for(;;) {
+$counter++
+$line = $reader.ReadLine()
+if ($line -eq $null) { break }
+if ($line.substring(0,2) -eq "::") { continue }
+# process the line
+$source = $line
+$destination = $source
+# following errors with zero length file
+# $source = $source.replace('/file?uri=/','/')
+# correct for * in webarchive
+$destination = $destination.replace('/*/','/+/')
+#webarchive ONS
+$destination = $destination -replace ("http://webarchive.nationalarchives.gov.uk/20160105160709/http://www.ons",'warons\www.ons')
+# catch double url in webarchive
+$destination = $destination.replace('http://webarchive.nationalarchives.gov.uk/+/','war/')
+#other webarchive with regex
+$destination = $destination -replace ("http://webarchive.nationalarchives.gov.uk.+http:/",'war2/')
+# long names data
+# $line = "https://data.england.nhs.uk/dataset/f637ce67-eb69-4b50-b7ed-b1ab3c193def/resource/7da96506-575e-442f-bb23-d959be1bea0e/download/dmadatacataloguesectionlevelscores20160407.csv"
+# https://data.england.nhs.uk/dataset/65168f3c-43ef-43b1-92a6-ae47950fc4f6/resource/893a2b67-ece0-425f-a97a-fac02c014d0f/download/401infantmortality.data.csv
+$destination = $destination -replace ("https://data.england.nhs.uk/dataset/.+/resource/.+/download/",'dataNHSE/')
+
+# ons
+$destination = $destination.replace('/file?uri=/','/')
+# url to directory
+$destination = $destination.replace('/','\')
+# remove https
+$destination = $destination.replace('https:\\',"")
+# remove http
+$destination = $destination.replace('http:\\',"")
+# triple ??? to hyphen
+$destination = $destination.replace('???','%E2%80%93')
+# remove double \ introduced for webarchive
+$destination = $destination.replace('\\','\')
+$destination = "$DestinationDirectory\$destination"
+$destination = $destination.replace('\\','\')
+# check $destination
+Write-Host  "$counter $destination"
+# 
+try {  
+# create zero length file and directory structure 
+# check if file exists
+$fileexists = Test-Path $destination
+if ($fileexists -eq $true) {
+#increment counter
+$FilesAlreadyExisting++
+# output to screen and logfile
+Write-Output "Already Exists : $line" #| Tee-Object -filepath "$logs" -Append
+# append link and filename to tab delimited file
+Add-Content $url2file "$source¬$destination"  # changed from tab to ¬ on 20160826
+# do nothing
+}else{
+#FORCE CREATE EMPTY FILE (Force also creates any higher dirs needed)
+New-Item -ItemType File -Force -Path $destination  | Out-Null <# Out-Null to suppress output #>
+
+# get the file
+try {       
+# 2 System.Net.Client # fast but skips a few
+# $wc = New-Object net.webclient
+# $wc.Downloadfile($source, $destination)
+$wc.Downloadfile( $source.replace('???','%E2%80%93'), $destination)
+# append link and filename to tab delimited file
+Add-Content $url2file "$source¬$destination"  # changed from tab to ¬ on 20160826
+# output to screen and logfile
+Write-Output "Added File     : $line" #| Tee-Object -filepath "$logs" -Append
+}catch{
+try {
+# 1 Invoke-WebRequest # SLOW due to parsing
+Invoke-WebRequest $source.replace('???','%E2%80%93') -OutFile $destination
+# Invoke-WebRequest $source -OutFile $destination
+# append link and filename to tab delimited file
+Add-Content $url2file "$source¬$destination"  # changed from tab to ¬ on 20160826
+# output to screen and logfile
+Write-Output "Added File     : $line" #| Tee-Object -filepath "$logs" -Append
+}catch{
+#increment counter
+$FilesErrored++
+Write-Output $_.Exception.Message | Tee-Object -filepath "$logs" -Append
+Write-Output ("ErrorCode      : $errorcode") | Tee-Object -filepath "$logs" -Append
+Write-Output ("On address     : $source") | Tee-Object -filepath "$logs" -Append
+# remove zero length file
+Remove-Item  $destination -Force | Out-Null # Out-Null to suppress output #
+Write-Host "Both webclient and Invoke-WebRequest failed"
+}
+}
+# 3 BITS # takes the ones netclient skips
+# 3a synchronous
+#          Start-BitsTransfer -Source $source.replace('???','%E2%80%93')replace('---','%E2%80%93') -Destination $destination
+# append link and filename to tab delimited file
+#        Add-Content $url2file "$source¬$destination"  # changed from tab to ¬ on 20160826
+# output to screen and logfile
+#        Write-Output "Added File     : $line" | Tee-Object -filepath "$logs" -Append
+# 3b Asynchronous
+<#
+$Job = Start-BitsTransfer -Source $source.replace('???','%E2%80%93') -Destination $destination -Asynchronous
+While ( ($Job.JobState -eq "Transferring") -or ($Job.JobState -eq "Connecting") ) `
+{ 
+Write-Host $Job.JobState
+sleep $sleepdelay; 
+} # Poll for status, sleep , or perform an action.
+
+Switch($Job.JobState)
+{
+"Transferred" {Complete-BitsTransfer -BitsJob $Job}
+"Error" {$Job | Format-List } # List the errors.
+default {"Other action"} #  Perform corrective action.
+}
+#
+#
+#
+#>        
+#increment counter
+$NewFilesAdded++
+} #if else
+}catch{
+$errorcode = $_.Exception.Response.StatusCode.Value__ 
+#increment counter
+$FilesErrored++
+Write-Output ("ErrorCode      : $errorcode") | Tee-Object -filepath "$logs" -Append
+Write-Output ("On address     : $source") | Tee-Object -filepath "$logs" -Append
+# remove zero length file
+Remove-Item  $destination -Force | Out-Null # Out-Null to suppress output #
+} #2nd try
+} # for loop
+} # 1st try  
+finally {
+$reader.Close()
+}
+
+
+#
+# clean out any empty folders resulting from errors above
+Get-ChildItem $DestinationDirectory -Force -Recurse | `
+Where {$_.PSIsContainer -and @(Get-ChildItem -LiteralPath $_.Fullname -Force -Recurse | Where {!$_.PSIsContainer}).Length -eq 0} | `
+Remove-Item -Force -Recurse | `
+Out-Null  <# -whatif #>
+
+# clean empty files (from BITS transfer)
+#Force needed for read-only and hidden files (remains from errored BITS)
+Get-ChildItem $DestinationDirectory -Force -Recurse | Where {$_.Length -eq 0} | Remove-Item -Force -Recurse | Out-Null
+
+# destroy client
+$wc = $Null
+
+#add summaries
+Write-Output "Summary               :"
+Write-Output "Files Aready Existing : $FilesAlreadyExisting" | Tee-Object -filepath "$logs" -Append
+Write-Output "New Files Added       : $NewFilesAdded" | Tee-Object -filepath "$logs" -Append
+Write-Output "Files Errored         : $FilesErrored" | Tee-Object -filepath "$logs" -Append
+
+
+
+
+
+
+<#
+#for sinlge file testing
+$DestinationDirectory = "S:\htt\test"
+$source = "http://webarchive.nationalarchives.gov.uk/20130227100129/http:/www.dh.gov.uk/prod_consum_dh/groups/dh_digitalassets/@dh/@en/@ps/@sta/@perf/documents/digitalasset/dh_134036.xls"
+#"http://webarchive.nationalarchives.gov.uk/*/http://www.ic.nhs.uk/catalogue/PUB03071/nhs-mate-eng-2010-2011-tab-v1.xls"
+$destination = $source
+$destination = $destination.replace('/*/','/+/')
+$destination = $destination.replace('http://webarchive.nationalarchives.gov.uk/+/','war\')
+$destination = $destination -replace ("http://webarchive.nationalarchives.gov.uk.+http:/",'war2\')
+$destination = $destination.replace('/','\')
+$destination = $destination.replace('https:\\',"")
+$destination = $destination.replace('http:\\',"")
+$destination = $destination.replace('???','%E2%80%93')
+#$destination = $destination.replace("war\$DestinationDirectory","$DestinationDirectory\war\")
+#$destination = $destination.replace("war2\$DestinationDirectory","$DestinationDirectory\war2\")
+$destination = "DestinationDirectory\$destination"
+$destination = $destination.replace('\\','\')
+$destination 
+#check if file exits
+Test-Path $destination
+#create directory structure and zero length file
+New-Item -ItemType File -Force -Path $destination  | Out-Null 
+#get file
+Invoke-WebRequest $source.replace('???','%E2%80%93') -OutFile $destination
+
+#>
+
+
