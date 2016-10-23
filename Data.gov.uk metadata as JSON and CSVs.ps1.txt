@@ -1,0 +1,549 @@
+<#
+Purpose:
+Extract data.gov.uk metadata as JSON and CSVs
+
+#>
+
+
+$totalsets = 42000              # <-- CHANGE      look at http://data.gov.uk/data/search to get number 37454 
+$extractiondate = "20161022"    # <-- CHANGE      used in filenames
+
+#change window title
+$host.ui.RawUI.WindowTitle = "datagov metadata extraction"
+$filename = "datagov$extractiondate.json"    # saved in this file (about 0.5 Gb ASCII)
+$limit=250                 # max that worked last time
+$iterations = [math]::ceiling($totalsets/$limit) 
+#$iterations = 1   # for testing
+$json = @()        # start with empty object
+for($i=0; $i -le $iterations; $i++)
+	{
+		$offset= $i * $limit
+		$url = "http://data.gov.uk/api/action/current_package_list_with_resources?limit=$limit&offset=$offset"
+		$json += Invoke-RestMethod  -Uri $url
+    Write-Progress -Activity "Gathering extracts" -Status "Found Page $i" -percentComplete ($i / $iterations * 100)
+  } # end for loop
+
+$json.result.count       #should show the total number of sets (a few more than the web page above)
+#only export result (leaving out help and info stuff)
+# dept limited to 100
+#$json.result | ConvertTo-Json -Depth 100 | Set-Content $filename  #OK output ASCII
+$json.result | ConvertTo-Json -Depth 100 | Out-File -Filepath $filename -Encoding UTF8
+#$json | ConvertTo-Json -depth 100 | Set-Content "dg.json"  #OK output ASCII
+#$json | ConvertTo-Json -depth 100 | Out-File "dg2.json"  # OK output unicode
+#$json | Set-Content "dg.json"  # doesn't work
+#$json | ConvertTo-Json | Set-Content "dg.json"  # doesn't work
+
+# but since you have it in memory  ...
+# might as well take it apart in CSVs too
+#first look what is on each level
+<#
+# ANALYSIS OF CONTENTS
+$json.result | gm -Membertype NoteProperty 
+#anything that shows as Object[] might be a second level
+
+#result
+$json.result | gm -Membertype NoteProperty | Select Name
+author
+author_email
+creator_user_id
+extras
+groups
+id
+isopen
+license_id
+license_title
+license_url
+maintainer
+maintainer_email
+metadata_created
+metadata_modified
+name
+notes
+num_resources
+num_tags
+organization
+owner_org
+private
+relationships_as_object
+relationships_as_subject
+resources
+revision_id
+revision_timestamp
+state
+tags
+title
+type
+url
+version
+
+#look for secondary levels
+#tags
+$json_result.tags | gm -Membertype NoteProperty | Select Name
+display_name
+id
+name
+revision_timestamp
+state
+vocabulary_id
+
+#groups
+$json.result.groups | gm -Membertype NoteProperty | Select Name
+#zilch
+
+#relationships_as_object
+$json.result.relationships_as_object | gm -Membertype NoteProperty | Select Name
+#zilch
+
+#relationships_as_subject
+$json.result.relationships_as_subject | gm -Membertype NoteProperty | Select Name
+#zilch
+
+#organization
+$json.result.organization | gm -Membertype NoteProperty | Select Name
+approval_status
+created
+description
+id
+image_url
+is_organization
+name
+revision_id
+revision_timestamp
+state
+title
+type
+
+#resources
+$json.result.resources | gm -Membertype NoteProperty | Select Name
+cache_filepath
+cache_last_updated
+cache_url
+created
+description
+format
+hash
+id
+last_modified
+mimetype
+mimetype_inner
+name
+position
+resource_group_id
+resource_type
+revision_id
+revision_timestamp
+size
+state
+url
+url_type
+webstore_last_updated
+webstore_url
+
+#extras
+$json.result.extras | gm -Membertype NoteProperty | Select Name
+id
+key
+package_id
+revision_id
+revision_timestamp
+state
+value
+
+#>
+
+# DISSECTION
+
+If ($url.contains("current_package_list_with_resources") -eq $true)
+{
+	$extractionsuffix = "current_package_list_with_resources_$extractiondate"  <# for current_package_list_with_resources #>
+} Else {
+  $extractionsuffix = "package_search_$extractiondate"  <# for package_search #>
+}
+
+# note organization is just one to one with result level, so no need for separate dissection csv
+$path_results = ".\DataGov_Results_$extractionsuffix.csv"
+$path_resources = ".\DataGov_resources_$extractionsuffix.csv"
+$path_tags = ".\DataGov_tags_$extractionsuffix.csv"
+$path_groups = ".\DataGov_groups_$extractionsuffix.csv"  # apparently no groups, but just in case
+$path_extras = ".\DataGov_extras_$extractionsuffix.csv"
+
+$nl = [Environment]::NewLine   #new line if needed somewhere
+
+#following for re-use with other extraction methods, but may blow you memory as it duplicates the structure
+If ($url.contains("current_package_list_with_resources") -eq $true)
+{
+	$json_result = $json.result  <# for current_package_list_with_resources #>
+} Else {
+  $json_result = $json.result.results  <# for package_search #>
+}
+
+#after this a little cleanup to avoid memory problems (if you didn't have them already)
+$json = $null
+
+# Note: if your CSVs contain line breaks in a column you may have to do a replace as I did a few below do you can import in SQL
+# be aware that excel handles the file anyway, so you need a text editor to see if the id of last line is one less than the linenumber in the file
+# Dataset details: Level 1
+$i=0
+$j=0
+$level1_results = foreach($row in $json_result )`
+  {
+    #Loop through input.
+		$PHEC_result_ID = ($i+1) -join ","
+		
+		$result_author = ($row | %{"$($_.author)"}) -join ","
+		$result_author_email = ($row | %{"$($_.author_email)"}) -join ","
+		$result_coverage_end_date = ($row | %{"$($_.coverage_end_date)"}) -join ","   <#new#>
+		$result_coverage_start_date = ($row | %{"$($_.coverage_start_date)"}) -join ","   <#new#>
+		$result_creator_user_id = ($row | %{"$($_.creator_user_id)"}) -join ","
+		$result_groups = ($row | %{"$($_.groups)"}) -join ","
+		$result_id = ($row | %{"$($_.id)"}) -join ","
+		$result_isopen = ($row | %{"$($_.isopen)"}) -join ","
+		$result_license_id = ($row | %{"$($_.license_id)"}) -join ","
+		$result_license_title = ($row | %{"$($_.license_title)"}) -join ","
+		$result_license_url = ($row | %{"$($_.license_url)"}) -join ","
+		$result_maintainer = ($row | %{"$($_.maintainer)"}) -join ","
+		$result_maintainer_email = ($row | %{"$($_.maintainer_email)"}) -join ","
+		$result_metadata_created = ($row | %{"$($_.metadata_created)"}) -join ","
+		$result_metadata_modified = ($row | %{"$($_.metadata_modified)"}) -join ","
+		$result_name = ($row | %{"$($_.name)"}) -join ","
+		$result_notes = ($row | %{"$($_.notes)"}) -join ","
+		$result_num_resources = ($row | %{"$($_.num_resources)"}) -join ","
+		$result_num_tags = ($row | %{"$($_.num_tags)"}) -join ","
+		$result_origin = ($row | %{"$($_.origin)"}) -join ","   <#new#>
+		$result_owner_org = ($row | %{"$($_.owner_org)"}) -join ","
+		$result_private = ($row | %{"$($_.private)"}) -join ","
+		$result_relationships_as_object = ($row | %{"$($_.relationships_as_object)"}) -join ","
+		$result_relationships_as_subject = ($row | %{"$($_.relationships_as_subject)"}) -join ","
+		$result_revision_id = ($row | %{"$($_.revision_id)"}) -join ","
+		$result_revision_timestamp = ($row | %{"$($_.revision_timestamp)"}) -join ","
+		$result_state = ($row | %{"$($_.state)"}) -join ","
+		$result_title = ($row | %{"$($_.title)"}) -join ","
+		$result_tracking_summary = ($row | %{"$($_.tracking_summary)"}) -join ","   <#new#>
+		$result_type = ($row | %{"$($_.type)"}) -join ","
+		$result_url = ($row | %{"$($_.url)"}) -join ","
+		$result_version = ($row | %{"$($_.version)"}) -join ","
+		
+		#org data
+		$result_organization_approval_status = ($row | %{"$($_.organization.approval_status)"}) -join ","
+		$result_organization_created = ($row | %{"$($_.organization.created)"}) -join ","
+		$result_organization_description = ($row | %{"$($_.organization.description)"}) -join ","
+		$result_organization_id = ($row | %{"$($_.organization.id)"}) -join ","
+		$result_organization_image_url = ($row | %{"$($_.organization.image_url)"}) -join ","
+		$result_organization_is_organization = ($row | %{"$($_.organization.is_organization)"}) -join ","
+		$result_organization_name = ($row | %{"$($_.organization.name)"}) -join ","
+		$result_organization_revision_id = ($row | %{"$($_.organization.revision_id)"}) -join ","
+		$result_organization_revision_timestamp = ($row | %{"$($_.organization.revision_timestamp)"}) -join ","
+		$result_organization_state = ($row | %{"$($_.organization.state)"}) -join ","
+		$result_organization_title = ($row | %{"$($_.organization.title)"}) -join ","
+		$result_organization_type = ($row | %{"$($_.organization.type)"}) -join ","
+ 
+
+    #Build your flat custom object
+    [pscustomobject]@{
+			PHEC_result_ID = $PHEC_result_ID
+			
+			result_author = ($result_author -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+			result_author_email = ($result_author_email -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+			result_coverage_end_date = ($result_coverage_end_date -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+			result_coverage_start_date = ($result_coverage_start_date -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+			result_creator_user_id = ($result_creator_user_id -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+			result_groups = ($result_groups -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+			result_id = ($result_id -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+			result_isopen = ($result_isopen -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+			result_license_id = ($result_license_id -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+			result_license_title = ($result_license_title -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+			result_license_url = ($result_license_url -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+			result_maintainer = ($result_maintainer -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+			result_maintainer_email = ($result_maintainer_email -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+			result_metadata_created = ($result_metadata_created -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+			result_metadata_modified = ($result_metadata_modified -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+			result_name = ($result_name -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+			result_notes = ($result_notes -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+			result_num_resources = ($result_num_resources -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+			result_num_tags = ($result_num_tags -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+			result_origin = ($result_origin -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+			result_owner_org = ($result_owner_org -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+			result_private = ($result_private -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+			result_relationships_as_object = ($result_relationships_as_object -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+			result_relationships_as_subject = ($result_relationships_as_subject -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+			result_revision_id = ($result_revision_id -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+			result_revision_timestamp = ($result_revision_timestamp -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+			result_state = ($result_state -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+			result_title = ($result_title -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+			result_tracking_summary = ($result_tracking_summary -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+			result_type = ($result_type -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+			result_url = ($result_url -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+			result_version = ($result_version -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+			
+			result_organization_approval_status = ($result_organization_approval_status -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+			result_organization_created = ($result_organization_created -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+			result_organization_description = ($result_organization_description -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+			result_organization_id = ($result_organization_id -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+			result_organization_image_url = ($result_organization_image_url -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+			result_organization_is_organization = ($result_organization_is_organization -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+			result_organization_name = ($result_organization_name -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+			result_organization_revision_id = ($result_organization_revision_id -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+			result_organization_revision_timestamp = ($result_organization_revision_timestamp -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+			result_organization_state = ($result_organization_state -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+			result_organization_title = ($result_organization_title -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+			result_organization_type = ($result_organization_type -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+
+    }
+		$i++
+  }
+
+$level1_results | Select-Object $Output | Export-Csv -NoTypeInformation -Path $path_results
+#cleanup
+$level1_results = $null
+
+# Dataset details: Level 2:  resources
+$i=0
+$j=0 
+$level2_results = foreach($row in $json_result )`
+  {
+    #Loop through input.
+		$PHEC_result_ID = ($i+1) -join ","
+ 		  
+ 		foreach($row2 in $json_result[$i].resources )`
+   		{
+     		#Loop through 
+				$PHEC_result_resources_ID = ($j+1) -join ","
+
+				$result_resources_aliases = ($row2 | %{"$($_.aliases)"}) -join ","
+				$result_resources_cache_filepath = ($row2 | %{"$($_.cache_filepath)"}) -join ","
+				$result_resources_cache_last_updated = ($row2 | %{"$($_.cache_last_updated)"}) -join ","
+				$result_resources_cache_url = ($row2 | %{"$($_.cache_url)"}) -join ","
+				$result_resources_created = ($row2 | %{"$($_.created)"}) -join ","
+				$result_resources_date = ($row2 | %{"$($_.date)"}) -join ","
+				$result_resources_description = ($row2 | %{"$($_.description)"}) -join ","
+				$result_resources_format = ($row2 | %{"$($_.format)"}) -join ","
+				$result_resources_hash = ($row2 | %{"$($_.hash)"}) -join ","
+				$result_resources_id = ($row2 | %{"$($_.id)"}) -join ","
+				$result_resources_last_modified = ($row2 | %{"$($_.last_modified)"}) -join ","
+				$result_resources_mimetype = ($row2 | %{"$($_.mimetype)"}) -join ","
+				$result_resources_mimetype_inner = ($row2 | %{"$($_.mimetype_inner)"}) -join ","
+				$result_resources_name = ($row2 | %{"$($_.name)"}) -join ","
+				$result_resources_position = ($row2 | %{"$($_.position)"}) -join ","
+				$result_resources_resource_group_id = ($row2 | %{"$($_.resource_group_id)"}) -join ","
+				$result_resources_resource_type = ($row2 | %{"$($_.resource_type)"}) -join ","
+				$result_resources_revision_id = ($row2 | %{"$($_.revision_id)"}) -join ","
+				$result_resources_revision_timestamp = ($row2 | %{"$($_.revision_timestamp)"}) -join ","
+				$result_resources_scraper_url = ($row2 | %{"$($_.scraper_url)"}) -join ","
+				$result_resources_size = ($row2 | %{"$($_.size)"}) -join ","
+				$result_resources_state = ($row2 | %{"$($_.state)"}) -join ","
+				$result_resources_tracking_summary = ($row2 | %{"$($_.tracking_summary)"}) -join ","   <#new#>
+				$result_resources_url = ($row2 | %{"$($_.url)"}) -join ","
+				$result_resources_url_type = ($row2 | %{"$($_.url_type)"}) -join ","
+				$result_resources_webstore_last_updated = ($row2 | %{"$($_.webstore_last_updated)"}) -join ","
+				$result_resources_webstore_url = ($row2 | %{"$($_.webstore_url)"}) -join ","
+
+	    #Build your flat custom object
+        [pscustomobject]@{
+					PHEC_result_ID = $PHEC_result_ID
+	        PHEC_result_resources_ID = $PHEC_result_resources_ID
+	
+					result_resources_aliases = ($result_resources_aliases -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+					result_resources_cache_filepath = ($result_resources_cache_filepath -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+					result_resources_cache_last_updated = ($result_resources_cache_last_updated -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+					result_resources_cache_url = ($result_resources_cache_url -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+					result_resources_created = ($result_resources_created -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+					result_resources_date = ($result_resources_date -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+					result_resources_description = ($result_resources_description -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+					result_resources_format = ($result_resources_format -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+					result_resources_hash = ($result_resources_hash -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+					result_resources_id = ($result_resources_id -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+					result_resources_last_modified = ($result_resources_last_modified -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+					result_resources_mimetype = ($result_resources_mimetype -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+					result_resources_mimetype_inner = ($result_resources_mimetype_inner -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+					result_resources_name = ($result_resources_name -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+					result_resources_position = ($result_resources_position -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+					result_resources_resource_group_id = ($result_resources_resource_group_id -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+					result_resources_resource_type = ($result_resources_resource_type -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+					result_resources_revision_id = ($result_resources_revision_id -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+					result_resources_revision_timestamp = ($result_resources_revision_timestamp -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+					result_resources_scraper_url = ($result_resources_scraper_url -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+					result_resources_size = ($result_resources_size -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+					result_resources_state = ($result_resources_state -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+					result_resources_tracking_summary = ($result_resources_tracking_summary -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+					result_resources_url = ($result_resources_url -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+					result_resources_url_type = ($result_resources_url_type -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+					result_resources_webstore_last_updated = ($result_resources_webstore_last_updated -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+					result_resources_webstore_url = ($result_resources_webstore_url -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+				
+      	}
+   			$j++
+    	}
+		$i++
+  }
+
+$level2_results | Select-Object $Output | Export-Csv -NoTypeInformation -Path $path_resources
+
+
+# Dataset details: Level 2:  tags
+$i=0
+$j=0
+$level2_results = foreach($row in $json_result )`
+  {
+    #Loop through input.
+		$PHEC_result_ID = ($i+1) -join ","
+ 		
+ 		foreach($row2 in $json_result[$i].tags )`
+   		{
+     		#Loop through 
+				$PHEC_result_tags_ID = ($j+1) -join ","
+
+				$result_tags_display_name = ($row2 | %{"$($_.display_name)"}) -join ","
+				$result_tags_id = ($row2 | %{"$($_.id)"}) -join ","
+				$result_tags_name = ($row2 | %{"$($_.name)"}) -join ","
+				$result_tags_revision_timestamp = ($row2 | %{"$($_.revision_timestamp)"}) -join ","
+				$result_tags_state = ($row2 | %{"$($_.state)"}) -join ","
+				$result_tags_vocabulary_id = ($row2 | %{"$($_.vocabulary_id)"}) -join ","
+
+	    #Build your flat custom object
+        [pscustomobject]@{
+					PHEC_result_ID = $PHEC_result_ID
+	        PHEC_result_tags_ID = $PHEC_result_tags_ID
+	
+					result_tags_display_name = ($result_tags_display_name -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+					result_tags_id = ($result_tags_id -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+					result_tags_name = ($result_tags_name -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+					result_tags_revision_timestamp = ($result_tags_revision_timestamp -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+					result_tags_state = ($result_tags_state -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+					result_tags_vocabulary_id = ($result_tags_vocabulary_id -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+				
+      	}
+   			$j++
+    	}
+		$i++
+  }
+
+$level2_results | Select-Object $Output | Export-Csv -NoTypeInformation -Path $path_tags
+
+<#
+# Dataset details: Level 2:  groups
+no groups thus commented out
+$i=0
+$j=0
+$level2_results = foreach($row in $json_result )`
+  {
+    #Loop through input.
+		$PHEC_result_ID = ($i+1) -join ","
+ 		   
+ 		foreach($row2 in $json_result[$i].groups )`
+   		{
+     		#Loop through 
+				$PHEC_result_groups_ID = ($j+1) -join ","
+
+				$result_groups_approval_status = ($row2 | %{"$($_.approval_status)"}) -join ","
+				$result_groups_capacity = ($row2 | %{"$($_.capacity)"}) -join ","
+				$result_groups_description = ($row2 | %{"$($_.description)"}) -join ","
+				$result_groups_display_name = ($row2 | %{"$($_.display_name)"}) -join ","
+				$result_groups_id = ($row2 | %{"$($_.id)"}) -join ","
+				$result_groups_image_display_url = ($row2 | %{"$($_.image_display_url)"}) -join ","
+				$result_groups_image_url = ($row2 | %{"$($_.image_url)"}) -join ","
+				$result_groups_is_organization = ($row2 | %{"$($_.is_organization)"}) -join ","
+				$result_groups_name = ($row2 | %{"$($_.name)"}) -join ","
+				$result_groups_revision_id = ($row2 | %{"$($_.revision_id)"}) -join ","
+				$result_groups_state = ($row2 | %{"$($_.state)"}) -join ","
+				$result_groups_title = ($row2 | %{"$($_.title)"}) -join ","
+				$result_groups_type = ($row2 | %{"$($_.type)"}) -join ","
+
+	    #Build your flat custom object
+        [pscustomobject]@{
+					PHEC_result_ID = $PHEC_result_ID
+	        PHEC_result_groups_ID = $PHEC_result_groups_ID
+	
+					result_groups_approval_status = ($result_groups_approval_status -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+					result_groups_capacity = ($result_groups_capacity -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+					result_groups_description = ($result_groups_description -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+					result_groups_display_name = ($result_groups_display_name -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+					result_groups_id = ($result_groups_id -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+					result_groups_image_display_url = ($result_groups_image_display_url -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+					result_groups_image_url = ($result_groups_image_url -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+					result_groups_is_organization = ($result_groups_is_organization -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+					result_groups_name = ($result_groups_name -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+					result_groups_revision_id = ($result_groups_revision_id -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+					result_groups_state = ($result_groups_state -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+					result_groups_title = ($result_groups_title -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+					result_groups_type = ($result_groups_type -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+				
+      	}
+   			$j++
+    	}
+		$i++
+  }
+
+$level2_results | Select-Object $Output | Export-Csv -NoTypeInformation -Path $path_groups
+#cleanup
+$level2_results = $null
+#>
+
+# Dataset details: Level 2:  extras
+$i=0
+$j=0
+$level2_results = foreach($row in $json_result )`
+  {
+    #Loop through input.
+		$PHEC_result_ID = ($i+1) -join ","
+ 		   
+ 		foreach($row2 in $json_result[$i].extras )`
+   		{
+     		#Loop through 
+				$PHEC_result_extras_ID = ($j+1) -join ","
+
+				$result_extras_id = ($row2 | %{"$($_.id)"}) -join ","
+				$result_extras_key = ($row2 | %{"$($_.key)"}) -join ","
+				$result_extras_package_id = ($row2 | %{"$($_.package_id)"}) -join ","
+				$result_extras_revision_id = ($row2 | %{"$($_.revision_id)"}) -join ","
+				$result_extras_revision_timestamp = ($row2 | %{"$($_.revision_timestamp)"}) -join ","
+				$result_extras_state = ($row2 | %{"$($_.state)"}) -join ","
+				$result_extras_value = ($row2 | %{"$($_.value)"}) -join ","
+
+	    #Build your flat custom object
+        [pscustomobject]@{
+					PHEC_result_ID = $PHEC_result_ID
+	        PHEC_result_extras_ID = $PHEC_result_extras_ID
+	
+					result_extras_id = ($result_extras_id -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+					result_extras_key = ($result_extras_key -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+					result_extras_package_id = ($result_extras_package_id -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+					result_extras_revision_id = ($result_extras_revision_id -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+					result_extras_revision_timestamp = ($result_extras_revision_timestamp -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+					result_extras_state = ($result_extras_state -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+					result_extras_value = ($result_extras_value -replace "`r`n", "`\r`\n") -replace "`n", "`\n"
+				
+      	}
+   			$j++
+    	}
+		$i++
+  }
+
+$level2_results | Select-Object $Output | Export-Csv -NoTypeInformation -Path $path_extras
+#cleanup
+$level2_results = $null
+
+#finished
+
+
+
+<#
+#reload from file
+[void][System.Reflection.Assembly]::LoadWithPartialName("System.Web.Extensions")        
+$jsonserial = New-Object -TypeName System.Web.Script.Serialization.JavaScriptSerializer 
+$jsonserial.MaxJsonLength = [int]::MaxValue
+$jsonserial.RecursionLimit = [int]::MaxValue
+$rawtext = (Get-Content datagov20150625.json -Raw)
+$json_result = $jsonserial.DeserializeObject($rawtext)
+
+#$json_result = (Get-Content datagov20150625.json) -join "`n" | ConvertFrom-Json #not tested fully, took too long
+
+$extractiondate = "20150625"
+$extractionsuffix = "current_package_list_with_resources_$extractiondate"
+$path_results = ".\DataGov_Results_$extractionsuffix.csv"
+$path_resources = ".\DataGov_resources_$extractionsuffix.csv"
+$path_tags = ".\DataGov_tags_$extractionsuffix.csv"
+$path_groups = ".\DataGov_groups_$extractionsuffix.csv"  # apparently no groups, but just in case
+$path_extras = ".\DataGov_extras_$extractionsuffix.csv"
+
+#>
+
