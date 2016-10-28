@@ -1,0 +1,9402 @@
+﻿2,1,Wales
+2,2,Population
+2,3,England
+2,4,United Kingdom
+2,5,Ireland
+3,1,Wales
+3,2,Population
+3,3,England
+3,4,United Kingdom
+3,5,Ireland
+4,1,Wales
+4,2,Population
+4,3,England
+4,4,United Kingdom
+4,5,Ireland
+5,1,Wales
+5,2,Population
+5,3,England
+5,4,United Kingdom
+5,5,Ireland
+6,1,Wales
+6,2,Population
+6,3,England
+6,4,United Kingdom
+6,5,Ireland
+7,1,Wales
+7,2,Population
+7,3,England
+7,4,United Kingdom
+7,5,Ireland
+8,1,Wales
+8,2,Population
+8,3,England
+8,4,United Kingdom
+8,5,Ireland
+9,1,Wales
+9,2,Population
+9,3,England
+9,4,United Kingdom
+9,5,Ireland
+10,1,Wales
+10,2,Population
+10,3,England
+10,4,United Kingdom
+10,5,Ireland
+11,1,Wales
+11,2,Population
+11,3,England
+12,1,Wales
+12,2,Population
+12,3,England
+13,1,Wales
+13,2,Population
+13,3,England
+14,1,Wales
+14,2,Population
+14,3,England
+15,1,Wales
+15,2,Population
+15,3,England
+16,1,Wales
+16,2,Population
+16,3,England
+17,1,Wales
+17,2,Population
+17,3,England
+18,1,Wales
+18,2,Population
+18,3,England
+19,1,health area
+19,2,clusters
+19,3,ward
+19,4,output area classifications
+19,5,data zones
+19,6,geography
+19,7,super output area
+19,8,local authority
+20,1,health area
+20,2,clusters
+20,3,ward
+20,4,output area classifications
+20,5,data zones
+20,6,geography
+20,7,super output area
+20,8,local authority
+21,1,Scotland
+21,2,Wales
+21,3,Population
+21,4,England
+21,5,United Kingdom
+21,6,Ireland
+22,1,Scotland
+22,2,Wales
+22,3,Population
+22,4,England
+22,5,United Kingdom
+22,6,Ireland
+23,1,nursing homes
+23,2,care establishments
+23,3,residents
+23,4,children's homes
+23,5,staff
+23,6,medical establishments
+23,7,residential care homes
+24,1,longstanding illness
+24,2,long-standing illness
+24,3,long-term illness
+24,4,LLTI
+24,5,limiting long term illness
+24,6,long term illness
+25,1,longstanding illness
+25,2,long-standing illness
+25,3,long-term illness
+25,4,LLTI
+25,5,long term illness
+25,6,well being
+26,1,Population
+26,2,Employment
+26,3,Economic
+27,1,Population
+27,2,Ethnic group
+27,3,Ethnicity
+28,1,Scotland
+28,2,Wales
+28,3,Population
+28,4,England
+28,5,United Kingdom
+28,6,Ireland
+28,7,households
+29,1,Dependents
+29,2,Population
+29,3,Children
+29,4,Dependent
+29,5,households
+29,6,Child
+30,1,Population
+30,2,Pensioners
+30,3,Older people
+30,4,households
+30,5,Elderly
+31,1,Education
+31,2,Population
+31,3,Qualifications
+32,1,social class
+32,2,Population
+32,3,Unemployment
+32,4,Employment
+32,5,Poverty
+33,1,socio-economic classification
+33,2,socio-economic
+33,3,Unemployment
+33,4,Employment
+33,5,Poverty
+34,1,lone parent family
+34,2,lone parent families
+34,3,Dependents
+34,4,Population
+34,5,Children
+34,6,lone parent
+34,7,Dependent
+34,8,Child
+35,1,broken leg
+35,2,surgery
+35,3,episodes
+35,4,hospital
+35,5,hospital episode
+35,6,HES
+35,7,hospital episode statistics
+35,8,accidents
+35,9,broken bones
+35,10,fractures
+36,1,broken leg
+36,2,surgery
+36,3,episodes
+36,4,hospital
+36,5,hospital episode
+36,6,HES
+36,7,hospital episode statistics
+36,8,accidents
+36,9,broken bones
+36,10,fractures
+37,1,broken leg
+37,2,surgery
+37,3,episodes
+37,4,hospital
+37,5,hospital episode
+37,6,HES
+37,7,hospital episode statistics
+37,8,accidents
+37,9,broken bones
+37,10,fractures
+44,1,broken leg
+44,2,surgery
+44,3,episodes
+44,4,hospital
+44,5,hospital episode
+44,6,HES
+44,7,hospital episode statistics
+44,8,accidents
+44,9,broken bones
+44,10,fractures
+45,1,broken leg
+45,2,surgery
+45,3,episodes
+45,4,hospital
+45,5,hospital episode
+45,6,HES
+45,7,hospital episode statistics
+45,8,accidents
+45,9,broken bones
+45,10,fractures
+46,1,broken leg
+46,2,surgery
+46,3,episodes
+46,4,hospital
+46,5,hospital episode
+46,6,HES
+46,7,hospital episode statistics
+46,8,accidents
+46,9,broken bones
+46,10,fractures
+47,1,accident
+47,2,accidents
+47,3,death
+47,4,deaths
+47,5,fall
+47,6,falls
+47,7,mortality
+47,8,Years of life lost
+47,9,YLL
+48,1,accident
+48,2,accidents
+48,3,death
+48,4,deaths
+48,5,fall
+48,6,falls
+48,7,mortality
+48,8,Years of life lost
+48,9,YLL
+49,1,accident
+49,2,accidents
+49,3,death
+49,4,deaths
+49,5,mortality
+50,1,accident
+50,2,accidents
+50,3,death
+50,4,deaths
+50,5,mortality
+52,1,accident
+52,2,accidents
+52,3,death
+52,4,deaths
+52,5,mortality
+53,1,accident
+53,2,accidents
+53,3,death
+53,4,deaths
+53,5,mortality
+54,1,accident
+54,2,accidents
+54,3,death
+54,4,deaths
+54,5,mortality
+55,1,accident
+55,2,accidents
+55,3,death
+55,4,deaths
+55,5,mortality
+56,1,accident
+56,2,accidents
+56,3,death
+56,4,deaths
+56,5,mortality
+57,1,accident
+57,2,accidents
+57,3,death
+57,4,deaths
+57,5,mortality
+58,1,accident
+58,2,accidents
+58,3,death
+58,4,deaths
+58,5,mortality
+59,1,accident
+59,2,accidents
+59,3,death
+59,4,deaths
+59,5,mortality
+60,1,accident
+60,2,accidents
+60,3,death
+60,4,deaths
+60,5,mortality
+61,1,accident
+61,2,accidents
+61,3,death
+61,4,deaths
+61,5,mortality
+62,1,accident
+62,2,accidents
+62,3,death
+62,4,deaths
+62,5,mortality
+63,1,accident
+63,2,accidents
+63,3,death
+63,4,deaths
+63,5,mortality
+64,1,accident
+64,2,accidents
+64,3,death
+64,4,deaths
+64,5,mortality
+65,1,accident
+65,2,accidents
+65,3,death
+65,4,deaths
+65,5,mortality
+66,1,accident
+66,2,accidents
+66,3,death
+66,4,deaths
+66,5,mortality
+67,1,accident
+67,2,accidents
+67,3,death
+67,4,deaths
+67,5,mortality
+68,1,accident
+68,2,accidents
+68,3,death
+68,4,deaths
+68,5,mortality
+69,1,accident
+69,2,accidents
+69,3,death
+69,4,deaths
+69,5,mortality
+70,1,accident
+70,2,accidents
+70,3,death
+70,4,deaths
+70,5,mortality
+71,1,accident
+71,2,accidents
+71,3,death
+71,4,deaths
+71,5,mortality
+72,1,accident
+72,2,accidents
+72,3,death
+72,4,deaths
+72,5,mortality
+73,1,accident
+73,2,accidents
+73,3,death
+73,4,deaths
+73,5,mortality
+74,1,accident
+74,2,accidents
+74,3,death
+74,4,deaths
+74,5,mortality
+75,1,accident
+75,2,accidents
+75,3,death
+75,4,deaths
+75,5,mortality
+76,1,accident
+76,2,accidents
+76,3,death
+76,4,deaths
+76,5,mortality
+77,1,accident
+77,2,accidents
+77,3,death
+77,4,deaths
+77,5,mortality
+78,1,accident
+78,2,accidents
+78,3,death
+78,4,deaths
+78,5,mortality
+79,1,accident
+79,2,accidents
+79,3,death
+79,4,deaths
+79,5,mortality
+80,1,accident
+80,2,accidents
+80,3,death
+80,4,deaths
+80,5,mortality
+81,1,accident
+81,2,accidents
+81,3,death
+81,4,deaths
+81,5,mortality
+82,1,accident
+82,2,accidents
+82,3,death
+82,4,deaths
+82,5,mortality
+83,1,accident
+83,2,accidents
+83,3,death
+83,4,deaths
+83,5,mortality
+84,1,accident
+84,2,accidents
+84,3,death
+84,4,deaths
+84,5,mortality
+85,1,accident
+85,2,accidents
+85,3,death
+85,4,deaths
+85,5,mortality
+86,1,accident
+86,2,accidents
+86,3,death
+86,4,deaths
+86,5,fall
+86,6,falls
+86,7,mortality
+87,1,accident
+87,2,accidents
+87,3,death
+87,4,deaths
+87,5,fall
+87,6,falls
+87,7,mortality
+88,1,accident
+88,2,accidents
+88,3,death
+88,4,deaths
+88,5,fall
+88,6,falls
+88,7,mortality
+89,1,accident
+89,2,accidents
+89,3,death
+89,4,deaths
+89,5,fall
+89,6,falls
+89,7,mortality
+90,1,accident
+90,2,accidents
+90,3,death
+90,4,deaths
+90,5,fall
+90,6,falls
+90,7,mortality
+91,1,accident
+91,2,accidents
+91,3,death
+91,4,deaths
+91,5,fall
+91,6,falls
+91,7,mortality
+92,1,accident
+92,2,accidents
+92,3,death
+92,4,deaths
+92,5,fall
+92,6,falls
+92,7,mortality
+93,1,accident
+93,2,accidents
+93,3,death
+93,4,deaths
+93,5,fall
+93,6,falls
+93,7,mortality
+94,1,accident
+94,2,accidents
+94,3,death
+94,4,deaths
+94,5,land transport
+94,6,land transport accidents
+94,7,mortality
+94,8,transport
+94,9,Years of life lost
+94,10,YLL
+95,1,accident
+95,2,accidents
+95,3,death
+95,4,deaths
+95,5,land transport
+95,6,land transport accidents
+95,7,mortality
+95,8,transport
+95,9,Years of life lost
+95,10,YLL
+96,1,accidents
+96,2,death
+96,3,deaths
+96,4,femur
+96,5,fracture
+96,6,fracture of femur
+96,7,mortality
+97,1,accidents
+97,2,death
+97,3,deaths
+97,4,femur
+97,5,fracture
+97,6,fracture of femur
+97,7,mortality
+98,1,accidents
+98,2,death
+98,3,deaths
+98,4,femur
+98,5,fracture
+98,6,fracture of femur
+98,7,mortality
+99,1,accidents
+99,2,death
+99,3,deaths
+99,4,femur
+99,5,fracture
+99,6,fracture of femur
+99,7,mortality
+100,1,accidents
+100,2,death
+100,3,deaths
+100,4,femur
+100,5,fracture
+100,6,fracture of femur
+100,7,mortality
+101,1,accidents
+101,2,death
+101,3,deaths
+101,4,femur
+101,5,fracture
+101,6,fracture of femur
+101,7,mortality
+102,1,accidents
+102,2,death
+102,3,deaths
+102,4,femur
+102,5,fracture
+102,6,fracture of femur
+102,7,mortality
+103,1,accidents
+103,2,death
+103,3,deaths
+103,4,femur
+103,5,fracture
+103,6,fracture of femur
+103,7,mortality
+104,1,accident
+104,2,accidents
+104,3,death
+104,4,deaths
+104,5,fracture
+104,6,intracranial
+104,7,mortality
+104,8,skull
+104,9,skull fracture
+105,1,accident
+105,2,accidents
+105,3,death
+105,4,deaths
+105,5,fracture
+105,6,intracranial
+105,7,mortality
+105,8,skull
+105,9,skull fracture
+106,1,accident
+106,2,accidents
+106,3,death
+106,4,deaths
+106,5,fracture
+106,6,intracranial
+106,7,mortality
+106,8,skull
+106,9,skull fracture
+107,1,accident
+107,2,accidents
+107,3,death
+107,4,deaths
+107,5,fracture
+107,6,intracranial
+107,7,mortality
+107,8,skull
+107,9,skull fracture
+108,1,accident
+108,2,accidents
+108,3,death
+108,4,deaths
+108,5,fracture
+108,6,intracranial
+108,7,mortality
+108,8,skull
+108,9,skull fracture
+109,1,accident
+109,2,accidents
+109,3,death
+109,4,deaths
+109,5,fracture
+109,6,intracranial
+109,7,mortality
+109,8,skull
+109,9,skull fracture
+110,1,accident
+110,2,accidents
+110,3,death
+110,4,deaths
+110,5,fracture
+110,6,intracranial
+110,7,mortality
+110,8,skull
+110,9,skull fracture
+111,1,accident
+111,2,accidents
+111,3,death
+111,4,deaths
+111,5,fracture
+111,6,intracranial
+111,7,mortality
+111,8,skull
+111,9,skull fracture
+112,1,accident
+112,2,accidents
+112,3,death
+112,4,deaths
+112,5,fracture
+112,6,intracranial
+112,7,mortality
+112,8,skull
+112,9,skull fracture
+113,1,accident
+113,2,accidents
+113,3,death
+113,4,deaths
+113,5,fracture
+113,6,intracranial
+113,7,mortality
+113,8,skull
+113,9,skull fracture
+114,1,asthma
+114,2,death
+114,3,deaths
+114,4,mortality
+114,5,Years of life lost
+114,6,YLL
+115,1,asthma
+115,2,death
+115,3,deaths
+115,4,mortality
+115,5,Years of life lost
+115,6,YLL
+116,1,asthma
+116,2,death
+116,3,deaths
+116,4,mortality
+117,1,asthma
+117,2,death
+117,3,deaths
+117,4,mortality
+118,1,asthma
+118,2,death
+118,3,deaths
+118,4,mortality
+119,1,asthma
+119,2,death
+119,3,deaths
+119,4,mortality
+120,1,asthma
+120,2,death
+120,3,deaths
+120,4,mortality
+121,1,asthma
+121,2,death
+121,3,deaths
+121,4,mortality
+122,1,asthma
+122,2,death
+122,3,deaths
+122,4,mortality
+123,1,asthma
+123,2,death
+123,3,deaths
+123,4,mortality
+124,1,bladder
+124,2,bladder cancer
+124,3,cancer
+124,4,incidence
+124,5,urogenital cancer
+125,1,bladder
+125,2,bladder cancer
+125,3,cancer
+125,4,incidence
+125,5,urogenital cancer
+126,1,bladder
+126,2,bladder cancer
+126,3,cancer
+126,4,incidence
+126,5,urogenital cancer
+127,1,bladder
+127,2,bladder cancer
+127,3,cancer
+127,4,incidence
+127,5,urogenital cancer
+128,1,bladder
+128,2,bladder cancer
+128,3,cancer
+128,4,incidence
+128,5,urogenital cancer
+129,1,bladder
+129,2,bladder cancer
+129,3,cancer
+129,4,incidence
+129,5,urogenital cancer
+130,1,bladder
+130,2,bladder cancer
+130,3,cancer
+130,4,death
+130,5,deaths
+130,6,mortality
+130,7,urogenital cancer
+131,1,bladder
+131,2,bladder cancer
+131,3,cancer
+131,4,death
+131,5,deaths
+131,6,mortality
+131,7,urogenital cancer
+132,1,bladder
+132,2,bladder cancer
+132,3,cancer
+132,4,death
+132,5,deaths
+132,6,mortality
+132,7,urogenital cancer
+133,1,bladder
+133,2,bladder cancer
+133,3,cancer
+133,4,death
+133,5,deaths
+133,6,mortality
+133,7,urogenital cancer
+134,1,bladder
+134,2,bladder cancer
+134,3,cancer
+134,4,death
+134,5,deaths
+134,6,mortality
+134,7,urogenital cancer
+135,1,bladder
+135,2,bladder cancer
+135,3,cancer
+135,4,death
+135,5,deaths
+135,6,mortality
+135,7,urogenital cancer
+136,1,bladder
+136,2,bladder cancer
+136,3,cancer
+136,4,death
+136,5,deaths
+136,6,mortality
+136,7,urogenital cancer
+137,1,bladder
+137,2,bladder cancer
+137,3,cancer
+137,4,death
+137,5,deaths
+137,6,mortality
+137,7,urogenital cancer
+138,1,bronchitis
+138,2,chronic obstructive pulmonary disease
+138,3,COPD
+138,4,death
+138,5,deaths
+138,6,emphysema
+138,7,mortality
+138,8,Years of life lost
+138,9,YLL
+139,1,bronchitis
+139,2,chronic obstructive pulmonary disease
+139,3,COPD
+139,4,death
+139,5,deaths
+139,6,emphysema
+139,7,mortality
+139,8,Years of life lost
+139,9,YLL
+140,1,bronchitis
+140,2,chronic obstructive pulmonary disease
+140,3,COPD
+140,4,death
+140,5,deaths
+140,6,emphysema
+140,7,mortality
+140,8,Years of life lost
+140,9,YLL
+141,1,bronchitis
+141,2,chronic obstructive pulmonary disease
+141,3,COPD
+141,4,death
+141,5,deaths
+141,6,emphysema
+141,7,mortality
+141,8,Years of life lost
+141,9,YLL
+142,1,breast
+142,2,breast cancer
+142,3,cancer
+142,4,incidence
+143,1,breast
+143,2,breast cancer
+143,3,cancer
+143,4,incidence
+144,1,breast
+144,2,breast cancer
+144,3,cancer
+144,4,incidence
+145,1,breast
+145,2,breast cancer
+145,3,cancer
+145,4,incidence
+146,1,breast
+146,2,breast cancer
+146,3,cancer
+146,4,incidence
+147,1,breast
+147,2,breast cancer
+147,3,cancer
+147,4,incidence
+148,1,breast
+148,2,breast cancer
+148,3,cancer
+148,4,death
+148,5,deaths
+148,6,mortality
+149,1,breast
+149,2,breast cancer
+149,3,cancer
+149,4,death
+149,5,deaths
+149,6,mortality
+150,1,breast
+150,2,breast cancer
+150,3,cancer
+150,4,death
+150,5,deaths
+150,6,mortality
+151,1,breast
+151,2,breast cancer
+151,3,cancer
+151,4,death
+151,5,deaths
+151,6,mortality
+152,1,breast
+152,2,breast cancer
+152,3,cancer
+152,4,death
+152,5,deaths
+152,6,mortality
+153,1,breast
+153,2,breast cancer
+153,3,cancer
+153,4,death
+153,5,deaths
+153,6,mortality
+154,1,breast
+154,2,breast cancer
+154,3,cancer
+154,4,death
+154,5,deaths
+154,6,mortality
+155,1,breast
+155,2,breast cancer
+155,3,cancer
+155,4,death
+155,5,deaths
+155,6,mortality
+156,1,breast
+156,2,breast cancer
+156,3,cancer
+156,4,death
+156,5,deaths
+156,6,mortality
+157,1,breast
+157,2,breast cancer
+157,3,cancer
+157,4,death
+157,5,deaths
+157,6,mortality
+158,1,breast
+158,2,breast cancer
+158,3,cancer
+158,4,death
+158,5,deaths
+158,6,mortality
+159,1,breast
+159,2,breast cancer
+159,3,cancer
+159,4,death
+159,5,deaths
+159,6,mortality
+160,1,breast
+160,2,breast cancer
+160,3,cancer
+160,4,death
+160,5,deaths
+160,6,mortality
+161,1,breast
+161,2,breast cancer
+161,3,cancer
+161,4,death
+161,5,deaths
+161,6,mortality
+162,1,bladder
+162,2,cancer
+162,3,death
+162,4,deaths
+162,5,mortality
+162,6,urogenital cancer
+162,7,Years of life lost
+162,8,YLL
+163,1,bladder
+163,2,cancer
+163,3,death
+163,4,deaths
+163,5,mortality
+163,6,urogenital cancer
+163,7,Years of life lost
+163,8,YLL
+164,1,breast
+164,2,cancer
+164,3,death
+164,4,deaths
+164,5,mortality
+164,6,Years of life lost
+164,7,YLL
+165,1,breast
+165,2,cancer
+165,3,death
+165,4,deaths
+165,5,mortality
+165,6,Years of life lost
+165,7,YLL
+166,1,bronchitis
+166,2,chronic obstructive pulmonary disease
+166,3,COPD
+166,4,death
+166,5,deaths
+166,6,emphysema
+166,7,mortality
+167,1,bronchitis
+167,2,chronic obstructive pulmonary disease
+167,3,COPD
+167,4,death
+167,5,deaths
+167,6,emphysema
+167,7,mortality
+168,1,bronchitis
+168,2,chronic obstructive pulmonary disease
+168,3,COPD
+168,4,death
+168,5,deaths
+168,6,emphysema
+168,7,mortality
+169,1,bronchitis
+169,2,chronic obstructive pulmonary disease
+169,3,COPD
+169,4,death
+169,5,deaths
+169,6,emphysema
+169,7,mortality
+170,1,bronchitis
+170,2,chronic obstructive pulmonary disease
+170,3,COPD
+170,4,death
+170,5,deaths
+170,6,emphysema
+170,7,mortality
+171,1,bronchitis
+171,2,chronic obstructive pulmonary disease
+171,3,COPD
+171,4,death
+171,5,deaths
+171,6,emphysema
+171,7,mortality
+172,1,bronchitis
+172,2,chronic obstructive pulmonary disease
+172,3,COPD
+172,4,death
+172,5,deaths
+172,6,emphysema
+172,7,mortality
+173,1,bronchitis
+173,2,chronic obstructive pulmonary disease
+173,3,COPD
+173,4,death
+173,5,deaths
+173,6,emphysema
+173,7,mortality
+174,1,bronchitis
+174,2,chronic obstructive pulmonary disease
+174,3,COPD
+174,4,death
+174,5,deaths
+174,6,emphysema
+174,7,mortality
+175,1,bronchitis
+175,2,chronic obstructive pulmonary disease
+175,3,COPD
+175,4,death
+175,5,deaths
+175,6,emphysema
+175,7,mortality
+176,1,bronchitis
+176,2,chronic obstructive pulmonary disease
+176,3,COPD
+176,4,death
+176,5,deaths
+176,6,emphysema
+176,7,mortality
+177,1,bronchitis
+177,2,chronic obstructive pulmonary disease
+177,3,COPD
+177,4,death
+177,5,deaths
+177,6,emphysema
+177,7,mortality
+178,1,bronchitis
+178,2,chronic obstructive pulmonary disease
+178,3,COPD
+178,4,death
+178,5,deaths
+178,6,emphysema
+178,7,mortality
+179,1,bronchitis
+179,2,chronic obstructive pulmonary disease
+179,3,COPD
+179,4,death
+179,5,deaths
+179,6,emphysema
+179,7,mortality
+180,1,bronchitis
+180,2,chronic obstructive pulmonary disease
+180,3,COPD
+180,4,death
+180,5,deaths
+180,6,emphysema
+180,7,mortality
+181,1,bronchitis
+181,2,chronic obstructive pulmonary disease
+181,3,COPD
+181,4,death
+181,5,deaths
+181,6,emphysema
+181,7,mortality
+182,1,cancer
+182,2,cervical
+182,3,cervical cancer
+182,4,incidence
+183,1,cancer
+183,2,cervical
+183,3,cervical cancer
+183,4,incidence
+184,1,cancer
+184,2,cervical
+184,3,cervical cancer
+184,4,incidence
+185,1,cancer
+185,2,cervical
+185,3,cervical cancer
+185,4,incidence
+186,1,cancer
+186,2,cervical
+186,3,cervical cancer
+186,4,incidence
+187,1,cancer
+187,2,cervical
+187,3,cervical cancer
+187,4,incidence
+188,1,cancer
+188,2,cervical
+188,3,cervical cancer
+188,4,death
+188,5,deaths
+188,6,mortality
+189,1,cancer
+189,2,cervical
+189,3,cervical cancer
+189,4,death
+189,5,deaths
+189,6,mortality
+190,1,cancer
+190,2,cervical
+190,3,cervical cancer
+190,4,death
+190,5,deaths
+190,6,mortality
+191,1,cancer
+191,2,cervical
+191,3,cervical cancer
+191,4,death
+191,5,deaths
+191,6,mortality
+192,1,cancer
+192,2,cervical
+192,3,cervical cancer
+192,4,death
+192,5,deaths
+192,6,mortality
+193,1,cancer
+193,2,cervical
+193,3,cervical cancer
+193,4,death
+193,5,deaths
+193,6,mortality
+194,1,cancer
+194,2,cervical
+194,3,cervical cancer
+194,4,death
+194,5,deaths
+194,6,mortality
+195,1,cancer
+195,2,cervical
+195,3,cervical cancer
+195,4,death
+195,5,deaths
+195,6,mortality
+196,1,cancer
+196,2,cervical
+196,3,cervical cancer
+196,4,death
+196,5,deaths
+196,6,mortality
+197,1,cancer
+197,2,cervical
+197,3,cervical cancer
+197,4,death
+197,5,deaths
+197,6,mortality
+198,1,cancer
+198,2,cervical
+198,3,cervical cancer
+198,4,death
+198,5,deaths
+198,6,mortality
+199,1,cancer
+199,2,cervical
+199,3,cervical cancer
+199,4,death
+199,5,deaths
+199,6,mortality
+200,1,cancer
+200,2,cervical
+200,3,cervical cancer
+200,4,death
+200,5,deaths
+200,6,mortality
+200,7,Years of life lost
+200,8,YLL
+201,1,cancer
+201,2,cervical
+201,3,cervical cancer
+201,4,death
+201,5,deaths
+201,6,mortality
+201,7,Years of life lost
+201,8,YLL
+202,1,bowel cancer
+202,2,cancer
+202,3,colon cancer
+202,4,colorectal cancer
+202,5,death
+202,6,deaths
+202,7,mortality
+202,8,rectal cancer
+202,9,Years of life lost
+202,10,YLL
+203,1,bowel cancer
+203,2,cancer
+203,3,colon cancer
+203,4,colorectal cancer
+203,5,death
+203,6,deaths
+203,7,mortality
+203,8,rectal cancer
+203,9,Years of life lost
+203,10,YLL
+204,1,chronic liver disease
+204,2,cirrhosis
+204,3,death
+204,4,deaths
+204,5,liver
+204,6,mortality
+205,1,chronic liver disease
+205,2,cirrhosis
+205,3,death
+205,4,deaths
+205,5,liver
+205,6,mortality
+206,1,chronic liver disease
+206,2,cirrhosis
+206,3,death
+206,4,deaths
+206,5,liver
+206,6,mortality
+207,1,chronic liver disease
+207,2,cirrhosis
+207,3,death
+207,4,deaths
+207,5,liver
+207,6,mortality
+208,1,chronic liver disease
+208,2,cirrhosis
+208,3,death
+208,4,deaths
+208,5,liver
+208,6,mortality
+209,1,chronic liver disease
+209,2,cirrhosis
+209,3,death
+209,4,deaths
+209,5,liver
+209,6,mortality
+210,1,chronic liver disease
+210,2,cirrhosis
+210,3,death
+210,4,deaths
+210,5,liver
+210,6,mortality
+211,1,chronic liver disease
+211,2,cirrhosis
+211,3,death
+211,4,deaths
+211,5,liver
+211,6,mortality
+212,1,chronic renal disease
+212,2,chronic renal failure
+212,3,CKD
+212,4,death
+212,5,deaths
+212,6,mortality
+213,1,chronic renal disease
+213,2,chronic renal failure
+213,3,CKD
+213,4,death
+213,5,deaths
+213,6,mortality
+214,1,chronic renal disease
+214,2,chronic renal failure
+214,3,CKD
+214,4,death
+214,5,deaths
+214,6,mortality
+215,1,chronic renal disease
+215,2,chronic renal failure
+215,3,CKD
+215,4,death
+215,5,deaths
+215,6,mortality
+216,1,chronic renal disease
+216,2,chronic renal failure
+216,3,CKD
+216,4,death
+216,5,deaths
+216,6,mortality
+217,1,chronic renal disease
+217,2,chronic renal failure
+217,3,CKD
+217,4,death
+217,5,deaths
+217,6,mortality
+218,1,chronic renal disease
+218,2,chronic renal failure
+218,3,CKD
+218,4,death
+218,5,deaths
+218,6,mortality
+219,1,chronic renal disease
+219,2,chronic renal failure
+219,3,CKD
+219,4,death
+219,5,deaths
+219,6,mortality
+220,1,bowel cancer
+220,2,cancer
+220,3,colon cancer
+220,4,colorectal cancer
+220,5,incidence
+220,6,rectal cancer
+221,1,bowel cancer
+221,2,cancer
+221,3,colon cancer
+221,4,colorectal cancer
+221,5,incidence
+221,6,rectal cancer
+222,1,bowel cancer
+222,2,cancer
+222,3,colon cancer
+222,4,colorectal cancer
+222,5,incidence
+222,6,rectal cancer
+223,1,bowel cancer
+223,2,cancer
+223,3,colon cancer
+223,4,colorectal cancer
+223,5,incidence
+223,6,rectal cancer
+224,1,bowel cancer
+224,2,cancer
+224,3,colon cancer
+224,4,colorectal cancer
+224,5,incidence
+224,6,rectal cancer
+225,1,bowel cancer
+225,2,cancer
+225,3,colon cancer
+225,4,colorectal cancer
+225,5,incidence
+225,6,rectal cancer
+226,1,bowel cancer
+226,2,cancer
+226,3,colon cancer
+226,4,colorectal cancer
+226,5,death
+226,6,deaths
+226,7,mortality
+226,8,rectal cancer
+227,1,bowel cancer
+227,2,cancer
+227,3,colon cancer
+227,4,colorectal cancer
+227,5,death
+227,6,deaths
+227,7,mortality
+227,8,rectal cancer
+228,1,bowel cancer
+228,2,cancer
+228,3,colon cancer
+228,4,colorectal cancer
+228,5,death
+228,6,deaths
+228,7,mortality
+228,8,rectal cancer
+229,1,bowel cancer
+229,2,cancer
+229,3,colon cancer
+229,4,colorectal cancer
+229,5,death
+229,6,deaths
+229,7,mortality
+229,8,rectal cancer
+230,1,bowel cancer
+230,2,cancer
+230,3,colon cancer
+230,4,colorectal cancer
+230,5,death
+230,6,deaths
+230,7,mortality
+230,8,rectal cancer
+231,1,bowel cancer
+231,2,cancer
+231,3,colon cancer
+231,4,colorectal cancer
+231,5,death
+231,6,deaths
+231,7,mortality
+231,8,rectal cancer
+232,1,bowel cancer
+232,2,cancer
+232,3,colon cancer
+232,4,colorectal cancer
+232,5,death
+232,6,deaths
+232,7,mortality
+232,8,rectal cancer
+233,1,bowel cancer
+233,2,cancer
+233,3,colon cancer
+233,4,colorectal cancer
+233,5,death
+233,6,deaths
+233,7,mortality
+233,8,rectal cancer
+234,1,cancer
+234,2,death
+234,3,deaths
+234,4,Hodgkin's
+234,5,mortality
+234,6,Years of life lost
+234,7,YLL
+235,1,cancer
+235,2,death
+235,3,deaths
+235,4,Hodgkin's
+235,5,mortality
+235,6,Years of life lost
+235,7,YLL
+236,1,cancer
+236,2,death
+236,3,deaths
+236,4,leukaemia
+236,5,mortality
+236,6,Years of life lost
+236,7,YLL
+237,1,cancer
+237,2,death
+237,3,deaths
+237,4,leukaemia
+237,5,mortality
+237,6,Years of life lost
+237,7,YLL
+238,1,cancer
+238,2,death
+238,3,deaths
+238,4,lung cancer
+238,5,mortality
+238,6,Years of life lost
+238,7,YLL
+239,1,cancer
+239,2,death
+239,3,deaths
+239,4,lung cancer
+239,5,mortality
+239,6,Years of life lost
+239,7,YLL
+240,1,diet
+240,2,fat consumption
+240,3,nutrition
+241,1,diet
+241,2,fat consumption
+241,3,nutrition
+242,1,diet
+242,2,fat consumption
+242,3,nutrition
+243,1,diet
+243,2,fat consumption
+243,3,nutrition
+244,1,cancer
+244,2,death
+244,3,deaths
+244,4,mortality
+244,5,oesophageal cancer
+244,6,Years of life lost
+244,7,YLL
+245,1,cancer
+245,2,death
+245,3,deaths
+245,4,mortality
+245,5,oesophageal cancer
+245,6,Years of life lost
+245,7,YLL
+246,1,cancer
+246,2,death
+246,3,deaths
+246,4,mortality
+246,5,prostate
+246,6,prostate cancer
+246,7,Years of life lost
+246,8,YLL
+247,1,cancer
+247,2,death
+247,3,deaths
+247,4,mortality
+247,5,prostate
+247,6,prostate cancer
+247,7,Years of life lost
+247,8,YLL
+248,1,atrial fibrillation
+248,2,chd
+248,3,coronary disease
+248,4,coronary heart disease
+248,5,death
+248,6,deaths
+248,7,heart
+248,8,mortality
+249,1,atrial fibrillation
+249,2,chd
+249,3,coronary disease
+249,4,coronary heart disease
+249,5,death
+249,6,deaths
+249,7,heart
+249,8,mortality
+250,1,atrial fibrillation
+250,2,chd
+250,3,coronary disease
+250,4,coronary heart disease
+250,5,death
+250,6,deaths
+250,7,heart
+250,8,mortality
+251,1,atrial fibrillation
+251,2,chd
+251,3,coronary disease
+251,4,coronary heart disease
+251,5,death
+251,6,deaths
+251,7,heart
+251,8,mortality
+252,1,atrial fibrillation
+252,2,chd
+252,3,coronary disease
+252,4,coronary heart disease
+252,5,death
+252,6,deaths
+252,7,heart
+252,8,mortality
+253,1,atrial fibrillation
+253,2,chd
+253,3,coronary disease
+253,4,coronary heart disease
+253,5,death
+253,6,deaths
+253,7,heart
+253,8,mortality
+254,1,atrial fibrillation
+254,2,chd
+254,3,coronary disease
+254,4,coronary heart disease
+254,5,death
+254,6,deaths
+254,7,heart
+254,8,mortality
+255,1,atrial fibrillation
+255,2,chd
+255,3,coronary disease
+255,4,coronary heart disease
+255,5,death
+255,6,deaths
+255,7,heart
+255,8,mortality
+256,1,atrial fibrillation
+256,2,chd
+256,3,coronary disease
+256,4,coronary heart disease
+256,5,death
+256,6,deaths
+256,7,heart
+256,8,mortality
+257,1,atrial fibrillation
+257,2,chd
+257,3,coronary disease
+257,4,coronary heart disease
+257,5,death
+257,6,deaths
+257,7,heart
+257,8,mortality
+258,1,atrial fibrillation
+258,2,chd
+258,3,coronary disease
+258,4,coronary heart disease
+258,5,death
+258,6,deaths
+258,7,heart
+258,8,mortality
+259,1,atrial fibrillation
+259,2,chd
+259,3,coronary disease
+259,4,coronary heart disease
+259,5,death
+259,6,deaths
+259,7,heart
+259,8,mortality
+260,1,atrial fibrillation
+260,2,chd
+260,3,coronary disease
+260,4,coronary heart disease
+260,5,death
+260,6,deaths
+260,7,heart
+260,8,mortality
+261,1,atrial fibrillation
+261,2,chd
+261,3,coronary disease
+261,4,coronary heart disease
+261,5,death
+261,6,deaths
+261,7,heart
+261,8,mortality
+262,1,atrial fibrillation
+262,2,chd
+262,3,coronary disease
+262,4,coronary heart disease
+262,5,death
+262,6,deaths
+262,7,heart
+262,8,mortality
+263,1,atrial fibrillation
+263,2,chd
+263,3,coronary disease
+263,4,coronary heart disease
+263,5,death
+263,6,deaths
+263,7,heart
+263,8,mortality
+264,1,atrial fibrillation
+264,2,chd
+264,3,coronary disease
+264,4,coronary heart disease
+264,5,death
+264,6,deaths
+264,7,heart
+264,8,mortality
+265,1,atrial fibrillation
+265,2,chd
+265,3,coronary disease
+265,4,coronary heart disease
+265,5,death
+265,6,deaths
+265,7,heart
+265,8,mortality
+266,1,acute myocardial infarction
+266,2,coronary disease
+266,3,coronary heart disease
+266,4,death
+266,5,deaths
+266,6,heart
+266,7,heart attack
+266,8,mortality
+267,1,acute myocardial infarction
+267,2,coronary disease
+267,3,coronary heart disease
+267,4,death
+267,5,deaths
+267,6,heart
+267,7,heart attack
+267,8,mortality
+268,1,acute myocardial infarction
+268,2,coronary disease
+268,3,coronary heart disease
+268,4,death
+268,5,deaths
+268,6,heart
+268,7,heart attack
+268,8,mortality
+269,1,acute myocardial infarction
+269,2,coronary disease
+269,3,coronary heart disease
+269,4,death
+269,5,deaths
+269,6,heart
+269,7,heart attack
+269,8,mortality
+270,1,acute myocardial infarction
+270,2,coronary disease
+270,3,coronary heart disease
+270,4,death
+270,5,deaths
+270,6,heart
+270,7,heart attack
+270,8,mortality
+271,1,acute myocardial infarction
+271,2,coronary disease
+271,3,coronary heart disease
+271,4,death
+271,5,deaths
+271,6,heart
+271,7,heart attack
+271,8,mortality
+272,1,acute myocardial infarction
+272,2,coronary disease
+272,3,coronary heart disease
+272,4,death
+272,5,deaths
+272,6,heart
+272,7,heart attack
+272,8,mortality
+273,1,acute myocardial infarction
+273,2,coronary disease
+273,3,coronary heart disease
+273,4,death
+273,5,deaths
+273,6,heart
+273,7,heart attack
+273,8,mortality
+274,1,cancer
+274,2,death
+274,3,deaths
+274,4,malignant melanoma
+274,5,melanocyte
+274,6,melanoma
+274,7,mortality
+274,8,skin cancer
+274,9,Years of life lost
+274,10,YLL
+275,1,cancer
+275,2,death
+275,3,deaths
+275,4,malignant melanoma
+275,5,melanocyte
+275,6,melanoma
+275,7,mortality
+275,8,skin cancer
+275,9,Years of life lost
+275,10,YLL
+276,1,death
+276,2,deaths
+276,3,disease
+276,4,hypertensive
+276,5,hypertensive disease
+276,6,mortality
+277,1,death
+277,2,deaths
+277,3,disease
+277,4,hypertensive
+277,5,hypertensive disease
+277,6,mortality
+278,1,death
+278,2,deaths
+278,3,disease
+278,4,hypertensive
+278,5,hypertensive disease
+278,6,mortality
+279,1,death
+279,2,deaths
+279,3,disease
+279,4,hypertensive
+279,5,hypertensive disease
+279,6,mortality
+280,1,death
+280,2,deaths
+280,3,disease
+280,4,hypertensive
+280,5,hypertensive disease
+280,6,mortality
+281,1,death
+281,2,deaths
+281,3,disease
+281,4,hypertensive
+281,5,hypertensive disease
+281,6,mortality
+282,1,death
+282,2,deaths
+282,3,disease
+282,4,hypertensive
+282,5,hypertensive disease
+282,6,mortality
+283,1,death
+283,2,deaths
+283,3,disease
+283,4,hypertensive
+283,5,hypertensive disease
+283,6,mortality
+284,1,death
+284,2,deaths
+284,3,disease
+284,4,hypertensive
+284,5,hypertensive disease
+284,6,mortality
+285,1,death
+285,2,deaths
+285,3,disease
+285,4,hypertensive
+285,5,hypertensive disease
+285,6,mortality
+286,1,cancer
+286,2,cutaneous cancer
+286,3,cutaneous neoplasm
+286,4,death
+286,5,deaths
+286,6,dermatological cancer
+286,7,dermatological neoplasm
+286,8,mortality
+286,9,skin neoplasm
+286,10,Years of life lost
+286,11,YLL
+287,1,cancer
+287,2,cutaneous cancer
+287,3,cutaneous neoplasm
+287,4,death
+287,5,deaths
+287,6,dermatological cancer
+287,7,dermatological neoplasm
+287,8,mortality
+287,9,skin neoplasm
+287,10,Years of life lost
+287,11,YLL
+294,1,surgery
+294,2,diabetes
+294,3,diabetic
+294,4,HES
+294,5,lower limb amputations
+294,6,hospital episode statistics
+294,7,diabetic patients
+294,8,diabetic patient
+294,9,treatment
+295,1,surgery
+295,2,diabetes
+295,3,diabetic
+295,4,HES
+295,5,lower limb amputations
+295,6,hospital episode statistics
+295,7,diabetic patients
+295,8,diabetic patient
+295,9,treatment
+296,1,surgery
+296,2,diabetes
+296,3,diabetic
+296,4,HES
+296,5,lower limb amputations
+296,6,hospital episode statistics
+296,7,diabetic patients
+296,8,diabetic patient
+296,9,treatment
+297,1,surgery
+297,2,diabetes
+297,3,diabetic
+297,4,HES
+297,5,lower limb amputations
+297,6,hospital episode statistics
+297,7,diabetic patients
+297,8,diabetic patient
+297,9,treatment
+298,1,surgery
+298,2,diabetes
+298,3,diabetic
+298,4,HES
+298,5,lower limb amputations
+298,6,hospital episode statistics
+298,7,diabetic patients
+298,8,diabetic patient
+298,9,treatment
+299,1,surgery
+299,2,diabetes
+299,3,diabetic
+299,4,HES
+299,5,lower limb amputations
+299,6,hospital episode statistics
+299,7,diabetic patients
+299,8,diabetic patient
+299,9,treatment
+300,1,death
+300,2,deaths
+300,3,diabetes
+300,4,mortality
+301,1,death
+301,2,deaths
+301,3,diabetes
+301,4,mortality
+302,1,death
+302,2,deaths
+302,3,diabetes
+302,4,mortality
+303,1,death
+303,2,deaths
+303,3,diabetes
+303,4,mortality
+304,1,death
+304,2,deaths
+304,3,diabetes
+304,4,mortality
+305,1,death
+305,2,deaths
+305,3,diabetes
+305,4,mortality
+306,1,death
+306,2,deaths
+306,3,diabetes
+306,4,mortality
+307,1,death
+307,2,deaths
+307,3,diabetes
+307,4,mortality
+308,1,death
+308,2,deaths
+308,3,diabetes
+308,4,mortality
+309,1,death
+309,2,deaths
+309,3,diabetes
+309,4,mortality
+310,1,cancer
+310,2,death
+310,3,deaths
+310,4,gastric cancer
+310,5,mortality
+310,6,stomach cancer
+310,7,Years of life lost
+310,8,YLL
+311,1,cancer
+311,2,death
+311,3,deaths
+311,4,gastric cancer
+311,5,mortality
+311,6,stomach cancer
+311,7,Years of life lost
+311,8,YLL
+312,1,convulsions
+312,2,death
+312,3,deaths
+312,4,epilepsy
+312,5,fits
+312,6,mortality
+313,1,convulsions
+313,2,death
+313,3,deaths
+313,4,epilepsy
+313,5,fits
+313,6,mortality
+314,1,convulsions
+314,2,death
+314,3,deaths
+314,4,epilepsy
+314,5,fits
+314,6,mortality
+315,1,convulsions
+315,2,death
+315,3,deaths
+315,4,epilepsy
+315,5,fits
+315,6,mortality
+316,1,convulsions
+316,2,death
+316,3,deaths
+316,4,epilepsy
+316,5,fits
+316,6,mortality
+317,1,convulsions
+317,2,death
+317,3,deaths
+317,4,epilepsy
+317,5,fits
+317,6,mortality
+318,1,convulsions
+318,2,death
+318,3,deaths
+318,4,epilepsy
+318,5,fits
+318,6,mortality
+319,1,convulsions
+319,2,death
+319,3,deaths
+319,4,epilepsy
+319,5,fits
+319,6,mortality
+320,1,chd
+320,2,coronary disease
+320,3,death
+320,4,deaths
+320,5,mortality
+320,6,Years of life lost
+320,7,YLL
+321,1,chd
+321,2,coronary disease
+321,3,death
+321,4,deaths
+321,5,mortality
+321,6,Years of life lost
+321,7,YLL
+322,1,death
+322,2,deaths
+322,3,disease
+322,4,hypertensive
+322,5,hypertensive disease
+322,6,mortality
+322,7,Years of life lost
+322,8,YLL
+323,1,death
+323,2,deaths
+323,3,disease
+323,4,hypertensive
+323,5,hypertensive disease
+323,6,mortality
+323,7,Years of life lost
+323,8,YLL
+324,1,cerebrovascular
+324,2,death
+324,3,deaths
+324,4,haemorrhagic
+324,5,ischaemic
+324,6,mortality
+324,7,stroke
+324,8,Years of life lost
+324,9,YLL
+325,1,cerebrovascular
+325,2,death
+325,3,deaths
+325,4,haemorrhagic
+325,5,ischaemic
+325,6,mortality
+325,7,stroke
+325,8,Years of life lost
+325,9,YLL
+326,1,chronic liver disease
+326,2,cirrhosis
+326,3,death
+326,4,deaths
+326,5,liver
+326,6,mortality
+326,7,Years of life lost
+326,8,YLL
+327,1,chronic liver disease
+327,2,cirrhosis
+327,3,death
+327,4,deaths
+327,5,liver
+327,6,mortality
+327,7,Years of life lost
+327,8,YLL
+328,1,chronic renal failure
+328,2,death
+328,3,deaths
+328,4,kidney
+328,5,mortality
+328,6,Years of life lost
+328,7,YLL
+329,1,chronic renal failure
+329,2,death
+329,3,deaths
+329,4,kidney
+329,5,mortality
+329,6,Years of life lost
+329,7,YLL
+330,1,death
+330,2,deaths
+330,3,diabetes
+330,4,mortality
+330,5,Years of life lost
+330,6,YLL
+331,1,death
+331,2,deaths
+331,3,diabetes
+331,4,mortality
+331,5,Years of life lost
+331,6,YLL
+332,1,all causes
+332,2,death
+332,3,deaths
+332,4,mortality
+332,5,Years of life lost
+332,6,YLL
+333,1,all causes
+333,2,death
+333,3,deaths
+333,4,mortality
+333,5,Years of life lost
+333,6,YLL
+334,1,accident
+334,2,accidents
+334,3,death
+334,4,deaths
+334,5,mortality
+334,6,Years of life lost
+334,7,YLL
+335,1,accident
+335,2,accidents
+335,3,death
+335,4,deaths
+335,5,mortality
+335,6,Years of life lost
+335,7,YLL
+336,1,all cancers
+336,2,bladder
+336,3,breast cancer
+336,4,cancer
+336,5,cervical cancer
+336,6,death
+336,7,deaths
+336,8,gastrointestinal cancer
+336,9,Hodgkin's disease
+336,10,leukaemia
+336,11,lung cancer
+336,12,lymphoma
+336,13,melanoma
+336,14,mortality
+336,15,oesophageal cancer
+336,16,prostate cancer
+336,17,skin cancer
+336,18,years of life lo
+336,19,YLL
+337,1,all cancers
+337,2,bladder
+337,3,breast cancer
+337,4,cancer
+337,5,cervical cancer
+337,6,death
+337,7,deaths
+337,8,gastrointestinal cancer
+337,9,Hodgkin's disease
+337,10,leukaemia
+337,11,lung cancer
+337,12,lymphoma
+337,13,melanoma
+337,14,mortality
+337,15,oesophageal cancer
+337,16,prostate cancer
+337,17,skin cancer
+337,18,years of life lo
+337,19,YLL
+338,1,all causes
+338,2,death
+338,3,deaths
+338,4,mortality
+339,1,all causes
+339,2,death
+339,3,deaths
+339,4,mortality
+340,1,all causes
+340,2,death
+340,3,deaths
+340,4,mortality
+342,1,all causes
+342,2,death
+342,3,deaths
+342,4,mortality
+343,1,all causes
+343,2,death
+343,3,deaths
+343,4,mortality
+344,1,all causes
+344,2,death
+344,3,deaths
+344,4,mortality
+345,1,all causes
+345,2,death
+345,3,deaths
+345,4,mortality
+346,1,all causes
+346,2,death
+346,3,deaths
+346,4,mortality
+347,1,all causes
+347,2,death
+347,3,deaths
+347,4,mortality
+348,1,all causes
+348,2,death
+348,3,deaths
+348,4,mortality
+349,1,all causes
+349,2,death
+349,3,deaths
+349,4,mortality
+350,1,all causes
+350,2,death
+350,3,deaths
+350,4,mortality
+351,1,all causes
+351,2,death
+351,3,deaths
+351,4,mortality
+352,1,all causes
+352,2,death
+352,3,deaths
+352,4,mortality
+353,1,all causes
+353,2,death
+353,3,deaths
+353,4,mortality
+354,1,all causes
+354,2,death
+354,3,deaths
+354,4,mortality
+355,1,all causes
+355,2,death
+355,3,deaths
+355,4,mortality
+356,1,all causes
+356,2,death
+356,3,deaths
+356,4,mortality
+357,1,all causes
+357,2,death
+357,3,deaths
+357,4,mortality
+358,1,all causes
+358,2,death
+358,3,deaths
+358,4,mortality
+359,1,all causes
+359,2,death
+359,3,deaths
+359,4,mortality
+360,1,all causes
+360,2,death
+360,3,deaths
+360,4,mortality
+361,1,all causes
+361,2,death
+361,3,deaths
+361,4,mortality
+362,1,causes
+362,2,death
+362,3,deaths
+362,4,health care
+362,5,healthcare
+362,6,mortality
+363,1,causes
+363,2,death
+363,3,deaths
+363,4,health care
+363,5,healthcare
+363,6,mortality
+364,1,causes
+364,2,death
+364,3,deaths
+364,4,health care
+364,5,healthcare
+364,6,mortality
+365,1,causes
+365,2,death
+365,3,deaths
+365,4,health care
+365,5,healthcare
+365,6,mortality
+366,1,causes
+366,2,death
+366,3,deaths
+366,4,health care
+366,5,healthcare
+366,6,mortality
+367,1,causes
+367,2,death
+367,3,deaths
+367,4,health care
+367,5,healthcare
+367,6,mortality
+368,1,causes
+368,2,death
+368,3,deaths
+368,4,health care
+368,5,healthcare
+368,6,mortality
+369,1,causes
+369,2,death
+369,3,deaths
+369,4,health care
+369,5,healthcare
+369,6,mortality
+370,1,causes
+370,2,death
+370,3,deaths
+370,4,health care
+370,5,healthcare
+370,6,mortality
+371,1,causes
+371,2,death
+371,3,deaths
+371,4,health care
+371,5,healthcare
+371,6,mortality
+372,1,causes
+372,2,death
+372,3,deaths
+372,4,health care
+372,5,healthcare
+372,6,mortality
+373,1,causes
+373,2,death
+373,3,deaths
+373,4,health care
+373,5,healthcare
+373,6,mortality
+374,1,all cancers
+374,2,bladder cancer
+374,3,breast cancer
+374,4,cancer
+374,5,cancers
+374,6,cervical cancer
+374,7,gastrointestinal cancer
+374,8,Hodgkin's disease
+374,9,leukaemia
+374,10,lung cancer
+374,11,lymphoma
+374,12,melanoma
+374,13,mortality
+374,14,oesophageal cancer
+374,15,prostate cancer
+374,16,skin cancer
+375,1,all cancers
+375,2,bladder cancer
+375,3,breast cancer
+375,4,cancer
+375,5,cancers
+375,6,cervical cancer
+375,7,gastrointestinal cancer
+375,8,Hodgkin's disease
+375,9,leukaemia
+375,10,lung cancer
+375,11,lymphoma
+375,12,melanoma
+375,13,mortality
+375,14,oesophageal cancer
+375,15,prostate cancer
+375,16,skin cancer
+376,1,all cancers
+376,2,bladder cancer
+376,3,breast cancer
+376,4,cancer
+376,5,cancers
+376,6,cervical cancer
+376,7,gastrointestinal cancer
+376,8,Hodgkin's disease
+376,9,leukaemia
+376,10,lung cancer
+376,11,lymphoma
+376,12,melanoma
+376,13,mortality
+376,14,oesophageal cancer
+376,15,prostate cancer
+376,16,skin cancer
+377,1,all cancers
+377,2,bladder cancer
+377,3,breast cancer
+377,4,cancer
+377,5,cancers
+377,6,cervical cancer
+377,7,gastrointestinal cancer
+377,8,Hodgkin's disease
+377,9,leukaemia
+377,10,lung cancer
+377,11,lymphoma
+377,12,melanoma
+377,13,mortality
+377,14,oesophageal cancer
+377,15,prostate cancer
+377,16,skin cancer
+379,1,all cancers
+379,2,bladder cancer
+379,3,breast cancer
+379,4,cancer
+379,5,cancers
+379,6,cervical cancer
+379,7,gastrointestinal cancer
+379,8,Hodgkin's disease
+379,9,leukaemia
+379,10,lung cancer
+379,11,lymphoma
+379,12,melanoma
+379,13,mortality
+379,14,oesophageal cancer
+379,15,prostate cancer
+379,16,skin cancer
+380,1,all cancers
+380,2,bladder cancer
+380,3,breast cancer
+380,4,cancer
+380,5,cancers
+380,6,cervical cancer
+380,7,gastrointestinal cancer
+380,8,Hodgkin's disease
+380,9,leukaemia
+380,10,lung cancer
+380,11,lymphoma
+380,12,melanoma
+380,13,mortality
+380,14,oesophageal cancer
+380,15,prostate cancer
+380,16,skin cancer
+381,1,all cancers
+381,2,bladder cancer
+381,3,breast cancer
+381,4,cancer
+381,5,cancers
+381,6,cervical cancer
+381,7,gastrointestinal cancer
+381,8,Hodgkin's disease
+381,9,leukaemia
+381,10,lung cancer
+381,11,lymphoma
+381,12,melanoma
+381,13,mortality
+381,14,oesophageal cancer
+381,15,prostate cancer
+381,16,skin cancer
+382,1,all cancers
+382,2,bladder cancer
+382,3,breast cancer
+382,4,cancer
+382,5,cancers
+382,6,cervical cancer
+382,7,gastrointestinal cancer
+382,8,Hodgkin's disease
+382,9,leukaemia
+382,10,lung cancer
+382,11,lymphoma
+382,12,melanoma
+382,13,mortality
+382,14,oesophageal cancer
+382,15,prostate cancer
+382,16,skin cancer
+383,1,all cancers
+383,2,bladder cancer
+383,3,breast cancer
+383,4,cancer
+383,5,cancers
+383,6,cervical cancer
+383,7,gastrointestinal cancer
+383,8,Hodgkin's disease
+383,9,leukaemia
+383,10,lung cancer
+383,11,lymphoma
+383,12,melanoma
+383,13,mortality
+383,14,oesophageal cancer
+383,15,prostate cancer
+383,16,skin cancer
+384,1,all cancers
+384,2,bladder cancer
+384,3,breast cancer
+384,4,cancer
+384,5,cancers
+384,6,cervical cancer
+384,7,gastrointestinal cancer
+384,8,Hodgkin's disease
+384,9,leukaemia
+384,10,lung cancer
+384,11,lymphoma
+384,12,melanoma
+384,13,mortality
+384,14,oesophageal cancer
+384,15,prostate cancer
+384,16,skin cancer
+385,1,all cancers
+385,2,bladder cancer
+385,3,breast cancer
+385,4,cancer
+385,5,cancers
+385,6,cervical cancer
+385,7,gastrointestinal cancer
+385,8,Hodgkin's disease
+385,9,leukaemia
+385,10,lung cancer
+385,11,lymphoma
+385,12,melanoma
+385,13,mortality
+385,14,oesophageal cancer
+385,15,prostate cancer
+385,16,skin cancer
+386,1,all cancers
+386,2,bladder cancer
+386,3,breast cancer
+386,4,cancer
+386,5,cancers
+386,6,cervical cancer
+386,7,gastrointestinal cancer
+386,8,Hodgkin's disease
+386,9,leukaemia
+386,10,lung cancer
+386,11,lymphoma
+386,12,melanoma
+386,13,mortality
+386,14,oesophageal cancer
+386,15,prostate cancer
+386,16,skin cancer
+387,1,all cancers
+387,2,bladder cancer
+387,3,breast cancer
+387,4,cancer
+387,5,cancers
+387,6,cervical cancer
+387,7,gastrointestinal cancer
+387,8,Hodgkin's disease
+387,9,leukaemia
+387,10,lung cancer
+387,11,lymphoma
+387,12,melanoma
+387,13,mortality
+387,14,oesophageal cancer
+387,15,prostate cancer
+387,16,skin cancer
+388,1,all cancers
+388,2,bladder cancer
+388,3,breast cancer
+388,4,cancer
+388,5,cancers
+388,6,cervical cancer
+388,7,gastrointestinal cancer
+388,8,Hodgkin's disease
+388,9,leukaemia
+388,10,lung cancer
+388,11,lymphoma
+388,12,melanoma
+388,13,mortality
+388,14,oesophageal cancer
+388,15,prostate cancer
+388,16,skin cancer
+389,1,all cancers
+389,2,bladder cancer
+389,3,breast cancer
+389,4,cancer
+389,5,cancers
+389,6,cervical cancer
+389,7,gastrointestinal cancer
+389,8,Hodgkin's disease
+389,9,leukaemia
+389,10,lung cancer
+389,11,lymphoma
+389,12,melanoma
+389,13,mortality
+389,14,oesophageal cancer
+389,15,prostate cancer
+389,16,skin cancer
+390,1,all cancers
+390,2,bladder cancer
+390,3,breast cancer
+390,4,cancer
+390,5,cancers
+390,6,cervical cancer
+390,7,gastrointestinal cancer
+390,8,Hodgkin's disease
+390,9,leukaemia
+390,10,lung cancer
+390,11,lymphoma
+390,12,melanoma
+390,13,mortality
+390,14,oesophageal cancer
+390,15,prostate cancer
+390,16,skin cancer
+391,1,all cancers
+391,2,bladder cancer
+391,3,breast cancer
+391,4,cancer
+391,5,cancers
+391,6,cervical cancer
+391,7,gastrointestinal cancer
+391,8,Hodgkin's disease
+391,9,leukaemia
+391,10,lung cancer
+391,11,lymphoma
+391,12,melanoma
+391,13,mortality
+391,14,oesophageal cancer
+391,15,prostate cancer
+391,16,skin cancer
+392,1,all cancers
+392,2,bladder cancer
+392,3,breast cancer
+392,4,cancer
+392,5,cancers
+392,6,cervical cancer
+392,7,gastrointestinal cancer
+392,8,Hodgkin's disease
+392,9,leukaemia
+392,10,lung cancer
+392,11,lymphoma
+392,12,melanoma
+392,13,mortality
+392,14,oesophageal cancer
+392,15,prostate cancer
+392,16,skin cancer
+393,1,circulatory diseases
+393,2,death
+393,3,deaths
+393,4,mortality
+394,1,circulatory diseases
+394,2,death
+394,3,deaths
+394,4,mortality
+395,1,circulatory diseases
+395,2,death
+395,3,deaths
+395,4,mortality
+396,1,circulatory diseases
+396,2,death
+396,3,deaths
+396,4,mortality
+398,1,circulatory diseases
+398,2,death
+398,3,deaths
+398,4,mortality
+399,1,circulatory diseases
+399,2,death
+399,3,deaths
+399,4,mortality
+400,1,circulatory diseases
+400,2,death
+400,3,deaths
+400,4,mortality
+401,1,circulatory diseases
+401,2,death
+401,3,deaths
+401,4,mortality
+402,1,circulatory diseases
+402,2,death
+402,3,deaths
+402,4,mortality
+403,1,circulatory diseases
+403,2,death
+403,3,deaths
+403,4,mortality
+404,1,circulatory diseases
+404,2,death
+404,3,deaths
+404,4,mortality
+405,1,circulatory diseases
+405,2,death
+405,3,deaths
+405,4,mortality
+406,1,circulatory diseases
+406,2,death
+406,3,deaths
+406,4,mortality
+407,1,circulatory diseases
+407,2,death
+407,3,deaths
+407,4,mortality
+408,1,circulatory diseases
+408,2,death
+408,3,deaths
+408,4,mortality
+409,1,circulatory diseases
+409,2,death
+409,3,deaths
+409,4,mortality
+410,1,circulatory diseases
+410,2,death
+410,3,deaths
+410,4,mortality
+411,1,circulatory diseases
+411,2,death
+411,3,deaths
+411,4,mortality
+412,1,all cancers
+412,2,bladder
+412,3,bowel cancer
+412,4,breast cancer
+412,5,cancer
+412,6,cancers
+412,7,cervical cancer
+412,8,gastric cancer
+412,9,gastrointestinal cancer
+412,10,Hodgkin's disease
+412,11,incidence
+412,12,leukaemia
+412,13,lung cancer
+412,14,lymphoma
+412,15,melanoma
+412,16,oesophageal cancer
+412,17,prostate cancer
+412,18,skin cancer
+413,1,all cancers
+413,2,bladder
+413,3,bowel cancer
+413,4,breast cancer
+413,5,cancer
+413,6,cancers
+413,7,cervical cancer
+413,8,gastric cancer
+413,9,gastrointestinal cancer
+413,10,Hodgkin's disease
+413,11,incidence
+413,12,leukaemia
+413,13,lung cancer
+413,14,lymphoma
+413,15,melanoma
+413,16,oesophageal cancer
+413,17,prostate cancer
+413,18,skin cancer
+414,1,all cancers
+414,2,bladder
+414,3,bowel cancer
+414,4,breast cancer
+414,5,cancer
+414,6,cancers
+414,7,cervical cancer
+414,8,gastric cancer
+414,9,gastrointestinal cancer
+414,10,Hodgkin's disease
+414,11,incidence
+414,12,leukaemia
+414,13,lung cancer
+414,14,lymphoma
+414,15,melanoma
+414,16,oesophageal cancer
+414,17,prostate cancer
+414,18,skin cancer
+415,1,all cancers
+415,2,bladder
+415,3,bowel cancer
+415,4,breast cancer
+415,5,cancer
+415,6,cancers
+415,7,cervical cancer
+415,8,gastric cancer
+415,9,gastrointestinal cancer
+415,10,Hodgkin's disease
+415,11,incidence
+415,12,leukaemia
+415,13,lung cancer
+415,14,lymphoma
+415,15,melanoma
+415,16,oesophageal cancer
+415,17,prostate cancer
+415,18,skin cancer
+416,1,all cancers
+416,2,bladder
+416,3,bowel cancer
+416,4,breast cancer
+416,5,cancer
+416,6,cancers
+416,7,cervical cancer
+416,8,gastric cancer
+416,9,gastrointestinal cancer
+416,10,Hodgkin's disease
+416,11,incidence
+416,12,leukaemia
+416,13,lung cancer
+416,14,lymphoma
+416,15,melanoma
+416,16,oesophageal cancer
+416,17,prostate cancer
+416,18,skin cancer
+417,1,all cancers
+417,2,bladder
+417,3,bowel cancer
+417,4,breast cancer
+417,5,cancer
+417,6,cancers
+417,7,cervical cancer
+417,8,gastric cancer
+417,9,gastrointestinal cancer
+417,10,Hodgkin's disease
+417,11,incidence
+417,12,leukaemia
+417,13,lung cancer
+417,14,lymphoma
+417,15,melanoma
+417,16,oesophageal cancer
+417,17,prostate cancer
+417,18,skin cancer
+418,1,cancer
+418,2,death
+418,3,deaths
+418,4,Hodgkin's
+418,5,mortality
+419,1,cancer
+419,2,death
+419,3,deaths
+419,4,Hodgkin's
+419,5,mortality
+420,1,cancer
+420,2,death
+420,3,deaths
+420,4,Hodgkin's
+420,5,mortality
+421,1,cancer
+421,2,death
+421,3,deaths
+421,4,Hodgkin's
+421,5,mortality
+422,1,cancer
+422,2,death
+422,3,deaths
+422,4,Hodgkin's
+422,5,mortality
+423,1,cancer
+423,2,death
+423,3,deaths
+423,4,Hodgkin's
+423,5,mortality
+424,1,cancer
+424,2,death
+424,3,deaths
+424,4,Hodgkin's
+424,5,mortality
+425,1,cancer
+425,2,death
+425,3,deaths
+425,4,Hodgkin's
+425,5,mortality
+426,1,cancer
+426,2,death
+426,3,deaths
+426,4,Hodgkin's
+426,5,mortality
+427,1,cancer
+427,2,death
+427,3,deaths
+427,4,Hodgkin's
+427,5,mortality
+428,1,birth
+428,2,births
+428,3,conception
+428,4,conceptions
+428,5,fertility
+428,6,live births
+428,7,pregnancy
+429,1,birth
+429,2,births
+429,3,conception
+429,4,conceptions
+429,5,fertility
+429,6,live births
+429,7,pregnancy
+430,1,birth
+430,2,births
+430,3,conception
+430,4,conceptions
+430,5,fertility
+430,6,live births
+430,7,pregnancy
+431,1,childhood viruses
+431,2,communicable diseases
+431,3,epidemic parotitis
+431,4,german measles
+431,5,immunisation
+431,6,infectious diseases
+431,7,measles
+431,8,MMR
+431,9,morbilli
+431,10,rosolia
+431,11,rougeole
+431,12,vaccination
+431,13,vaccinations
+431,14,vaccine
+431,15,vaccines
+432,1,childhood viruses
+432,2,communicable diseases
+432,3,epidemic parotitis
+432,4,german measles
+432,5,immunisation
+432,6,infectious diseases
+432,7,measles
+432,8,MMR
+432,9,morbilli
+432,10,rosolia
+432,11,rougeole
+432,12,vaccination
+432,13,vaccinations
+432,14,vaccine
+432,15,vaccines
+433,1,communicable diseases
+433,2,immunisation
+433,3,immunisations
+433,4,infectious diseases
+433,5,pertussis
+433,6,vaccination
+433,7,whooping cough
+434,1,communicable diseases
+434,2,immunisation
+434,3,immunisations
+434,4,infectious diseases
+434,5,pertussis
+434,6,vaccination
+434,7,whooping cough
+435,1,CNS
+435,2,incidence
+435,3,central nervous system
+436,1,CNS
+436,2,incidence
+436,3,central nervous system
+437,1,anencephalus
+437,2,incidence
+438,1,anencephalus
+438,2,incidence
+439,1,cleft palate
+439,2,harelip
+439,3,cleft lip
+439,4,palatoschisis
+439,5,incidence
+439,6,cheiloschisis
+440,1,cleft palate
+440,2,harelip
+440,3,cleft lip
+440,4,palatoschisis
+440,5,incidence
+440,6,cheiloschisis
+441,1,Down syndrome
+441,2,Downs
+441,3,Downs syndrome
+441,4,Down's syndrome
+441,5,Downs' syndrome
+441,6,incidence
+441,7,trisomy 21
+442,1,Down syndrome
+442,2,Downs
+442,3,Downs syndrome
+442,4,Down's syndrome
+442,5,Downs' syndrome
+442,6,incidence
+442,7,trisomy 21
+443,1,Down syndrome
+443,2,Downs
+443,3,Downs syndrome
+443,4,Down's syndrome
+443,5,Downs' syndrome
+443,6,incidence
+443,7,trisomy 21
+444,1,Down syndrome
+444,2,Downs
+444,3,Downs syndrome
+444,4,Down's syndrome
+444,5,Downs' syndrome
+444,6,incidence
+444,7,trisomy 21
+445,1,Down syndrome
+445,2,Downs
+445,3,Downs syndrome
+445,4,Down's syndrome
+445,5,Downs' syndrome
+445,6,incidence
+445,7,trisomy 21
+446,1,incidence
+446,2,measles
+446,3,morbilli
+446,4,rosolia
+446,5,rougeloe
+447,1,incidence
+447,2,measles
+447,3,morbilli
+447,4,rosolia
+447,5,rougeloe
+448,1,incidence
+448,2,measles
+448,3,morbilli
+448,4,rosolia
+448,5,rougeloe
+449,1,incidence
+449,2,myelocele
+449,3,myelomeningocele
+449,4,spina bifida
+450,1,incidence
+450,2,myelocele
+450,3,myelomeningocele
+450,4,spina bifida
+451,1,incidence
+451,2,meningitis
+451,3,meningococcal meningitis
+452,1,incidence
+452,2,meningitis
+452,3,meningococcal meningitis
+453,1,incidence
+453,2,pertusis
+453,3,pertussis
+453,4,whooping cough
+454,1,incidence
+454,2,pertusis
+454,3,pertussis
+454,4,whooping cough
+455,1,incidence
+455,2,pertusis
+455,3,pertussis
+455,4,whooping cough
+456,1,birth
+456,2,child birth
+456,3,childbirth
+456,4,deliveries
+456,5,delivery
+456,6,foetal growth restriction
+456,7,growth restricted
+456,8,LBW
+456,9,low birthweight
+456,10,low-birthweight
+457,1,convulsions
+457,2,death
+457,3,deaths
+457,4,epilepsy
+457,5,fits
+457,6,mortality
+457,7,Years of life lost
+457,8,YLL
+458,1,convulsions
+458,2,death
+458,3,deaths
+458,4,epilepsy
+458,5,fits
+458,6,mortality
+458,7,Years of life lost
+458,8,YLL
+459,1,death
+459,2,deaths
+459,3,infections
+459,4,infectious
+459,5,mortality
+459,6,parasitic disease
+459,7,Years of life lost
+459,8,YLL
+460,1,death
+460,2,deaths
+460,3,infections
+460,4,infectious
+460,5,mortality
+460,6,parasitic disease
+460,7,Years of life lost
+460,8,YLL
+461,1,death
+461,2,deaths
+461,3,mortality
+461,4,TB
+461,5,tuberculosis
+461,6,Years of life lost
+461,7,YLL
+462,1,death
+462,2,deaths
+462,3,mortality
+462,4,TB
+462,5,tuberculosis
+462,6,Years of life lost
+462,7,YLL
+463,1,death
+463,2,deaths
+463,3,mortality
+463,4,suicide
+463,5,suicides
+463,6,Years of life lost
+463,7,YLL
+464,1,death
+464,2,deaths
+464,3,mortality
+464,4,suicide
+464,5,suicides
+464,6,Years of life lost
+464,7,YLL
+465,1,orchidopexy
+465,2,surgery
+465,3,HES
+465,4,hospital episode statistics
+465,5,infant health
+465,6,child health
+465,7,treatment
+466,1,orchidopexy
+466,2,surgery
+466,3,HES
+466,4,hospital episode statistics
+466,5,infant health
+466,6,child health
+466,7,treatment
+467,1,orchidopexy
+467,2,surgery
+467,3,HES
+467,4,hospital episode statistics
+467,5,infant health
+467,6,child health
+467,7,treatment
+468,1,death
+468,2,deaths
+468,3,mortality
+468,4,still birth
+468,5,still births
+468,6,stillbirths
+469,1,death
+469,2,deaths
+469,3,mortality
+469,4,still birth
+469,5,still births
+469,6,stillbirths
+470,1,death
+470,2,deaths
+470,3,mortality
+470,4,still birth
+470,5,still births
+470,6,stillbirths
+471,1,incidence
+471,2,TB
+471,3,tuberculosis
+472,1,incidence
+472,2,TB
+472,3,tuberculosis
+473,1,death
+473,2,deaths
+473,3,mortality
+473,4,suicide
+473,5,suicides
+473,6,Years of life lost
+473,7,YLL
+474,1,death
+474,2,deaths
+474,3,mortality
+474,4,suicide
+474,5,suicides
+474,6,Years of life lost
+474,7,YLL
+475,1,death
+475,2,deaths
+475,3,duodenal
+475,4,gastric
+475,5,mortality
+475,6,peptic ulcers
+475,7,Years of life lost
+475,8,YLL
+476,1,death
+476,2,deaths
+476,3,duodenal
+476,4,gastric
+476,5,mortality
+476,6,peptic ulcers
+476,7,Years of life lost
+476,8,YLL
+477,1,death
+477,2,deaths
+477,3,infection
+477,4,infectious
+477,5,mortality
+477,6,parasite
+477,7,parasitic
+478,1,death
+478,2,deaths
+478,3,infection
+478,4,infectious
+478,5,mortality
+478,6,parasite
+478,7,parasitic
+479,1,death
+479,2,deaths
+479,3,infection
+479,4,infectious
+479,5,mortality
+479,6,parasite
+479,7,parasitic
+480,1,death
+480,2,deaths
+480,3,infection
+480,4,infectious
+480,5,mortality
+480,6,parasite
+480,7,parasitic
+481,1,death
+481,2,deaths
+481,3,infection
+481,4,infectious
+481,5,mortality
+481,6,parasite
+481,7,parasitic
+482,1,death
+482,2,deaths
+482,3,infection
+482,4,infectious
+482,5,mortality
+482,6,parasite
+482,7,parasitic
+483,1,death
+483,2,deaths
+483,3,infection
+483,4,infectious
+483,5,mortality
+483,6,parasite
+483,7,parasitic
+484,1,death
+484,2,deaths
+484,3,infection
+484,4,infectious
+484,5,mortality
+484,6,parasite
+484,7,parasitic
+485,1,death
+485,2,deaths
+485,3,mortality
+485,4,TB
+485,5,tuberculosis
+486,1,death
+486,2,deaths
+486,3,mortality
+486,4,TB
+486,5,tuberculosis
+487,1,death
+487,2,deaths
+487,3,mortality
+487,4,TB
+487,5,tuberculosis
+488,1,death
+488,2,deaths
+488,3,mortality
+488,4,TB
+488,5,tuberculosis
+489,1,death
+489,2,deaths
+489,3,mortality
+489,4,TB
+489,5,tuberculosis
+490,1,death
+490,2,deaths
+490,3,mortality
+490,4,TB
+490,5,tuberculosis
+491,1,death
+491,2,deaths
+491,3,mortality
+491,4,TB
+491,5,tuberculosis
+492,1,death
+492,2,deaths
+492,3,mortality
+492,4,TB
+492,5,tuberculosis
+493,1,death
+493,2,deaths
+493,3,mortality
+493,4,TB
+493,5,tuberculosis
+494,1,death
+494,2,deaths
+494,3,mortality
+494,4,TB
+494,5,tuberculosis
+495,1,cancer
+495,2,death
+495,3,deaths
+495,4,leukaemia
+495,5,mortality
+496,1,cancer
+496,2,death
+496,3,deaths
+496,4,leukaemia
+496,5,mortality
+497,1,cancer
+497,2,death
+497,3,deaths
+497,4,leukaemia
+497,5,mortality
+498,1,cancer
+498,2,death
+498,3,deaths
+498,4,leukaemia
+498,5,mortality
+499,1,cancer
+499,2,death
+499,3,deaths
+499,4,leukaemia
+499,5,mortality
+500,1,cancer
+500,2,death
+500,3,deaths
+500,4,leukaemia
+500,5,mortality
+501,1,cancer
+501,2,death
+501,3,deaths
+501,4,leukaemia
+501,5,mortality
+502,1,cancer
+502,2,death
+502,3,deaths
+502,4,leukaemia
+502,5,mortality
+503,1,cancer
+503,2,incidence
+503,3,lung
+503,4,lung cancer
+504,1,cancer
+504,2,incidence
+504,3,lung
+504,4,lung cancer
+505,1,cancer
+505,2,incidence
+505,3,lung
+505,4,lung cancer
+506,1,cancer
+506,2,incidence
+506,3,lung
+506,4,lung cancer
+507,1,cancer
+507,2,incidence
+507,3,lung
+507,4,lung cancer
+508,1,cancer
+508,2,incidence
+508,3,lung
+508,4,lung cancer
+509,1,cancer
+509,2,death
+509,3,deaths
+509,4,lung
+509,5,lung cancer
+509,6,mortality
+510,1,cancer
+510,2,death
+510,3,deaths
+510,4,lung
+510,5,lung cancer
+510,6,mortality
+511,1,cancer
+511,2,death
+511,3,deaths
+511,4,lung
+511,5,lung cancer
+511,6,mortality
+512,1,cancer
+512,2,death
+512,3,deaths
+512,4,lung
+512,5,lung cancer
+512,6,mortality
+513,1,cancer
+513,2,death
+513,3,deaths
+513,4,lung
+513,5,lung cancer
+513,6,mortality
+514,1,cancer
+514,2,death
+514,3,deaths
+514,4,lung
+514,5,lung cancer
+514,6,mortality
+515,1,cancer
+515,2,death
+515,3,deaths
+515,4,lung
+515,5,lung cancer
+515,6,mortality
+516,1,cancer
+516,2,death
+516,3,deaths
+516,4,lung
+516,5,lung cancer
+516,6,mortality
+517,1,cancer
+517,2,death
+517,3,deaths
+517,4,lung
+517,5,lung cancer
+517,6,mortality
+518,1,cancer
+518,2,death
+518,3,deaths
+518,4,lung
+518,5,lung cancer
+518,6,mortality
+519,1,death
+519,2,deaths
+519,3,mortality
+519,4,pneumonia
+519,5,Years of life lost
+519,6,YLL
+520,1,death
+520,2,deaths
+520,3,mortality
+520,4,pneumonia
+520,5,Years of life lost
+520,6,YLL
+521,1,circulatory diseases
+521,2,death
+521,3,deaths
+521,4,mortality
+521,5,Years of life lost
+521,6,YLL
+522,1,circulatory diseases
+522,2,death
+522,3,deaths
+522,4,mortality
+522,5,Years of life lost
+522,6,YLL
+535,1,death
+535,2,deaths
+535,3,mortality
+535,4,suicide
+535,5,suicides
+536,1,death
+536,2,deaths
+536,3,mortality
+536,4,suicide
+536,5,suicides
+537,1,death
+537,2,deaths
+537,3,mortality
+537,4,suicide
+537,5,suicides
+538,1,death
+538,2,deaths
+538,3,mortality
+538,4,suicide
+538,5,suicides
+539,1,death
+539,2,deaths
+539,3,mortality
+539,4,suicide
+539,5,suicides
+540,1,death
+540,2,deaths
+540,3,mortality
+540,4,suicide
+540,5,suicides
+541,1,death
+541,2,deaths
+541,3,mortality
+541,4,suicide
+541,5,suicides
+542,1,death
+542,2,deaths
+542,3,mortality
+542,4,suicide
+542,5,suicides
+543,1,death
+543,2,deaths
+543,3,mortality
+543,4,suicide
+543,5,suicides
+544,1,death
+544,2,suicide
+544,3,mortality
+544,4,suicides
+544,5,deaths
+546,1,death
+546,2,deaths
+546,3,mortality
+546,4,suicide
+546,5,suicides
+547,1,death
+547,2,deaths
+547,3,mortality
+547,4,suicide
+547,5,suicides
+548,1,death
+548,2,deaths
+548,3,mortality
+548,4,suicide
+548,5,suicides
+549,1,death
+549,2,deaths
+549,3,mortality
+549,4,suicide
+549,5,suicides
+550,1,death
+550,2,deaths
+550,3,mortality
+550,4,suicide
+550,5,suicides
+551,1,death
+551,2,suicide
+551,3,mortality
+551,4,suicides
+551,5,deaths
+552,1,death
+552,2,deaths
+552,3,mortality
+552,4,suicide
+552,5,suicides
+553,1,death
+553,2,deaths
+553,3,mortality
+553,4,suicide
+553,5,suicides
+554,1,death
+554,2,deaths
+554,3,mortality
+554,4,suicide
+554,5,suicides
+555,1,death
+555,2,deaths
+555,3,mortality
+555,4,suicide
+555,5,suicides
+556,1,decay
+556,2,dental decay
+556,3,teeth
+556,4,Children
+556,5,teeth decay
+556,6,tooth
+556,7,infant health
+556,8,dental
+556,9,child health
+556,10,oral health
+556,11,tooth decay
+556,12,Child
+557,1,decay
+557,2,dental decay
+557,3,teeth
+557,4,Children
+557,5,teeth decay
+557,6,tooth
+557,7,infant health
+557,8,dental
+557,9,child health
+557,10,oral health
+557,11,tooth decay
+557,12,Child
+558,1,decay
+558,2,dental decay
+558,3,teeth
+558,4,Children
+558,5,teeth decay
+558,6,tooth
+558,7,infant health
+558,8,dental
+558,9,child health
+558,10,oral health
+558,11,tooth decay
+558,12,Child
+559,1,decay
+559,2,dental decay
+559,3,teeth
+559,4,Children
+559,5,teeth decay
+559,6,tooth
+559,7,infant health
+559,8,dental
+559,9,child health
+559,10,oral health
+559,11,tooth decay
+559,12,Child
+560,1,decay
+560,2,dental decay
+560,3,teeth
+560,4,Children
+560,5,teeth decay
+560,6,tooth
+560,7,infant health
+560,8,dental
+560,9,child health
+560,10,oral health
+560,11,tooth decay
+560,12,Child
+561,1,decay
+561,2,dental decay
+561,3,teeth
+561,4,Children
+561,5,teeth decay
+561,6,tooth
+561,7,infant health
+561,8,dental
+561,9,child health
+561,10,oral health
+561,11,tooth decay
+561,12,Child
+562,1,decay
+562,2,dental decay
+562,3,teeth
+562,4,Children
+562,5,teeth decay
+562,6,tooth
+562,7,infant health
+562,8,dental
+562,9,child health
+562,10,oral health
+562,11,tooth decay
+562,12,Child
+563,1,decay
+563,2,dental decay
+563,3,teeth
+563,4,Children
+563,5,teeth decay
+563,6,tooth
+563,7,infant health
+563,8,dental
+563,9,child health
+563,10,oral health
+563,11,tooth decay
+563,12,Child
+564,1,decay
+564,2,dental decay
+564,3,teeth
+564,4,Children
+564,5,teeth decay
+564,6,tooth
+564,7,infant health
+564,8,dental
+564,9,child health
+564,10,oral health
+564,11,tooth decay
+564,12,Child
+565,1,decay
+565,2,dental decay
+565,3,teeth
+565,4,Children
+565,5,teeth decay
+565,6,tooth
+565,7,infant health
+565,8,dental
+565,9,child health
+565,10,oral health
+565,11,tooth decay
+565,12,Child
+566,1,decay
+566,2,dental decay
+566,3,teeth
+566,4,Children
+566,5,teeth decay
+566,6,tooth
+566,7,infant health
+566,8,dental
+566,9,child health
+566,10,oral health
+566,11,tooth decay
+566,12,Child
+567,1,decay
+567,2,dental decay
+567,3,teeth
+567,4,Children
+567,5,teeth decay
+567,6,tooth
+567,7,infant health
+567,8,dental
+567,9,child health
+567,10,oral health
+567,11,tooth decay
+567,12,Child
+568,1,decay
+568,2,dental decay
+568,3,teeth
+568,4,Children
+568,5,teeth decay
+568,6,tooth
+568,7,infant health
+568,8,dental
+568,9,child health
+568,10,oral health
+568,11,tooth decay
+568,12,Child
+569,1,decay
+569,2,dental decay
+569,3,teeth
+569,4,Children
+569,5,teeth decay
+569,6,tooth
+569,7,infant health
+569,8,dental
+569,9,child health
+569,10,oral health
+569,11,tooth decay
+569,12,Child
+570,1,decay
+570,2,dental decay
+570,3,teeth
+570,4,Children
+570,5,teeth decay
+570,6,tooth
+570,7,infant health
+570,8,dental
+570,9,child health
+570,10,oral health
+570,11,tooth decay
+570,12,Child
+571,1,decay
+571,2,dental decay
+571,3,teeth
+571,4,Children
+571,5,teeth decay
+571,6,tooth
+571,7,infant health
+571,8,dental
+571,9,child health
+571,10,oral health
+571,11,tooth decay
+571,12,Child
+572,1,decay
+572,2,dental decay
+572,3,teeth
+572,4,Children
+572,5,teeth decay
+572,6,tooth
+572,7,infant health
+572,8,dental
+572,9,child health
+572,10,oral health
+572,11,tooth decay
+572,12,Child
+573,1,decay
+573,2,dental decay
+573,3,teeth
+573,4,Children
+573,5,teeth decay
+573,6,tooth
+573,7,infant health
+573,8,dental
+573,9,child health
+573,10,oral health
+573,11,tooth decay
+573,12,Child
+574,1,surgery
+574,2,primary hip replacement
+574,3,HES
+574,4,hospital episode statistics
+574,5,treatment
+574,6,hip
+575,1,surgery
+575,2,primary hip replacement
+575,3,HES
+575,4,hospital episode statistics
+575,5,treatment
+575,6,hip
+576,1,surgery
+576,2,primary hip replacement
+576,3,HES
+576,4,hospital episode statistics
+576,5,treatment
+576,6,hip
+577,1,surgery
+577,2,HES
+577,3,hospital episode statistics
+577,4,hip replacement
+577,5,treatment
+577,6,hip
+578,1,surgery
+578,2,HES
+578,3,hospital episode statistics
+578,4,hip replacement
+578,5,treatment
+578,6,hip
+579,1,surgery
+579,2,HES
+579,3,hospital episode statistics
+579,4,hip replacement
+579,5,treatment
+579,6,hip
+580,1,chronic rheumatic heart disease
+580,2,coronary disease
+580,3,coronary heart disease
+580,4,death
+580,5,deaths
+580,6,heart
+580,7,heart attack
+580,8,mortality
+581,1,chronic rheumatic heart disease
+581,2,coronary disease
+581,3,coronary heart disease
+581,4,death
+581,5,deaths
+581,6,heart
+581,7,heart attack
+581,8,mortality
+582,1,chronic rheumatic heart disease
+582,2,coronary disease
+582,3,coronary heart disease
+582,4,death
+582,5,deaths
+582,6,heart
+582,7,heart attack
+582,8,mortality
+583,1,chronic rheumatic heart disease
+583,2,coronary disease
+583,3,coronary heart disease
+583,4,death
+583,5,deaths
+583,6,heart
+583,7,heart attack
+583,8,mortality
+584,1,chronic rheumatic heart disease
+584,2,coronary disease
+584,3,coronary heart disease
+584,4,death
+584,5,deaths
+584,6,heart
+584,7,heart attack
+584,8,mortality
+585,1,chronic rheumatic heart disease
+585,2,coronary disease
+585,3,coronary heart disease
+585,4,death
+585,5,deaths
+585,6,heart
+585,7,heart attack
+585,8,mortality
+586,1,death
+586,2,deaths
+586,3,duodenal
+586,4,gastric
+586,5,mortality
+586,6,peptic ulcers
+587,1,death
+587,2,deaths
+587,3,duodenal
+587,4,gastric
+587,5,mortality
+587,6,peptic ulcers
+588,1,death
+588,2,deaths
+588,3,duodenal
+588,4,gastric
+588,5,mortality
+588,6,peptic ulcers
+589,1,death
+589,2,deaths
+589,3,duodenal
+589,4,gastric
+589,5,mortality
+589,6,peptic ulcers
+590,1,death
+590,2,deaths
+590,3,duodenal
+590,4,gastric
+590,5,mortality
+590,6,peptic ulcers
+591,1,death
+591,2,deaths
+591,3,duodenal
+591,4,gastric
+591,5,mortality
+591,6,peptic ulcers
+592,1,death
+592,2,deaths
+592,3,duodenal
+592,4,gastric
+592,5,mortality
+592,6,peptic ulcers
+593,1,death
+593,2,deaths
+593,3,duodenal
+593,4,gastric
+593,5,mortality
+593,6,peptic ulcers
+594,1,death
+594,2,deaths
+594,3,duodenal
+594,4,gastric
+594,5,mortality
+594,6,peptic ulcers
+595,1,death
+595,2,deaths
+595,3,duodenal
+595,4,gastric
+595,5,mortality
+595,6,peptic ulcers
+596,1,death
+596,2,deaths
+596,3,duodenal
+596,4,gastric
+596,5,mortality
+596,6,peptic ulcers
+597,1,death
+597,2,deaths
+597,3,duodenal
+597,4,gastric
+597,5,mortality
+597,6,peptic ulcers
+598,1,death
+598,2,deaths
+598,3,mortality
+598,4,pneumonia
+599,1,death
+599,2,deaths
+599,3,mortality
+599,4,pneumonia
+600,1,death
+600,2,deaths
+600,3,mortality
+600,4,pneumonia
+601,1,death
+601,2,deaths
+601,3,mortality
+601,4,pneumonia
+602,1,death
+602,2,deaths
+602,3,mortality
+602,4,pneumonia
+603,1,death
+603,2,deaths
+603,3,mortality
+603,4,pneumonia
+604,1,death
+604,2,deaths
+604,3,mortality
+604,4,pneumonia
+605,1,death
+605,2,deaths
+605,3,mortality
+605,4,pneumonia
+606,1,conception
+606,2,conceptions
+606,3,induced abortion
+606,4,medical abortion
+606,5,pregnancy termination
+606,6,termination of pregnancy
+607,1,conception
+607,2,conceptions
+607,3,induced abortion
+607,4,medical abortion
+607,5,pregnancy termination
+607,6,termination of pregnancy
+608,1,abortion
+608,2,abortions
+608,3,fertility
+608,4,induced abortion
+608,5,medical abortion
+608,6,pregnancy termination
+608,7,termination of pregnancy
+609,1,abortion
+609,2,abortions
+609,3,fertility
+609,4,induced abortion
+609,5,medical abortion
+609,6,pregnancy termination
+609,7,termination of pregnancy
+610,1,abortion
+610,2,abortions
+610,3,fertility
+610,4,induced abortion
+610,5,medical abortion
+610,6,pregnancy termination
+610,7,termination of pregnancy
+611,1,abortion
+611,2,abortions
+611,3,fertility
+611,4,induced abortion
+611,5,medical abortion
+611,6,pregnancy termination
+611,7,termination of pregnancy
+612,1,abortion
+612,2,abortions
+612,3,fertility
+612,4,induced abortion
+612,5,medical abortion
+612,6,pregnancy termination
+612,7,termination of pregnancy
+613,1,induced abortion
+613,2,termination of pregnancy
+613,3,pregnancy termination
+613,4,medical abortion
+613,5,abortions
+613,6,fertility
+613,7,abortion
+614,1,birth
+614,2,births
+614,3,child birth
+614,4,childbirth
+614,5,deliveries
+614,6,delivery
+614,7,hospital birth
+614,8,live
+614,9,live births
+615,1,death
+615,2,deaths
+615,3,maternal
+615,4,maternal mortality
+615,5,mortality
+616,1,death
+616,2,deaths
+616,3,maternal
+616,4,maternal mortality
+616,5,mortality
+617,1,death
+617,2,deaths
+617,3,maternal
+617,4,maternal mortality
+617,5,mortality
+618,1,death
+618,2,deaths
+618,3,maternal
+618,4,maternal mortality
+618,5,mortality
+619,1,cancer
+619,2,incidence
+619,3,prostate
+619,4,prostate cancer
+620,1,cancer
+620,2,incidence
+620,3,prostate
+620,4,prostate cancer
+621,1,cancer
+621,2,incidence
+621,3,prostate
+621,4,prostate cancer
+622,1,cancer
+622,2,incidence
+622,3,prostate
+622,4,prostate cancer
+623,1,cancer
+623,2,incidence
+623,3,prostate
+623,4,prostate cancer
+624,1,cancer
+624,2,incidence
+624,3,prostate
+624,4,prostate cancer
+625,1,cancer
+625,2,death
+625,3,deaths
+625,4,mortality
+625,5,prostate
+625,6,prostate cancer
+626,1,cancer
+626,2,death
+626,3,deaths
+626,4,mortality
+626,5,prostate
+626,6,prostate cancer
+627,1,cancer
+627,2,death
+627,3,deaths
+627,4,mortality
+627,5,prostate
+627,6,prostate cancer
+628,1,cancer
+628,2,death
+628,3,deaths
+628,4,mortality
+628,5,prostate
+628,6,prostate cancer
+629,1,cancer
+629,2,death
+629,3,deaths
+629,4,mortality
+629,5,prostate
+629,6,prostate cancer
+630,1,cancer
+630,2,death
+630,3,deaths
+630,4,mortality
+630,5,prostate
+630,6,prostate cancer
+631,1,cancer
+631,2,death
+631,3,deaths
+631,4,mortality
+631,5,prostate
+631,6,prostate cancer
+632,1,cancer
+632,2,death
+632,3,deaths
+632,4,mortality
+632,5,prostate
+632,6,prostate cancer
+633,1,cancer
+633,2,incidence
+633,3,malignant
+633,4,malignant melanoma
+633,5,melanocyte
+633,6,melanoma
+633,7,skin cancer
+634,1,cancer
+634,2,incidence
+634,3,malignant
+634,4,malignant melanoma
+634,5,melanocyte
+634,6,melanoma
+634,7,skin cancer
+635,1,cancer
+635,2,incidence
+635,3,malignant
+635,4,malignant melanoma
+635,5,melanocyte
+635,6,melanoma
+635,7,skin cancer
+636,1,cancer
+636,2,incidence
+636,3,malignant
+636,4,malignant melanoma
+636,5,melanocyte
+636,6,melanoma
+636,7,skin cancer
+637,1,cancer
+637,2,incidence
+637,3,malignant
+637,4,malignant melanoma
+637,5,melanocyte
+637,6,melanoma
+637,7,skin cancer
+638,1,cancer
+638,2,incidence
+638,3,malignant
+638,4,malignant melanoma
+638,5,melanocyte
+638,6,melanoma
+638,7,skin cancer
+639,1,cutaneous cancer
+639,2,cutaneous neoplasm
+639,3,dermatological cancer
+639,4,dermatological neoplasm
+639,5,incidence
+639,6,skin
+639,7,skin cancer
+639,8,skin neoplasm
+640,1,cutaneous cancer
+640,2,cutaneous neoplasm
+640,3,dermatological cancer
+640,4,dermatological neoplasm
+640,5,incidence
+640,6,skin
+640,7,skin cancer
+640,8,skin neoplasm
+641,1,cutaneous cancer
+641,2,cutaneous neoplasm
+641,3,dermatological cancer
+641,4,dermatological neoplasm
+641,5,incidence
+641,6,skin
+641,7,skin cancer
+641,8,skin neoplasm
+642,1,cutaneous cancer
+642,2,cutaneous neoplasm
+642,3,dermatological cancer
+642,4,dermatological neoplasm
+642,5,incidence
+642,6,skin
+642,7,skin cancer
+642,8,skin neoplasm
+643,1,cutaneous cancer
+643,2,cutaneous neoplasm
+643,3,dermatological cancer
+643,4,dermatological neoplasm
+643,5,incidence
+643,6,skin
+643,7,skin cancer
+643,8,skin neoplasm
+644,1,cutaneous cancer
+644,2,cutaneous neoplasm
+644,3,dermatological cancer
+644,4,dermatological neoplasm
+644,5,incidence
+644,6,skin
+644,7,skin cancer
+644,8,skin neoplasm
+645,1,cancer
+645,2,death
+645,3,deaths
+645,4,malignant
+645,5,malignant melanoma
+645,6,melanocyte
+645,7,melanoma
+645,8,mortality
+645,9,skin
+645,10,skin cancer
+646,1,cancer
+646,2,death
+646,3,deaths
+646,4,malignant
+646,5,malignant melanoma
+646,6,melanocyte
+646,7,melanoma
+646,8,mortality
+646,9,skin
+646,10,skin cancer
+647,1,cancer
+647,2,death
+647,3,deaths
+647,4,malignant
+647,5,malignant melanoma
+647,6,melanocyte
+647,7,melanoma
+647,8,mortality
+647,9,skin
+647,10,skin cancer
+648,1,cancer
+648,2,death
+648,3,deaths
+648,4,malignant
+648,5,malignant melanoma
+648,6,melanocyte
+648,7,melanoma
+648,8,mortality
+648,9,skin
+648,10,skin cancer
+649,1,cancer
+649,2,death
+649,3,deaths
+649,4,malignant
+649,5,malignant melanoma
+649,6,melanocyte
+649,7,melanoma
+649,8,mortality
+649,9,skin
+649,10,skin cancer
+650,1,cancer
+650,2,death
+650,3,deaths
+650,4,malignant
+650,5,malignant melanoma
+650,6,melanocyte
+650,7,melanoma
+650,8,mortality
+650,9,skin
+650,10,skin cancer
+651,1,cancer
+651,2,death
+651,3,deaths
+651,4,malignant
+651,5,malignant melanoma
+651,6,melanocyte
+651,7,melanoma
+651,8,mortality
+651,9,skin
+651,10,skin cancer
+652,1,cancer
+652,2,death
+652,3,deaths
+652,4,malignant
+652,5,malignant melanoma
+652,6,melanocyte
+652,7,melanoma
+652,8,mortality
+652,9,skin
+652,10,skin cancer
+653,1,cancer
+653,2,cutaneous cancer
+653,3,cutaneous neoplasm
+653,4,death
+653,5,deaths
+653,6,dermatological cancer
+653,7,dermatological neoplasm
+653,8,mortality
+653,9,skin neoplasm
+654,1,cancer
+654,2,cutaneous cancer
+654,3,cutaneous neoplasm
+654,4,death
+654,5,deaths
+654,6,dermatological cancer
+654,7,dermatological neoplasm
+654,8,mortality
+654,9,skin neoplasm
+655,1,cancer
+655,2,cutaneous cancer
+655,3,cutaneous neoplasm
+655,4,death
+655,5,deaths
+655,6,dermatological cancer
+655,7,dermatological neoplasm
+655,8,mortality
+655,9,skin neoplasm
+656,1,cancer
+656,2,cutaneous cancer
+656,3,cutaneous neoplasm
+656,4,death
+656,5,deaths
+656,6,dermatological cancer
+656,7,dermatological neoplasm
+656,8,mortality
+656,9,skin neoplasm
+657,1,cancer
+657,2,cutaneous cancer
+657,3,cutaneous neoplasm
+657,4,death
+657,5,deaths
+657,6,dermatological cancer
+657,7,dermatological neoplasm
+657,8,mortality
+657,9,skin neoplasm
+658,1,cancer
+658,2,cutaneous cancer
+658,3,cutaneous neoplasm
+658,4,death
+658,5,deaths
+658,6,dermatological cancer
+658,7,dermatological neoplasm
+658,8,mortality
+658,9,skin neoplasm
+659,1,cancer
+659,2,cutaneous cancer
+659,3,cutaneous neoplasm
+659,4,death
+659,5,deaths
+659,6,dermatological cancer
+659,7,dermatological neoplasm
+659,8,mortality
+659,9,skin neoplasm
+660,1,cancer
+660,2,cutaneous cancer
+660,3,cutaneous neoplasm
+660,4,death
+660,5,deaths
+660,6,dermatological cancer
+660,7,dermatological neoplasm
+660,8,mortality
+660,9,skin neoplasm
+661,1,cancer
+661,2,gastric cancer
+661,3,incidence
+661,4,stomach
+661,5,stomach cancer
+662,1,cancer
+662,2,gastric cancer
+662,3,incidence
+662,4,stomach
+662,5,stomach cancer
+663,1,cancer
+663,2,gastric cancer
+663,3,incidence
+663,4,stomach
+663,5,stomach cancer
+664,1,cancer
+664,2,gastric cancer
+664,3,incidence
+664,4,stomach
+664,5,stomach cancer
+665,1,cancer
+665,2,gastric cancer
+665,3,incidence
+665,4,stomach
+665,5,stomach cancer
+666,1,cancer
+666,2,gastric cancer
+666,3,incidence
+666,4,stomach
+666,5,stomach cancer
+667,1,cancer
+667,2,death
+667,3,deaths
+667,4,gastric cancer
+667,5,mortality
+667,6,stomach
+667,7,stomach cancer
+668,1,cancer
+668,2,death
+668,3,deaths
+668,4,gastric cancer
+668,5,mortality
+668,6,stomach
+668,7,stomach cancer
+669,1,cancer
+669,2,death
+669,3,deaths
+669,4,gastric cancer
+669,5,mortality
+669,6,stomach
+669,7,stomach cancer
+670,1,cancer
+670,2,death
+670,3,deaths
+670,4,gastric cancer
+670,5,mortality
+670,6,stomach
+670,7,stomach cancer
+671,1,cancer
+671,2,death
+671,3,deaths
+671,4,gastric cancer
+671,5,mortality
+671,6,stomach
+671,7,stomach cancer
+672,1,cancer
+672,2,death
+672,3,deaths
+672,4,gastric cancer
+672,5,mortality
+672,6,stomach
+672,7,stomach cancer
+673,1,cancer
+673,2,death
+673,3,deaths
+673,4,gastric cancer
+673,5,mortality
+673,6,stomach
+673,7,stomach cancer
+674,1,cancer
+674,2,death
+674,3,deaths
+674,4,gastric cancer
+674,5,mortality
+674,6,stomach
+674,7,stomach cancer
+675,1,cerebrovascular
+675,2,death
+675,3,deaths
+675,4,haemorrhagic
+675,5,ischaemic
+675,6,mortality
+675,7,stroke
+676,1,cerebrovascular
+676,2,death
+676,3,deaths
+676,4,haemorrhagic
+676,5,ischaemic
+676,6,mortality
+676,7,stroke
+677,1,cerebrovascular
+677,2,death
+677,3,deaths
+677,4,haemorrhagic
+677,5,ischaemic
+677,6,mortality
+677,7,stroke
+678,1,cerebrovascular
+678,2,death
+678,3,deaths
+678,4,haemorrhagic
+678,5,ischaemic
+678,6,mortality
+678,7,stroke
+679,1,cerebrovascular
+679,2,death
+679,3,deaths
+679,4,haemorrhagic
+679,5,ischaemic
+679,6,mortality
+679,7,stroke
+680,1,cerebrovascular
+680,2,death
+680,3,deaths
+680,4,haemorrhagic
+680,5,ischaemic
+680,6,mortality
+680,7,stroke
+681,1,cerebrovascular
+681,2,death
+681,3,deaths
+681,4,haemorrhagic
+681,5,ischaemic
+681,6,mortality
+681,7,stroke
+682,1,cerebrovascular
+682,2,death
+682,3,deaths
+682,4,haemorrhagic
+682,5,ischaemic
+682,6,mortality
+682,7,stroke
+683,1,cerebrovascular
+683,2,death
+683,3,deaths
+683,4,haemorrhagic
+683,5,ischaemic
+683,6,mortality
+683,7,stroke
+684,1,cerebrovascular
+684,2,death
+684,3,deaths
+684,4,haemorrhagic
+684,5,ischaemic
+684,6,mortality
+684,7,stroke
+685,1,cerebrovascular
+685,2,death
+685,3,deaths
+685,4,haemorrhagic
+685,5,ischaemic
+685,6,mortality
+685,7,stroke
+686,1,cerebrovascular
+686,2,death
+686,3,deaths
+686,4,haemorrhagic
+686,5,ischaemic
+686,6,mortality
+686,7,stroke
+687,1,cerebrovascular
+687,2,death
+687,3,deaths
+687,4,haemorrhagic
+687,5,ischaemic
+687,6,mortality
+687,7,stroke
+688,1,cerebrovascular
+688,2,death
+688,3,deaths
+688,4,haemorrhagic
+688,5,ischaemic
+688,6,mortality
+688,7,stroke
+689,1,cerebrovascular
+689,2,death
+689,3,deaths
+689,4,haemorrhagic
+689,5,ischaemic
+689,6,mortality
+689,7,stroke
+690,1,cerebrovascular
+690,2,death
+690,3,deaths
+690,4,haemorrhagic
+690,5,ischaemic
+690,6,mortality
+690,7,stroke
+691,1,cerebrovascular
+691,2,death
+691,3,deaths
+691,4,haemorrhagic
+691,5,ischaemic
+691,6,mortality
+691,7,stroke
+692,1,cerebrovascular
+692,2,death
+692,3,deaths
+692,4,haemorrhagic
+692,5,ischaemic
+692,6,mortality
+692,7,stroke
+693,1,cerebrovascular
+693,2,death
+693,3,deaths
+693,4,haemorrhagic
+693,5,ischaemic
+693,6,mortality
+693,7,stroke
+694,1,cerebrovascular
+694,2,death
+694,3,deaths
+694,4,haemorrhagic
+694,5,ischaemic
+694,6,mortality
+694,7,stroke
+695,1,death
+695,2,deaths
+695,3,mortality
+696,1,death
+696,2,deaths
+696,3,mortality
+697,1,accident
+697,2,accidents
+697,3,death
+697,4,deaths
+697,5,land transport accidents
+697,6,mortality
+697,7,transport
+698,1,accident
+698,2,accidents
+698,3,death
+698,4,deaths
+698,5,land transport accidents
+698,6,mortality
+698,7,transport
+699,1,accident
+699,2,accidents
+699,3,death
+699,4,deaths
+699,5,land transport accidents
+699,6,mortality
+699,7,transport
+700,1,accident
+700,2,accidents
+700,3,death
+700,4,deaths
+700,5,land transport accidents
+700,6,mortality
+700,7,transport
+701,1,accident
+701,2,accidents
+701,3,death
+701,4,deaths
+701,5,land transport accidents
+701,6,mortality
+701,7,transport
+702,1,accident
+702,2,accidents
+702,3,death
+702,4,deaths
+702,5,land transport accidents
+702,6,mortality
+702,7,transport
+703,1,accident
+703,2,accidents
+703,3,death
+703,4,deaths
+703,5,land transport accidents
+703,6,mortality
+703,7,transport
+704,1,accident
+704,2,accidents
+704,3,death
+704,4,deaths
+704,5,land transport accidents
+704,6,mortality
+704,7,transport
+705,1,cutaneous cancer
+705,2,cutaneous neoplasm
+705,3,dermatological cancer
+705,4,dermatological neoplasm
+705,5,incidence
+705,6,skin
+705,7,skin cancer
+705,8,skin neoplasm
+706,1,cutaneous cancer
+706,2,cutaneous neoplasm
+706,3,dermatological cancer
+706,4,dermatological neoplasm
+706,5,incidence
+706,6,skin
+706,7,skin cancer
+706,8,skin neoplasm
+707,1,cutaneous cancer
+707,2,cutaneous neoplasm
+707,3,dermatological cancer
+707,4,dermatological neoplasm
+707,5,incidence
+707,6,skin
+707,7,skin cancer
+707,8,skin neoplasm
+708,1,cutaneous cancer
+708,2,cutaneous neoplasm
+708,3,dermatological cancer
+708,4,dermatological neoplasm
+708,5,incidence
+708,6,skin
+708,7,skin cancer
+708,8,skin neoplasm
+709,1,cutaneous cancer
+709,2,cutaneous neoplasm
+709,3,dermatological cancer
+709,4,dermatological neoplasm
+709,5,incidence
+709,6,skin
+709,7,skin cancer
+709,8,skin neoplasm
+710,1,cutaneous cancer
+710,2,cutaneous neoplasm
+710,3,dermatological cancer
+710,4,dermatological neoplasm
+710,5,incidence
+710,6,skin
+710,7,skin cancer
+710,8,skin neoplasm
+711,1,chd
+711,2,coronary disease
+711,3,coronary heart diseases
+711,4,death
+711,5,deaths
+711,6,heart
+711,7,heart attack
+711,8,ischaemic heart disease
+711,9,mortality
+712,1,chd
+712,2,coronary disease
+712,3,coronary heart diseases
+712,4,death
+712,5,deaths
+712,6,heart
+712,7,heart attack
+712,8,ischaemic heart disease
+712,9,mortality
+713,1,chd
+713,2,coronary disease
+713,3,coronary heart diseases
+713,4,death
+713,5,deaths
+713,6,heart
+713,7,heart attack
+713,8,ischaemic heart disease
+713,9,mortality
+714,1,chd
+714,2,coronary disease
+714,3,coronary heart diseases
+714,4,death
+714,5,deaths
+714,6,heart
+714,7,heart attack
+714,8,ischaemic heart disease
+714,9,mortality
+715,1,death
+715,2,deaths
+715,3,mortality
+715,4,perinatal
+717,1,death
+717,2,deaths
+717,3,mortality
+717,4,perinatal
+720,1,death
+720,2,deaths
+720,3,mortality
+720,4,post neonatal
+720,5,postneonatal
+721,1,death
+721,2,deaths
+721,3,mortality
+721,4,post neonatal
+721,5,postneonatal
+722,1,death
+722,2,deaths
+722,3,early neonatal
+722,4,mortality
+723,1,death
+723,2,deaths
+723,3,early neonatal
+723,4,mortality
+724,1,death
+724,2,deaths
+724,3,infant
+724,4,infant mortality
+724,5,mortality
+725,1,death
+725,2,deaths
+725,3,infant
+725,4,infant mortality
+725,5,mortality
+726,1,death
+726,2,deaths
+726,3,mortality
+726,4,neonatal
+726,5,neonatal mortality
+727,1,death
+727,2,deaths
+727,3,mortality
+727,4,neonatal
+727,5,neonatal mortality
+728,1,Hospital episode
+728,2,emergency hospital admissions
+728,3,HES
+728,4,hospital episode statistics
+728,5,accidents
+728,6,accidental injury
+728,7,accident
+728,8,admissions
+729,1,Hospital episode
+729,2,emergency hospital admissions
+729,3,HES
+729,4,hospital episode statistics
+729,5,accidents
+729,6,accidental injury
+729,7,accident
+729,8,admissions
+730,1,Hospital episode
+730,2,emergency hospital admissions
+730,3,HES
+730,4,hospital episode statistics
+730,5,accidents
+730,6,accidental injury
+730,7,accident
+730,8,admissions
+731,1,Hospital episode
+731,2,emergency hospital admissions
+731,3,HES
+731,4,hospital episode statistics
+731,5,accidents
+731,6,accidental injury
+731,7,accident
+731,8,admissions
+732,1,Hospital episode
+732,2,emergency hospital admissions
+732,3,HES
+732,4,hospital episode statistics
+732,5,accidents
+732,6,accidental injury
+732,7,accident
+732,8,admissions
+733,1,Hospital episode
+733,2,emergency hospital admissions
+733,3,HES
+733,4,hospital episode statistics
+733,5,accidents
+733,6,accidental injury
+733,7,accident
+733,8,admissions
+734,1,Hospital episode
+734,2,emergency hospital admissions
+734,3,HES
+734,4,hospital episode statistics
+734,5,accidents
+734,6,accidental injury
+734,7,accident
+734,8,admissions
+735,1,Hospital episode
+735,2,emergency hospital admissions
+735,3,HES
+735,4,hospital episode statistics
+735,5,accidents
+735,6,accidental injury
+735,7,accident
+735,8,admissions
+736,1,Hospital episode
+736,2,emergency hospital admissions
+736,3,HES
+736,4,hospital episode statistics
+736,5,accidents
+736,6,accidental injury
+736,7,accident
+736,8,admissions
+737,1,Hospital episode
+737,2,emergency hospital admissions
+737,3,HES
+737,4,hospital episode statistics
+737,5,accidents
+737,6,accidental injury
+737,7,accident
+737,8,admissions
+738,1,Hospital episode
+738,2,emergency hospital admissions
+738,3,HES
+738,4,hospital episode statistics
+738,5,accidents
+738,6,accidental injury
+738,7,accident
+738,8,admissions
+739,1,Hospital episode
+739,2,emergency hospital admissions
+739,3,HES
+739,4,hospital episode statistics
+739,5,accidents
+739,6,accidental injury
+739,7,accident
+739,8,admissions
+740,1,Hospital episode
+740,2,emergency hospital admissions
+740,3,HES
+740,4,hospital episode statistics
+740,5,accidents
+740,6,accidental injury
+740,7,accident
+740,8,admissions
+741,1,Hospital episode
+741,2,emergency hospital admissions
+741,3,HES
+741,4,hospital episode statistics
+741,5,accidents
+741,6,accidental injury
+741,7,accident
+741,8,admissions
+742,1,Education
+742,2,crime
+742,3,Employment
+742,4,Poverty
+742,5,living environment
+742,6,housing
+742,7,income
+743,1,Scotland
+743,2,Wales
+743,3,Population
+743,4,England
+743,5,United Kingdom
+743,6,Ireland
+744,1,death
+744,2,deaths
+744,3,life expectancy
+744,4,mortality
+745,1,death
+745,2,deaths
+745,3,life expectancy
+745,4,mortality
+746,1,cancer
+746,2,incidence
+746,3,oesophageal
+746,4,oesophageal cancer
+747,1,cancer
+747,2,incidence
+747,3,oesophageal
+747,4,oesophageal cancer
+748,1,incidence
+748,2,oesophageal
+748,3,oesophageal cancer
+749,1,cancer
+749,2,incidence
+749,3,oesophageal
+749,4,oesophageal cancer
+750,1,cancer
+750,2,incidence
+750,3,oesophageal
+750,4,oesophageal cancer
+751,1,incidence
+751,2,oesophageal
+751,3,oesophageal cancer
+752,1,cancer
+752,2,death
+752,3,deaths
+752,4,mortality
+752,5,oesophageal
+752,6,oesophageal cancer
+753,1,cancer
+753,2,death
+753,3,deaths
+753,4,mortality
+753,5,oesophageal
+753,6,oesophageal cancer
+754,1,cancer
+754,2,death
+754,3,deaths
+754,4,mortality
+754,5,oesophageal
+754,6,oesophageal cancer
+755,1,cancer
+755,2,death
+755,3,deaths
+755,4,mortality
+755,5,oesophageal
+755,6,oesophageal cancer
+756,1,cancer
+756,2,death
+756,3,deaths
+756,4,mortality
+756,5,oesophageal
+756,6,oesophageal cancer
+757,1,cancer
+757,2,death
+757,3,deaths
+757,4,mortality
+757,5,oesophageal
+757,6,oesophageal cancer
+758,1,cancer
+758,2,death
+758,3,deaths
+758,4,mortality
+758,5,oesophageal
+758,6,oesophageal cancer
+759,1,cancer
+759,2,death
+759,3,deaths
+759,4,mortality
+759,5,oesophageal
+759,6,oesophageal cancer
+760,1,all cancers
+760,2,bladder
+760,3,breast cancer
+760,4,cancer
+760,5,cervical cancer
+760,6,death
+760,7,deaths
+760,8,gastrointestinal cancer
+760,9,Hodgkin's disease
+760,10,home
+760,11,leukaemia
+760,12,lung cancer
+760,13,lymphoma
+760,14,melanoma
+760,15,mortality
+760,16,oesophageal cancer
+760,17,prostate cancer
+760,18,skin cancer
+761,1,all cancers
+761,2,bladder
+761,3,breast cancer
+761,4,cancer
+761,5,cervical cancer
+761,6,death
+761,7,deaths
+761,8,gastrointestinal cancer
+761,9,Hodgkin's disease
+761,10,home
+761,11,leukaemia
+761,12,lung cancer
+761,13,lymphoma
+761,14,melanoma
+761,15,mortality
+761,16,oesophageal cancer
+761,17,prostate cancer
+761,18,skin cancer
+762,1,cancer
+762,2,death
+762,3,deaths
+762,4,gastric cancer
+762,5,home
+762,6,mortality
+762,7,stomach
+762,8,stomach cancer
+763,1,cancer
+763,2,death
+763,3,deaths
+763,4,gastric cancer
+763,5,home
+763,6,mortality
+763,7,stomach
+763,8,stomach cancer
+764,1,bowel cancer
+764,2,cancer
+764,3,colon cancer
+764,4,colorectal
+764,5,death
+764,6,deaths
+764,7,home
+764,8,mortality
+764,9,rectal cancer
+765,1,bowel cancer
+765,2,cancer
+765,3,colon cancer
+765,4,colorectal
+765,5,death
+765,6,deaths
+765,7,home
+765,8,mortality
+765,9,rectal cancer
+766,1,cancer
+766,2,death
+766,3,deaths
+766,4,home
+766,5,lung
+766,6,lung cancer
+766,7,mortality
+767,1,cancer
+767,2,death
+767,3,deaths
+767,4,home
+767,5,lung
+767,6,lung cancer
+767,7,mortality
+768,1,breast
+768,2,breast cancer
+768,3,cancer
+768,4,death
+768,5,deaths
+768,6,home
+768,7,mortality
+769,1,breast
+769,2,breast cancer
+769,3,cancer
+769,4,death
+769,5,deaths
+769,6,home
+769,7,mortality
+770,1,cancer home
+770,2,cervical cancer
+770,3,cervix
+770,4,death
+770,5,deaths
+770,6,mortality
+771,1,cancer home
+771,2,cervical cancer
+771,3,cervix
+771,4,death
+771,5,deaths
+771,6,mortality
+772,1,cancer
+772,2,death
+772,3,deaths
+772,4,home
+772,5,mortality
+772,6,prostate
+772,7,prostate cancer
+773,1,cancer
+773,2,death
+773,3,deaths
+773,4,home
+773,5,mortality
+773,6,prostate
+773,7,prostate cancer
+774,1,bladder
+774,2,bladder cancer
+774,3,death
+774,4,deaths
+774,5,home
+774,6,mortality
+774,7,urogenital cancer
+775,1,bladder
+775,2,bladder cancer
+775,3,death
+775,4,deaths
+775,5,home
+775,6,mortality
+775,7,urogenital cancer
+776,1,cancer
+776,2,death
+776,3,deaths
+776,4,home
+776,5,mortality
+776,6,oesophageal
+776,7,oesophageal cancer
+777,1,cancer
+777,2,death
+777,3,deaths
+777,4,home
+777,5,mortality
+777,6,oesophageal
+777,7,oesophageal cancer
+778,1,all causes
+778,2,death
+778,3,deaths
+778,4,home
+778,5,mortality
+779,1,all causes
+779,2,death
+779,3,deaths
+779,4,home
+779,5,mortality
+813,1,HES
+813,2,circulatory disease
+813,3,hospital episode statistics
+813,4,stroke
+813,5,residence
+813,6,hospital; discharge
+814,1,HES
+814,2,circulatory disease
+814,3,hospital episode statistics
+814,4,stroke
+814,5,residence
+814,6,hospital; discharge
+815,1,HES
+815,2,circulatory disease
+815,3,hospital episode statistics
+815,4,stroke
+815,5,residence
+815,6,hospital; discharge
+816,1,HES
+816,2,circulatory disease
+816,3,hospital episode statistics
+816,4,stroke
+816,5,residence
+816,6,hospital; discharge
+817,1,HES
+817,2,circulatory disease
+817,3,hospital episode statistics
+817,4,stroke
+817,5,residence
+817,6,hospital; discharge
+818,1,HES
+818,2,circulatory disease
+818,3,hospital episode statistics
+818,4,stroke
+818,5,residence
+818,6,hospital; discharge
+819,1,broken leg
+819,2,hospital discharge
+819,3,HES
+819,4,hospital episode statistics
+819,5,broken bones
+819,6,fractures
+819,7,residence
+820,1,broken leg
+820,2,hospital discharge
+820,3,HES
+820,4,hospital episode statistics
+820,5,broken bones
+820,6,fractures
+820,7,residence
+821,1,broken leg
+821,2,hospital discharge
+821,3,HES
+821,4,hospital episode statistics
+821,5,broken bones
+821,6,fractures
+821,7,residence
+822,1,broken leg
+822,2,hospital discharge
+822,3,HES
+822,4,hospital episode statistics
+822,5,broken bones
+822,6,fractures
+822,7,residence
+823,1,broken leg
+823,2,hospital discharge
+823,3,HES
+823,4,hospital episode statistics
+823,5,broken bones
+823,6,fractures
+823,7,residence
+824,1,broken leg
+824,2,hospital discharge
+824,3,HES
+824,4,hospital episode statistics
+824,5,broken bones
+824,6,fractures
+824,7,residence
+825,1,surgery
+825,2,HES
+825,3,hospital episode statistics
+825,4,treatment
+825,5,hip
+825,6,primary knee replacement
+826,1,surgery
+826,2,HES
+826,3,hospital episode statistics
+826,4,treatment
+826,5,hip
+826,6,primary knee replacement
+827,1,surgery
+827,2,HES
+827,3,hospital episode statistics
+827,4,treatment
+827,5,hip
+827,6,primary knee replacement
+828,1,surgery
+828,2,cataract removal
+828,3,HES
+828,4,hospital episode statistics
+828,5,cataracts
+828,6,treatment
+829,1,surgery
+829,2,cataract removal
+829,3,HES
+829,4,hospital episode statistics
+829,5,cataracts
+829,6,treatment
+830,1,surgery
+830,2,cataract removal
+830,3,HES
+830,4,hospital episode statistics
+830,5,cataracts
+830,6,treatment
+831,1,Health Survey for England
+831,2,well being
+831,3,HSE
+831,4,self-assessed general health
+831,5,self assessed general health
+832,1,Health Survey for England
+832,2,well being
+832,3,HSE
+832,4,self-assessed general health
+832,5,self assessed general health
+833,1,LLI
+833,2,long-term illness
+833,3,Health Survey for England
+833,4,long term illness
+833,5,well being
+833,6,illness
+833,7,HSE
+834,1,LLI
+834,2,long-term illness
+834,3,Health Survey for England
+834,4,long term illness
+834,5,well being
+834,6,illness
+834,7,HSE
+835,1,sickness
+835,2,Health Survey for England
+835,3,illness
+835,4,HSE
+835,5,prevalence
+835,6,acute sickness
+836,1,sickness
+836,2,Health Survey for England
+836,3,illness
+836,4,HSE
+836,5,prevalence
+836,6,acute sickness
+837,1,Health Survey for England
+837,2,prescriptions
+837,3,medication
+837,4,drug treatment
+837,5,prescribed medication
+837,6,treatment
+837,7,HSE
+837,8,adults
+838,1,Health Survey for England
+838,2,prescriptions
+838,3,medication
+838,4,drug treatment
+838,5,prescribed medication
+838,6,treatment
+838,7,HSE
+838,8,adults
+839,1,systolic blood pressure
+839,2,Health Survey for England
+839,3,HSE
+839,4,prevalence
+839,5,blood pressure
+839,6,systolic
+839,7,Hypertension
+839,8,High blood pressure
+840,1,systolic blood pressure
+840,2,Health Survey for England
+840,3,HSE
+840,4,prevalence
+840,5,blood pressure
+840,6,systolic
+840,7,Hypertension
+840,8,High blood pressure
+841,1,diastolic
+841,2,Health Survey for England
+841,3,HSE
+841,4,diastolic blood pressure
+841,5,prevalence
+841,6,blood pressure
+841,7,Hypertension
+841,8,High blood pressure
+842,1,diastolic
+842,2,Health Survey for England
+842,3,HSE
+842,4,diastolic blood pressure
+842,5,prevalence
+842,6,blood pressure
+842,7,Hypertension
+842,8,High blood pressure
+843,1,Health Survey for England
+843,2,HSE
+843,3,prevalence
+843,4,blood pressure
+843,5,Hypertension
+843,6,High blood pressure
+844,1,Health Survey for England
+844,2,HSE
+844,3,prevalence
+844,4,blood pressure
+844,5,Hypertension
+844,6,High blood pressure
+845,1,weight
+845,2,Health Survey for England
+845,3,body mass index
+845,4,BMI
+845,5,lifestyle
+845,6,HSE
+845,7,prevalence
+845,8,nutrition
+845,9,obesity
+846,1,weight
+846,2,Health Survey for England
+846,3,body mass index
+846,4,BMI
+846,5,lifestyle
+846,6,HSE
+846,7,prevalence
+846,8,nutrition
+846,9,obesity
+847,1,weight
+847,2,Health Survey for England
+847,3,body mass index
+847,4,BMI
+847,5,lifestyle
+847,6,HSE
+847,7,prevalence
+847,8,nutrition
+847,9,obesity
+848,1,weight
+848,2,Health Survey for England
+848,3,body mass index
+848,4,BMI
+848,5,lifestyle
+848,6,HSE
+848,7,prevalence
+848,8,nutrition
+848,9,obesity
+849,1,weight
+849,2,Health Survey for England
+849,3,body mass index
+849,4,BMI
+849,5,lifestyle
+849,6,HSE
+849,7,prevalence
+849,8,nutrition
+849,9,obesity
+850,1,weight
+850,2,Health Survey for England
+850,3,body mass index
+850,4,BMI
+850,5,lifestyle
+850,6,HSE
+850,7,prevalence
+850,8,nutrition
+850,9,obesity
+851,1,cigarette
+851,2,lifestyle
+851,3,prevalence
+851,4,smoking
+852,1,cigarette
+852,2,Health Survey for England
+852,3,lifestyle
+852,4,HSE
+852,5,prevalence
+852,6,smoking
+853,1,cigarette
+853,2,Health Survey for England
+853,3,lifestyle
+853,4,HSE
+853,5,prevalence
+853,6,smoking
+854,1,cotinine
+854,2,cigarette
+854,3,Health Survey for England
+854,4,lifestyle
+854,5,HSE
+854,6,prevalence
+854,7,smoking
+855,1,cotinine
+855,2,cigarette
+855,3,Health Survey for England
+855,4,lifestyle
+855,5,HSE
+855,6,prevalence
+855,7,smoking
+856,1,alcohol misuse
+856,2,alcohol abuse
+856,3,alcohol consumption
+856,4,alcohol
+856,5,prevalence
+857,1,Health Survey for England
+857,2,alcohol misuse
+857,3,alcohol abuse
+857,4,alcohol consumption
+857,5,alcohol
+857,6,HSE
+857,7,prevalence
+858,1,Health Survey for England
+858,2,alcohol misuse
+858,3,alcohol abuse
+858,4,alcohol consumption
+858,5,alcohol
+858,6,HSE
+858,7,prevalence
+859,1,Health Survey for England
+859,2,alcohol misuse
+859,3,alcohol abuse
+859,4,alcohol consumption
+859,5,alcohol
+859,6,HSE
+859,7,prevalence
+860,1,Health Survey for England
+860,2,alcohol misuse
+860,3,alcohol abuse
+860,4,alcohol consumption
+860,5,alcohol
+860,6,HSE
+860,7,prevalence
+861,1,fruit
+861,2,vegetable
+861,3,death
+861,4,diet
+861,5,Health Survey for England
+861,6,HSE
+861,7,consumption
+861,8,nutrition
+861,9,deaths
+862,1,fruit
+862,2,vegetable
+862,3,death
+862,4,diet
+862,5,Health Survey for England
+862,6,HSE
+862,7,consumption
+862,8,nutrition
+862,9,deaths
+863,1,diagnosis
+863,2,asthma
+863,3,wheeze
+863,4,prevalence
+864,1,Health Survey for England
+864,2,well being
+864,3,HSE
+864,4,general health
+865,1,Health Survey for England
+865,2,well being
+865,3,HSE
+865,4,general health
+866,1,accidents
+866,2,major accident
+866,3,accident
+867,1,intervention
+867,2,treated
+867,3,Health Survey for England
+867,4,treatment
+867,5,HSE
+867,6,blood pressure
+867,7,High blood pressure
+868,1,intervention
+868,2,treated
+868,3,Health Survey for England
+868,4,treatment
+868,5,HSE
+868,6,blood pressure
+868,7,High blood pressure
+869,1,adenocarcinoma
+869,2,Barrett's oesophagus
+869,3,cancer of the oesophagus
+869,4,cancer survival
+869,5,carcinoma
+869,6,food pipe
+869,7,gullet
+869,8,oesophageal
+869,9,oesophageal cancer
+869,10,survival
+870,1,adenocarcinoma
+870,2,Barrett's oesophagus
+870,3,cancer of the oesophagus
+870,4,cancer survival
+870,5,carcinoma
+870,6,food pipe
+870,7,gullet
+870,8,oesophageal
+870,9,oesophageal cancer
+870,10,survival
+871,1,cancer
+871,2,gastric cancer
+871,3,stomach cancer
+871,4,survival
+872,1,cancer
+872,2,gastric cancer
+872,3,stomach cancer
+872,4,survival
+873,1,bladder cancer
+873,2,cancer
+873,3,survival
+874,1,bladder cancer
+874,2,cancer
+874,3,survival
+875,1,breast cancer
+875,2,cancer
+875,3,survival
+876,1,breast cancer
+876,2,cancer
+876,3,survival
+877,1,cancer
+877,2,cervical cancer
+877,3,survival
+878,1,cancer
+878,2,cervical cancer
+878,3,survival
+879,1,cancer
+879,2,diagnosis
+879,3,lung cancer
+879,4,survival
+880,1,cancer
+880,2,diagnosis
+880,3,lung cancer
+880,4,survival
+881,1,bowel cancer
+881,2,cancer
+881,3,colon
+881,4,colon cancer
+881,5,colorectal cancer
+881,6,rectal cancer
+881,7,survival
+882,1,bowel cancer
+882,2,cancer
+882,3,colon
+882,4,colon cancer
+882,5,colorectal cancer
+882,6,rectal cancer
+882,7,survival
+883,1,cancer
+883,2,prostate cancer
+883,3,survival
+884,1,cancer
+884,2,prostate cancer
+884,3,survival
+885,1,breast cancer
+885,2,breast cancer screening
+885,3,breast screening
+885,4,cancer screening
+886,1,breast cancer
+886,2,breast cancer screening
+886,3,breast screening
+886,4,cancer screening
+887,1,cancer screening
+887,2,cervical cancer
+887,3,cervical cancer screening
+887,4,cytology
+887,5,incidence
+887,6,screening
+888,1,cancer screening
+888,2,cervical cancer
+888,3,cervical cancer screening
+888,4,cytology
+888,5,incidence
+888,6,screening
+889,1,cancer screening
+889,2,cervical cancer
+889,3,cervical cancer screening
+889,4,cytology
+889,5,incidence
+889,6,screening
+890,1,health
+890,2,census
+890,3,general health
+891,1,care
+891,2,home care
+891,3,unpaid
+892,1,Population
+892,2,Religion
+892,3,Socio-economic determinant
+893,1,carers
+893,2,unpaid care
+893,3,unpaid carer
+893,4,social care
+893,5,well being
+903,1,admissions
+903,2,emergency admissions
+903,3,HES
+903,4,hospital episode
+903,5,hospital episode statistics
+903,6,readmissions
+904,1,admissions
+904,2,emergency admissions
+904,3,HES
+904,4,hospital episode
+904,5,hospital episode statistics
+904,6,readmissions
+905,1,admissions
+905,2,emergency admissions
+905,3,HES
+905,4,hospital episode
+905,5,hospital episode statistics
+905,6,readmissions
+906,1,admissions
+906,2,emergency admissions
+906,3,HES
+906,4,hospital episode
+906,5,hospital episode statistics
+906,6,readmissions
+907,1,admissions
+907,2,emergency admissions
+907,3,HES
+907,4,hospital episode
+907,5,hospital episode statistics
+907,6,readmissions
+908,1,admissions
+908,2,emergency admissions
+908,3,HES
+908,4,hospital episode
+908,5,hospital episode statistics
+908,6,readmissions
+909,1,admissions
+909,2,emergency admissions
+909,3,HES
+909,4,hospital episode
+909,5,hospital episode statistics
+909,6,readmissions
+910,1,admissions
+910,2,emergency admissions
+910,3,HES
+910,4,hospital episode
+910,5,hospital episode statistics
+910,6,readmissions
+911,1,admissions
+911,2,emergency admissions
+911,3,HES
+911,4,hospital episode
+911,5,hospital episode statistics
+911,6,readmissions
+912,1,admissions
+912,2,emergency admissions
+912,3,HES
+912,4,hospital episode
+912,5,hospital episode statistics
+912,6,readmissions
+913,1,admissions
+913,2,emergency admissions
+913,3,HES
+913,4,hospital episode
+913,5,hospital episode statistics
+913,6,readmissions
+914,1,admissions
+914,2,emergency admissions
+914,3,HES
+914,4,hospital episode
+914,5,hospital episode statistics
+914,6,readmissions
+933,1,admissions
+933,2,circulatory diseases
+933,3,emergency admissions
+933,4,emergency hospital admissions
+933,5,HES
+933,6,hospital episode
+933,7,hospital episode statistics
+933,8,stroke
+934,1,admissions
+934,2,circulatory diseases
+934,3,emergency admissions
+934,4,emergency hospital admissions
+934,5,HES
+934,6,hospital episode
+934,7,hospital episode statistics
+934,8,stroke
+935,1,admissions
+935,2,circulatory diseases
+935,3,emergency admissions
+935,4,emergency hospital admissions
+935,5,HES
+935,6,hospital episode
+935,7,hospital episode statistics
+935,8,stroke
+936,1,admissions
+936,2,circulatory diseases
+936,3,emergency admissions
+936,4,emergency hospital admissions
+936,5,HES
+936,6,hospital episode
+936,7,hospital episode statistics
+936,8,stroke
+937,1,admissions
+937,2,circulatory diseases
+937,3,emergency admissions
+937,4,emergency hospital admissions
+937,5,HES
+937,6,hospital episode
+937,7,hospital episode statistics
+937,8,stroke
+938,1,admissions
+938,2,circulatory diseases
+938,3,emergency admissions
+938,4,emergency hospital admissions
+938,5,HES
+938,6,hospital episode
+938,7,hospital episode statistics
+938,8,stroke
+939,1,admissions
+939,2,emergency admissions
+939,3,emergency hospital admissions
+939,4,HES
+939,5,hip
+939,6,hospital episode
+939,7,hospital episode statistics
+939,8,primary
+939,9,primary hip replacement
+939,10,replacement
+940,1,admissions
+940,2,emergency admissions
+940,3,emergency hospital admissions
+940,4,HES
+940,5,hip
+940,6,hospital episode
+940,7,hospital episode statistics
+940,8,primary
+940,9,primary hip replacement
+940,10,replacement
+941,1,admissions
+941,2,emergency admissions
+941,3,emergency hospital admissions
+941,4,HES
+941,5,hip
+941,6,hospital episode
+941,7,hospital episode statistics
+941,8,primary
+941,9,primary hip replacement
+941,10,replacement
+942,1,admissions
+942,2,emergency admissions
+942,3,emergency hospital admissions
+942,4,HES
+942,5,hip
+942,6,hospital episode
+942,7,hospital episode statistics
+942,8,primary
+942,9,primary hip replacement
+942,10,replacement
+943,1,admissions
+943,2,emergency admissions
+943,3,emergency hospital admissions
+943,4,HES
+943,5,hip
+943,6,hospital episode
+943,7,hospital episode statistics
+943,8,primary
+943,9,primary hip replacement
+943,10,replacement
+944,1,admissions
+944,2,emergency admissions
+944,3,emergency hospital admissions
+944,4,HES
+944,5,hip
+944,6,hospital episode
+944,7,hospital episode statistics
+944,8,primary
+944,9,primary hip replacement
+944,10,replacement
+945,1,admissions
+945,2,emergency admissions
+945,3,emergency hospital admissions
+945,4,HES
+945,5,hospital episode
+945,6,hospital episode statistics
+945,7,hysterectomy
+946,1,admissions
+946,2,emergency admissions
+946,3,emergency hospital admissions
+946,4,HES
+946,5,hospital episode
+946,6,hospital episode statistics
+946,7,hysterectomy
+947,1,admissions
+947,2,emergency admissions
+947,3,emergency hospital admissions
+947,4,femur
+947,5,fractured
+947,6,fractured proximal femur
+947,7,HES
+947,8,hospital episode
+947,9,hospital episode statistics
+948,1,admissions
+948,2,emergency admissions
+948,3,emergency hospital admissions
+948,4,femur
+948,5,fractured
+948,6,fractured proximal femur
+948,7,HES
+948,8,hospital episode
+948,9,hospital episode statistics
+949,1,admissions
+949,2,emergency admissions
+949,3,emergency hospital admissions
+949,4,femur
+949,5,fractured
+949,6,fractured proximal femur
+949,7,HES
+949,8,hospital episode
+949,9,hospital episode statistics
+950,1,admissions
+950,2,emergency admissions
+950,3,emergency hospital admissions
+950,4,femur
+950,5,fractured
+950,6,fractured proximal femur
+950,7,HES
+950,8,hospital episode
+950,9,hospital episode statistics
+951,1,admissions
+951,2,emergency admissions
+951,3,emergency hospital admissions
+951,4,femur
+951,5,fractured
+951,6,fractured proximal femur
+951,7,HES
+951,8,hospital episode
+951,9,hospital episode statistics
+952,1,admissions
+952,2,emergency admissions
+952,3,emergency hospital admissions
+952,4,femur
+952,5,fractured
+952,6,fractured proximal femur
+952,7,HES
+952,8,hospital episode
+952,9,hospital episode statistics
+959,1,chd
+959,2,coronary disease
+959,3,coronary heart disease
+959,4,heart
+959,5,prevalence
+960,1,angina pectoris
+960,2,coronary disease
+960,3,coronary heart disease
+960,4,heart
+960,5,TESTING
+960,6,tests
+961,1,blood pressure
+961,2,coronary disease
+961,3,TESTING
+961,4,tests
+962,1,blood pressure
+962,2,coronary disease
+962,3,TESTING
+962,4,tests
+963,1,angina
+963,2,coronary disease
+963,3,drug treatment
+963,4,heart
+963,5,Medication
+964,1,coronary disease
+964,2,coronary heart disease
+964,3,drug treatment
+964,4,heart
+964,5,Medication
+964,6,treatment
+965,1,coronary disease
+965,2,coronary heart disease
+965,3,drug treatment
+965,4,heart
+965,5,heart attack
+965,6,Medication
+965,7,treatment
+966,1,coronary disease
+966,2,coronary heart disease
+966,3,flu
+966,4,heart
+966,5,immunisation
+966,6,influenza
+966,7,vaccination
+967,1,cerebrovascular
+967,2,haemorrhagic
+967,3,ischaemic
+967,4,prevalence
+967,5,stroke
+968,1,cerebrovascular
+968,2,haemorrhagic
+968,3,ischaemic
+968,4,referrals
+968,5,stroke
+969,1,cerebrovascular
+969,2,haemorrhagic
+969,3,ischaemic
+969,4,stroke
+969,5,TESTING
+969,6,tests
+970,1,cerebrovascular
+970,2,cholesterol
+970,3,haemorrhagic
+970,4,ischaemic
+970,5,TESTING
+970,6,tests
+971,1,antiplatelet
+971,2,cerebrovascular
+971,3,drug treatment
+971,4,haemorrhagic
+971,5,ischaemic
+971,6,Medication
+971,7,stroke
+972,1,circulatory diseases
+972,2,flu
+972,3,immunisation
+972,4,influenza
+973,1,hypertension
+973,2,prevalence
+974,1,high blood pressure
+974,2,hypertension
+974,3,incidence
+975,1,diabetes
+975,2,diabetes mellitus
+975,3,prevalence
+976,1,blood
+976,2,controlled blood glucose levels
+976,3,diabetes
+976,4,diabetes mellitus
+976,5,TESTING
+976,6,tests
+977,1,blood
+977,2,blood glucose levels
+977,3,diabetes
+977,4,diabetes mellitus
+977,5,TESTING
+977,6,tests
+978,1,diabetes
+978,2,diabetes mellitus
+978,3,screening
+979,1,diabetes
+979,2,diabetes mellitus
+979,3,peripheral pulse checking
+979,4,TESTING
+979,5,tests
+980,1,diabetes
+980,2,diabetes mellitus
+980,3,neuropathy
+980,4,TESTING
+980,5,tests
+981,1,blood pressure
+981,2,diabetes
+981,3,diabetes mellitus
+981,4,TESTING
+981,5,tests
+982,1,diabetes
+982,2,diabetes mellitus
+982,3,TESTING
+982,4,tests
+983,1,diabetes
+983,2,diabetes mellitus
+983,3,TEST
+983,4,TESTING
+984,1,diabetes
+984,2,diabetes mellitus
+984,3,intervention
+984,4,treatment
+985,1,diabetes
+985,2,diabetes mellitus
+985,3,TESTING
+985,4,tests
+986,1,diabetes
+986,2,diabetes mellitus
+986,3,flu
+986,4,immunisation
+986,5,vaccination
+987,1,chronic obstructive pulmonary disease
+987,2,COPD
+987,3,prevalence
+988,1,chronic obstructive pulmonary disease
+988,2,COPD
+988,3,prevalence
+989,1,chronic obstructive pulmonary disease
+989,2,COPD
+989,3,forced vital capacity
+989,4,TEST
+989,5,TESTING
+989,6,tiffeneau index
+990,1,chronic obstructive pulmonary disease
+990,2,COPD
+990,3,prevalence
+991,1,chronic obstructive pulmonary disease
+991,2,COPD
+991,3,flu
+991,4,immunisation
+991,5,influenza
+991,6,vaccination
+992,1,epilepsy
+992,2,epileptic
+992,3,prevalence
+993,1,convulsion
+993,2,epilepsy
+993,3,epileptic
+993,4,fits
+993,5,seizure
+993,6,seizure frequency
+994,1,drug
+994,2,drug treatment
+994,3,epilepsy
+994,4,fits
+994,5,Medication
+994,6,seizure
+994,7,treatment
+995,1,hypothyroidism
+995,2,prevalence
+996,1,diagnosis
+996,2,hypothyroidism
+996,3,TESTING
+996,4,thyroid
+997,1,mental health
+997,2,prevalence
+997,3,psychoses
+998,1,mental health
+998,2,patient
+998,3,patients
+998,4,psychoses
+998,5,treatment checks
+999,1,drug treatment
+999,2,lithium therapy
+999,3,mental health
+999,4,renal function
+999,5,thyroid
+999,6,treatment
+1000,1,asthma
+1000,2,drug treatment
+1000,3,Prescriptions
+1000,4,prevalence
+1000,5,treatment
+1001,1,asthma
+1001,2,patient
+1001,3,patients
+1002,1,cancer screening
+1002,2,cervical cancer
+1002,3,cervical cancer screening
+1002,4,cytology
+1002,5,incidence
+1002,6,screening
+1003,1,heart
+1003,2,heart failure
+1003,3,prevalence
+1004,1,heart
+1004,2,heart failure
+1004,3,prevalence
+1005,1,drug treatment
+1005,2,heart
+1005,3,heart failure
+1005,4,Medication
+1005,5,treatment
+1005,6,ventricular
+1005,7,ventricular dysfunction
+1006,1,abnormal heart rhythm
+1006,2,atrial fibrillation
+1006,3,cardiac arrhythmia
+1006,4,heart
+1006,5,prevalence
+1007,1,abnormal heart rhythm
+1007,2,atrial fibrillation
+1007,3,cardiac arrhythmia
+1007,4,electrocardiogram
+1007,5,heart
+1007,6,prevalence
+1008,1,abnormal heart rhythm
+1008,2,atrial fibrillation
+1008,3,cardiac arrhythmia
+1008,4,drug treatment
+1008,5,heart
+1008,6,treatment
+1009,1,chronic kidney disease
+1009,2,chronic renal disease
+1009,3,CKD
+1009,4,disease
+1009,5,kidney
+1009,6,kidney disease
+1009,7,prevalence
+1010,1,blood pressure
+1010,2,chronic kidney disease
+1010,3,chronic renal disease
+1010,4,CKD
+1010,5,kidney
+1011,1,chronic kidney disease
+1011,2,drug treatment
+1011,3,hypertension
+1011,4,kidney
+1011,5,Medication
+1011,6,proteinuria
+1012,1,dementia
+1012,2,mental health
+1012,3,prevalence
+1013,1,care
+1013,2,care review
+1013,3,dementia
+1013,4,mental health
+1014,1,care plan
+1014,2,mental health
+1015,1,appointment
+1015,2,attendance
+1015,3,mental health
+1015,4,psychoses
+1016,1,chd
+1016,2,chronic heart disease
+1016,3,coronary disease
+1016,4,depression
+1016,5,diabetes
+1016,6,mental health
+1016,7,prevalence
+1017,1,depression
+1017,2,diagnosis
+1017,3,mental health
+1017,4,treatment
+1018,1,GP patient
+1018,2,GP patients
+1018,3,obesity
+1018,4,overweight
+1018,5,prevalence
+1019,1,incidence
+1019,2,smoking
+1020,1,cessation
+1020,2,stop smoking services
+1021,1,asthma
+1021,2,drug treatment
+1021,3,prescribed medication
+1021,4,Prescriptions
+1021,5,prevalence
+1021,6,treatment
+1022,1,learning disabilities
+1022,2,mental health
+1022,3,prevalence
+1023,1,drug
+1023,2,drug treatment
+1023,3,epilepsy
+1023,4,Medication
+1023,5,treatment
+1024,1,all cancers
+1024,2,bladder
+1024,3,breast cancer
+1024,4,cancer
+1024,5,cervical cancer
+1024,6,gastrointestinal cancer
+1024,7,Hodgkin's disease
+1024,8,leukaemia
+1024,9,lung cancer
+1024,10,lymphoma
+1024,11,melanoma
+1024,12,mortality
+1024,13,oesophageal cancer
+1024,14,prevalence
+1024,15,prostate cancer
+1024,16,skin cancer
+1025,1,drug treatment
+1025,2,heart
+1025,3,heart failure
+1025,4,Medication
+1025,5,treatment
+1025,6,ventricular
+1025,7,ventricular dysfunction
+1026,1,chronic kidney disease
+1026,2,CKD
+1026,3,kidney
+1026,4,renal disease
+1026,5,TEST
+1026,6,TESTING
+1027,1,depression
+1027,2,diagnosis
+1027,3,mental health
+1028,1,depression
+1028,2,mental health
+1028,3,prevalence
+1029,1,blood
+1029,2,blood glucose levels
+1029,3,diabetes
+1029,4,diabetes mellitus
+1029,5,TESTING
+1029,6,tests
+1030,1,cardiovascular
+1030,2,cardiovascular risk assessment
+1030,3,diagnosis
+1030,4,hypertension
+1030,5,TEST
+1030,6,TESTING
+1031,1,high blood pressure
+1031,2,hypertension
+1031,3,lifestyle
+1031,4,public health
+1032,1,Section 13
+1032,2,intervention
+1032,3,LBOHI
+1032,4,Basket of indicators
+1032,5,Tackling the major killers
+1032,6,treatment
+1032,7,LBOI
+1032,8,Local basket of inequalities indicators
+1032,9,Local basket of indicators
+1033,1,Basket of indicators
+1033,2,LBOHI
+1033,3,LBOI
+1033,4,local basket of indicators
+1033,5,Local basket of inequalities indicators
+1033,6,mortality
+1033,7,Section 13
+1033,8,Tackling the major killers
+1034,1,Basket of indicators
+1034,2,breast cancer screening
+1034,3,cancer screening
+1034,4,LBOHI
+1034,5,LBOI
+1034,6,local basket of indicators
+1034,7,Local basket of inequalities indicators
+1034,8,screening
+1034,9,Section 13
+1034,10,Tackling the major killers
+1035,1,Basket of indicators
+1035,2,LBOHI
+1035,3,LBOI
+1035,4,local basket of indicators
+1035,5,Local basket of inequalities indicators
+1035,6,mortality
+1035,7,Section 13
+1035,8,Tackling the major killers
+1036,1,Section 13
+1036,2,diabetes
+1036,3,LBOHI
+1036,4,Basket of indicators
+1036,5,Tackling the major killers
+1036,6,LBOI
+1036,7,Local basket of inequalities indicators
+1036,8,Local basket of indicators
+1037,1,diabetes
+1037,2,hospital episodes
+1037,3,Section 8
+1037,4,hospital episode
+1037,5,HES
+1037,6,hospital episode statistics
+1037,7,LBOHI
+1037,8,Basket of indicators
+1037,9,asthma
+1037,10,LBOI
+1037,11,Local basket of inequalities indicators
+1037,12,Local basket of indicators
+1037,13,respiratory diseases and disorders
+1037,14,admissions
+1037,15,Access to local health and other services
+1040,1,Basket of indicators
+1040,2,death
+1040,3,LBOI
+1040,4,Local basket of indicators deahts
+1040,5,Local basket of inequalities indicators
+1040,6,mortality
+1040,7,Section 13
+1040,8,Tackling the major killers
+1041,1,Section 13
+1041,2,hospital episodes
+1041,3,hospital episode
+1041,4,HES
+1041,5,circulatory system diseases
+1041,6,hospital episode statistics
+1041,7,LBOHI
+1041,8,Basket of indicators
+1041,9,Older people
+1041,10,Tackling the major killers
+1041,11,LBOI
+1041,12,Local basket of inequalities indicators
+1041,13,Local basket of indicators
+1041,14,admissions
+1042,1,coronary heart disease. HES
+1042,2,Section 13
+1042,3,hospital episodes
+1042,4,hospital episode
+1042,5,HES
+1042,6,circulatory system diseases
+1042,7,hospital episode statistics
+1042,8,LBOHI
+1042,9,Basket of indicators
+1042,10,Tackling the major killers
+1042,11,LBOI
+1042,12,Local basket of inequalities indicators
+1042,13,Local basket of indicators
+1042,14,admissions
+1043,1,hospital episodes
+1043,2,hospital episode
+1043,3,HES
+1043,4,circulatory disease
+1043,5,hospital episode statistics
+1043,6,LBOHI
+1043,7,Basket of indicators
+1043,8,Section 12
+1043,9,Older people
+1043,10,LBOI
+1043,11,Local basket of inequalities indicators
+1043,12,Local basket of indicators
+1043,13,circulatory diseases
+1043,14,admissions
+1044,1,teeth decay
+1044,2,Section 11
+1044,3,LBOHI
+1044,4,infant health
+1044,5,Basket of indicators
+1044,6,child health
+1044,7,LBOI
+1044,8,tooth decay
+1044,9,Local basket of inequalities indicators
+1044,10,Local basket of indicators
+1045,1,Section 13
+1045,2,LBOHI
+1045,3,TB
+1045,4,Basket of indicators
+1045,5,Tackling the major killers
+1045,6,LBOI
+1045,7,Local basket of inequalities indicators
+1045,8,Local basket of indicators
+1046,1,mental health
+1046,2,Section 10
+1046,3,LBOHI
+1046,4,Basket of indicators
+1046,5,LBOI
+1046,6,Local basket of inequalities indicators
+1046,7,Local basket of indicators
+1047,1,mental health
+1047,2,hospital episodes
+1047,3,Section 10
+1047,4,HES
+1047,5,hospital episode statistics
+1047,6,LBOHI
+1047,7,Basket of indicators
+1047,8,LBOI
+1047,9,psychoses
+1047,10,Local basket of inequalities indicators
+1047,11,Local basket of indicators
+1047,12,mental and behavioural disorders
+1047,13,admissions
+1048,1,Basket of indicators
+1048,2,death
+1048,3,deaths
+1048,4,LBOHI
+1048,5,LBOI
+1048,6,local basket of indicators
+1048,7,Local basket of inequalities indicators
+1048,8,mortality
+1048,9,Section 10
+1049,1,accidents
+1049,2,Accidents and injury
+1049,3,Basket of indicators
+1049,4,death
+1049,5,deaths
+1049,6,LBOHI
+1049,7,LBOI
+1049,8,local basket of indicators
+1049,9,Local basket of inequalities indicators
+1049,10,mortality
+1049,11,RTA
+1049,12,RTAs
+1049,13,Section 9
+1049,14,traffic accident
+1050,1,accidents
+1050,2,Accidents and injury
+1050,3,Basket of indicators
+1050,4,death
+1050,5,LBOHI
+1050,6,LBOI
+1050,7,local basket of indicators
+1050,8,Local basket of inequalities indicators
+1050,9,mortality
+1050,10,RTA
+1050,11,RTAs
+1050,12,Section 9
+1050,13,traffic accident
+1051,1,accidents
+1051,2,Accidents and injury
+1051,3,Basket of indicators
+1051,4,death
+1051,5,LBOHI
+1051,6,LBOI
+1051,7,local basket of indicators
+1051,8,Local basket of inequalities indicators
+1051,9,mortality
+1051,10,RTAs
+1051,11,Section 9
+1051,12,traffic accident
+1052,1,accidents
+1052,2,Accidents and injury
+1052,3,Basket of indicators
+1052,4,death
+1052,5,deaths
+1052,6,LBOHI
+1052,7,LBOI
+1052,8,local basket of indicators
+1052,9,Local basket of inequality indicators
+1052,10,mortality
+1052,11,Section 9
+1053,1,accidents
+1053,2,Accidents and injury
+1053,3,Basket of indicators
+1053,4,children
+1053,5,death
+1053,6,deaths
+1053,7,LBOHI
+1053,8,LBOI
+1053,9,local basket of indicators
+1053,10,Local basket of inequalities indicators
+1053,11,mortality
+1053,12,RTAs
+1053,13,Section 9
+1053,14,traffic accident
+1056,1,waiting times
+1056,2,Section 8
+1056,3,LBOHI
+1056,4,Basket of indicators
+1056,5,LBOI
+1056,6,Local basket of inequalities indicators
+1056,7,Local basket of indicators
+1056,8,waiting lists
+1056,9,Access to local health and other services
+1057,1,waiting times
+1057,2,LBOHI
+1057,3,Basket of indicators
+1057,4,Section 12
+1057,5,Older people
+1057,6,LBOI
+1057,7,Local basket of inequalities indicators
+1057,8,Local basket of indicators
+1057,9,waiting lists
+1058,1,waiting times
+1058,2,Section 13
+1058,3,circulatory system diseases
+1058,4,LBOHI
+1058,5,Basket of indicators
+1058,6,Tackling the major killers
+1058,7,LBOI
+1058,8,Local basket of inequalities indicators
+1058,9,Local basket of indicators
+1058,10,waiting lists
+1059,1,Basket of indicators
+1059,2,children
+1059,3,HES
+1059,4,hospital episode statistics
+1059,5,LBOHI
+1059,6,LBOI
+1059,7,local basket of indicators
+1059,8,Local basket of inequalities indicators
+1059,9,Section 13
+1059,10,Tackling the major killers
+1060,1,hospital episodes
+1060,2,HES
+1060,3,Section 9
+1060,4,hospital episode statistics
+1060,5,LBOHI
+1060,6,accidents
+1060,7,Basket of indicators
+1060,8,LBOI
+1060,9,Local basket of inequalities indicators
+1060,10,Accidents and injury
+1060,11,Local basket of indicators
+1060,12,admissions
+1061,1,Section 13
+1061,2,hospital episodes
+1061,3,hospital episode
+1061,4,HES
+1061,5,hospital episode statistics
+1061,6,LBOHI
+1061,7,Basket of indicators
+1061,8,Tackling the major killers
+1061,9,LBOI
+1061,10,Local basket of inequalities indicators
+1061,11,Local basket of indicators
+1066,1,hospital episodes
+1066,2,Section 8
+1066,3,hospital episode
+1066,4,HES
+1066,5,hospital episode statistics
+1066,6,LBOHI
+1066,7,Basket of indicators
+1066,8,LBOI
+1066,9,Local basket of inequalities indicators
+1066,10,Local basket of indicators
+1066,11,Access to local health and other services
+1067,1,hospital episodes
+1067,2,hospital episode
+1067,3,HES
+1067,4,hospital episode statistics
+1067,5,LBOHI
+1067,6,Basket of indicators
+1067,7,Section 12
+1067,8,Older people
+1067,9,LBOI
+1067,10,Local basket of inequalities indicators
+1067,11,Local basket of indicators
+1067,12,admissions
+1070,1,Basket of indicators
+1070,2,LBOHI
+1070,3,LBOI
+1070,4,lifestyle
+1070,5,Lifestyle including diet
+1070,6,local basket of indicators
+1070,7,Local basket of inequalities indicators
+1070,8,Section 7
+1070,9,smoking
+1070,10,smoking and physical activity
+1071,1,Section 13
+1071,2,death
+1071,3,LBOHI
+1071,4,Basket of indicators
+1071,5,Tackling the major killers
+1071,6,lifestyle
+1071,7,LBOI
+1071,8,Local basket of inequalities indicators
+1071,9,mortality
+1071,10,Local basket of indicators
+1071,11,smoking
+1071,12,deaths
+1072,1,Section 13
+1072,2,hospital episodes
+1072,3,hospital episode
+1072,4,HES
+1072,5,hospital episode statistics
+1072,6,LBOHI
+1072,7,Basket of indicators
+1072,8,Tackling the major killers
+1072,9,LBOI
+1072,10,Local basket of inequalities indicators
+1072,11,Local basket of indicators
+1072,12,admissions
+1073,1,Section 7
+1073,2,smoking and physical activity
+1073,3,Lifestyle including diet
+1073,4,exercise
+1073,5,LBOHI
+1073,6,Basket of indicators
+1073,7,lifestyle
+1073,8,LBOI
+1073,9,Local basket of inequalities indicators
+1073,10,Local basket of indicators
+1074,1,maternal
+1074,2,Children
+1074,3,Section 11
+1074,4,diet
+1074,5,infant and child health
+1074,6,LBOHI
+1074,7,infant health
+1074,8,young people
+1074,9,Basket of indicators
+1074,10,child health
+1074,11,LBOI
+1074,12,prevalence
+1074,13,Local basket of inequalities indicators
+1074,14,Local basket of indicators
+1074,15,obesity
+1075,1,Basket of indicators
+1075,2,death
+1075,3,deaths
+1075,4,LBOHI
+1075,5,LBOI
+1075,6,local basket of indicators
+1075,7,Local basket of inequalities indicators
+1075,8,mortality
+1075,9,older people
+1075,10,Section 13
+1075,11,Tackling the major killers
+1076,1,Basket of indicators
+1076,2,deaths
+1076,3,LBOHI
+1076,4,LBOI
+1076,5,local basket of indicators
+1076,6,Local basket of inequalities indicators
+1076,7,mortality
+1076,8,Section 13
+1076,9,Tackling the major killers
+1077,1,vaccination
+1077,2,local basket of health indicators
+1077,3,flu
+1077,4,LBOHI
+1077,5,immunisation
+1077,6,Basket of indicators
+1077,7,Section 12
+1077,8,Older people
+1077,9,LBOI
+1077,10,Local basket of indicators
+1078,1,Basket of indicators
+1078,2,death
+1078,3,LBOI
+1078,4,Local basket of indicators deaths
+1078,5,Local basket of inequalities indicators
+1078,6,Maternal infant and child health
+1078,7,mortality
+1078,8,Section 11
+1079,1,Basket of indicators
+1079,2,infant and child health
+1079,3,LBOHI
+1079,4,LBOI
+1079,5,local basket of indicators
+1079,6,Local basket of inequalities indicators
+1079,7,low birth weight
+1079,8,maternal
+1079,9,Section 11
+1080,1,Basket of indicators
+1080,2,fertility
+1080,3,infant and child health
+1080,4,LBOHI
+1080,5,LBOI
+1080,6,local basket of indicators
+1080,7,Local basket of inequalities indicators
+1080,8,maternal
+1080,9,Section 11
+1081,1,Basket of indicators
+1081,2,employment
+1081,3,LBOHI
+1081,4,LBOI
+1081,5,local basket of indicators
+1081,6,Local basket of inequalities indicators
+1081,7,poverty and deprivation
+1081,8,Section 1
+1081,9,unemployment
+1082,1,Basket of indicators
+1082,2,employment
+1082,3,LBOHI
+1082,4,LBOI
+1082,5,local basket of indicators
+1082,6,Local basket of inequalities indicators
+1082,7,poverty and deprivation
+1082,8,Section 1
+1082,9,unemployment
+1083,1,Basket of indicators
+1083,2,employment
+1083,3,LBOHI
+1083,4,LBOI
+1083,5,local basket of indicators
+1083,6,Local basket of inequalities indicators
+1083,7,poverty and deprivation
+1083,8,Section 1
+1083,9,unemployment
+1084,1,Basket of indicators
+1084,2,employment
+1084,3,LBOHI
+1084,4,LBOI
+1084,5,local basket of indicators
+1084,6,Local basket of inequalities indicators
+1084,7,poverty and deprivation
+1084,8,Section 1
+1084,9,young people
+1085,1,Unemployment
+1085,2,LBOHI
+1085,3,Employment
+1085,4,Basket of indicators
+1085,5,LBOI
+1085,6,poverty and deprivation
+1085,7,Local basket of inequalities indicators
+1085,8,Local basket of indicators
+1085,9,Section 1
+1086,1,Unemployment
+1086,2,LBOHI
+1086,3,Employment
+1086,4,Basket of indicators
+1086,5,LBOI
+1086,6,poverty and deprivation
+1086,7,Local basket of inequalities indicators
+1086,8,Local basket of indicators
+1086,9,Section 1
+1087,1,Unemployment
+1087,2,LBOHI
+1087,3,Employment
+1087,4,Basket of indicators
+1087,5,LBOI
+1087,6,poverty and deprivation
+1087,7,Local basket of inequalities indicators
+1087,8,Local basket of indicators
+1087,9,Section 1
+1088,1,Children
+1088,2,Unemployment
+1088,3,LBOHI
+1088,4,Employment
+1088,5,Basket of indicators
+1088,6,LBOI
+1088,7,poverty and deprivation
+1088,8,Local basket of inequalities indicators
+1088,9,Local basket of indicators
+1088,10,Section 1
+1089,1,Basket of indicators
+1089,2,children
+1089,3,Housing and homelessness
+1089,4,LBOHI
+1089,5,LBOI
+1089,6,local basket of indicators
+1089,7,Local basket of inequalities indicators
+1089,8,Section 2
+1090,1,Education
+1090,2,Children
+1090,3,LBOHI
+1090,4,Section 3
+1090,5,Basket of indicators
+1090,6,LBOI
+1090,7,Local basket of inequalities indicators
+1090,8,Local basket of indicators
+1091,1,Education
+1091,2,Children
+1091,3,LBOHI
+1091,4,Section 3
+1091,5,Basket of indicators
+1091,6,LBOI
+1091,7,Local basket of inequalities indicators
+1091,8,Local basket of indicators
+1092,1,Basket of indicators
+1092,2,children
+1092,3,education
+1092,4,LBOHI
+1092,5,LBOI
+1092,6,local basket of indicators
+1092,7,Local basket of inequalities indicators
+1092,8,Section 3
+1093,1,Basket of indicators
+1093,2,children
+1093,3,education
+1093,4,LBOHI
+1093,5,LBOI
+1093,6,local basket of indicators
+1093,7,Local basket of inequalities indicators
+1093,8,Section 3
+1094,1,Basket of indicators
+1094,2,infant and child health
+1094,3,LBOHI
+1094,4,LBOI
+1094,5,local basket of indicators
+1094,6,Local basket of inequalities indicators
+1094,7,maternal
+1094,8,Section 11
+1095,1,Basket of indicators
+1095,2,Crime
+1095,3,LBOHI
+1095,4,LBOI
+1095,5,local basket of indicators
+1095,6,Local basket of inequalities indicators
+1095,7,Section 4
+1096,1,crime
+1096,2,LBOHI
+1096,3,Section 4
+1096,4,Basket of indicators
+1096,5,LBOI
+1096,6,Local basket of inequalities indicators
+1096,7,Local basket of indicators
+1097,1,crime
+1097,2,LBOHI
+1097,3,Section 4
+1097,4,Basket of indicators
+1097,5,LBOI
+1097,6,Local basket of inequalities indicators
+1097,7,Local basket of indicators
+1098,1,crime
+1098,2,LBOHI
+1098,3,Section 4
+1098,4,Basket of indicators
+1098,5,LBOI
+1098,6,Local basket of inequalities indicators
+1098,7,Local basket of indicators
+1099,1,crime
+1099,2,LBOHI
+1099,3,Section 4
+1099,4,Basket of indicators
+1099,5,LBOI
+1099,6,Local basket of inequalities indicators
+1099,7,Local basket of indicators
+1100,1,crime
+1100,2,LBOHI
+1100,3,Section 4
+1100,4,Basket of indicators
+1100,5,LBOI
+1100,6,Local basket of inequalities indicators
+1100,7,Local basket of indicators
+1101,1,racism
+1101,2,Community development
+1101,3,LBOHI
+1101,4,Basket of indicators
+1101,5,LBOI
+1101,6,Local basket of inequalities indicators
+1101,7,Local basket of indicators
+1101,8,Section 6
+1101,9,Ethnicity
+1102,1,Unemployment
+1102,2,LBOHI
+1102,3,Employment
+1102,4,Basket of indicators
+1102,5,LBOI
+1102,6,poverty and deprivation
+1102,7,Local basket of inequalities indicators
+1102,8,Local basket of indicators
+1102,9,Section 1
+1103,1,Basket of indicators
+1103,2,LBOHI
+1103,3,LBOI
+1103,4,local basket of indicators
+1103,5,Local basket of inequalities indicators
+1103,6,Pollution and physical environment
+1103,7,Section 5
+1104,1,LBOHI
+1104,2,Basket of indicators
+1104,3,Section 12
+1104,4,Older people
+1104,5,home care
+1104,6,LBOI
+1104,7,Local basket of inequalities indicators
+1104,8,Local basket of indicators
+1105,1,LBOHI
+1105,2,Basket of indicators
+1105,3,Section 12
+1105,4,Older people
+1105,5,home care
+1105,6,LBOI
+1105,7,Local basket of inequalities indicators
+1105,8,Local basket of indicators
+1106,1,Access to local health and other services
+1106,2,Basket of indicators
+1106,3,doctors
+1106,4,GPs
+1106,5,LBOHI
+1106,6,LBOI
+1106,7,local basket of indicators
+1106,8,Local basket of inequalities indicators
+1106,9,Section 8
+1108,1,patients joining
+1108,2,GP list
+1108,3,GP Practice list
+1108,4,patients leaving
+1108,5,GP patients
+1108,6,patients
+1108,7,turnover
+1109,1,GP list
+1109,2,GP Practice list
+1109,3,GP patients
+1110,1,GP list
+1110,2,GP Practice list
+1110,3,GP patients
+1111,1,GP list
+1111,2,GP Practice list
+1111,3,GP patients
+1112,1,urban
+1112,2,GP practice
+1112,3,rural
+1113,1,Education
+1113,2,crime
+1113,3,Deprivation
+1113,4,Employment
+1113,5,Poverty
+1113,6,living environment
+1113,7,housing
+1113,8,income
+1114,1,Children
+1114,2,Deprivation
+1114,3,Employment
+1114,4,young people
+1114,5,income
+1115,1,Deprivation
+1115,2,Employment
+1115,3,Older people
+1115,4,adults
+1115,5,income
+1116,1,asthma
+1116,2,prevalence
+1117,1,Atrial fibrillation
+1117,2,prevalence
+1117,3,cardiac arrhythmia
+1118,1,leukaemia
+1118,2,skin cancer
+1118,3,Hodgkin's disease
+1118,4,lung cancer
+1118,5,melanoma
+1118,6,cancer
+1118,7,gastrointestinal cancer
+1118,8,breast cancer
+1118,9,prostrate cancer
+1118,10,lymphoma
+1118,11,mortality
+1118,12,bladder
+1118,13,oesophageal cancer
+1118,14,cervical cancer
+1119,1,kidney
+1119,2,CKD
+1119,3,kidney disease
+1119,4,prevalence
+1120,1,COPD
+1120,2,chronic obstructive lung disease
+1120,3,COAD
+1120,4,chronic obstructive airway disease
+1120,5,prevalence
+1120,6,smoker's lung
+1121,1,coronary disease
+1121,2,CHD
+1121,3,prevalence
+1122,1,metabolic disorder
+1122,2,diabetes
+1122,3,prevalence
+1123,1,epileptic
+1123,2,prevalence
+1123,3,epilepsy
+1124,1,cardiac arrest
+1124,2,prevalence
+1124,3,cardiac decomposition
+1124,4,cardiac failure
+1124,5,heart failure
+1125,1,cardiac arrest
+1125,2,prevalence
+1125,3,cardiac decomposition
+1125,4,cardiac failure
+1125,5,heart failure
+1126,1,cardiovascular disease
+1126,2,high arterial blood pressure
+1126,3,prevalence
+1126,4,Hypertension
+1126,5,High blood pressure
+1127,1,high arterial blood pressure
+1127,2,prevalence
+1127,3,Hypertension
+1127,4,High blood pressure
+1128,1,hypothyroidism
+1128,2,prevalence
+1129,1,mental health
+1129,2,prevalence
+1129,3,depression
+1130,1,mental health
+1130,2,dementia
+1130,3,neurological disorder
+1130,4,prevalence
+1131,1,prevalence
+1131,2,obesity
+1132,1,palliative care
+1132,2,prevalence
+1133,1,cardiovascular disease
+1133,2,prevalence
+1134,1,learning disabilities
+1134,2,prevalence
+1135,1,cerebrovascular
+1135,2,stroke
+1135,3,prevalence
+1135,4,TIA
+1136,1,coronary disease
+1136,2,CHD
+1136,3,prevalence
+1137,1,COPD
+1137,2,chronic obstructive lung disease
+1137,3,COAD
+1137,4,chronic obstructive airway disease
+1137,5,prevalence
+1137,6,smoker's lung
+1138,1,GP Patient survey
+1138,2,access
+1138,3,appointment
+1139,1,GP Patient survey
+1139,2,access
+1139,3,appointment
+1140,1,GP Patient survey
+1140,2,access
+1140,3,appointment
+1141,1,GP Patient survey
+1141,2,access
+1141,3,appointment
+1142,1,GP Patient survey
+1142,2,phone
+1142,3,access
+1143,1,GP Patient survey
+1143,2,phone
+1143,3,access
+1144,1,GP Patient survey
+1144,2,phone
+1144,3,access
+1145,1,GP Patient survey
+1145,2,phone
+1145,3,access
+1146,1,GP Patient survey
+1146,2,access
+1146,3,appointment
+1147,1,GP Patient survey
+1147,2,access
+1147,3,appointment
+1148,1,GP Patient survey
+1148,2,access
+1148,3,appointment
+1149,1,GP Patient survey
+1149,2,access
+1149,3,appointment
+1150,1,GP Patient survey
+1150,2,access
+1150,3,appointment
+1151,1,GP Patient survey
+1151,2,appointment
+1151,3,patient care
+1151,4,satisfaction
+1151,5,quality of care
+1152,1,GP Patient survey
+1152,2,access
+1152,3,appointment
+1153,1,GP Patient survey
+1153,2,access
+1153,3,appointment
+1154,1,GP Patient survey
+1154,2,access
+1154,3,appointment
+1155,1,GP Patient survey
+1155,2,access
+1155,3,appointment
+1156,1,GP Patient survey
+1156,2,access
+1156,3,appointment
+1157,1,GP Patient survey
+1157,2,access
+1157,3,appointment
+1158,1,GP Patient survey
+1158,2,access
+1158,3,opening hours
+1159,1,GP Patient survey
+1159,2,access
+1159,3,opening hours
+1160,1,GP Patient survey
+1160,2,access
+1160,3,opening hours
+1161,1,GP Patient survey
+1161,2,access
+1161,3,opening hours
+1162,1,GP Patient survey
+1162,2,access
+1162,3,opening hours
+1163,1,GP Patient survey
+1163,2,access
+1163,3,opening hours
+1164,1,GP Patient survey
+1164,2,access
+1164,3,opening hours
+1165,1,GP Patient survey
+1165,2,access
+1165,3,opening hours
+1166,1,GP Patient survey
+1166,2,preferred doctor
+1166,3,appointment
+1166,4,patient care
+1166,5,satisfaction
+1166,6,quality of care
+1167,1,GP Patient survey
+1167,2,preferred doctor
+1167,3,appointment
+1167,4,patient care
+1167,5,satisfaction
+1167,6,quality of care
+1168,1,GP Patient survey
+1168,2,appointment
+1168,3,patient care
+1168,4,satisfaction
+1168,5,quality of care
+1169,1,GP Patient survey
+1169,2,appointment
+1169,3,patient care
+1169,4,satisfaction
+1169,5,quality of care
+1170,1,GP Patient survey
+1170,2,appointment
+1170,3,patient care
+1170,4,satisfaction
+1170,5,quality of care
+1171,1,GP Patient survey
+1171,2,appointment
+1171,3,patient care
+1171,4,satisfaction
+1171,5,quality of care
+1172,1,GP Patient survey
+1172,2,appointment
+1172,3,patient care
+1172,4,satisfaction
+1172,5,quality of care
+1173,1,GP Patient survey
+1173,2,appointment
+1173,3,patient care
+1173,4,satisfaction
+1173,5,quality of care
+1174,1,GP Patient survey
+1174,2,appointment
+1174,3,patient care
+1174,4,satisfaction
+1174,5,quality of care
+1175,1,GP Patient survey
+1175,2,appointment
+1175,3,patient care
+1175,4,satisfaction
+1175,5,quality of care
+1176,1,GP Patient survey
+1176,2,appointment
+1176,3,patient care
+1176,4,satisfaction
+1176,5,quality of care
+1177,1,GP Patient survey
+1177,2,appointment
+1177,3,patient care
+1177,4,satisfaction
+1177,5,quality of care
+1178,1,GP Patient survey
+1178,2,appointment
+1178,3,patient care
+1178,4,satisfaction
+1178,5,quality of care
+1179,1,GP Patient survey
+1179,2,appointment
+1179,3,patient care
+1179,4,satisfaction
+1179,5,quality of care
+1180,1,GP Patient survey
+1180,2,appointment
+1180,3,patient care
+1180,4,satisfaction
+1180,5,quality of care
+1181,1,GP Patient survey
+1181,2,appointment
+1181,3,patient care
+1181,4,satisfaction
+1181,5,quality of care
+1182,1,GP Patient survey
+1182,2,appointment
+1182,3,patient care
+1182,4,satisfaction
+1182,5,quality of care
+1183,1,GP Patient survey
+1183,2,patient care
+1183,3,satisfaction
+1183,4,quality of care
+1184,1,GP Patient survey
+1184,2,patient care
+1184,3,satisfaction
+1184,4,quality of care
+1185,1,longterm condition
+1185,2,GP Patient survey
+1185,3,patient care
+1185,4,long-term
+1185,5,longstanding
+1185,6,long-standing
+1186,1,longterm condition
+1186,2,care plan
+1186,3,GP Patient survey
+1186,4,patient care
+1186,5,long-term
+1186,6,longstanding
+1186,7,long-standing
+1187,1,longterm condition
+1187,2,care plan
+1187,3,GP Patient survey
+1187,4,patient care
+1187,5,long-term
+1187,6,longstanding
+1187,7,long-standing
+1188,1,longterm condition
+1188,2,care plan
+1188,3,GP Patient survey
+1188,4,patient care
+1188,5,long-term
+1188,6,longstanding
+1188,7,long-standing
+1189,1,longterm condition
+1189,2,care plan
+1189,3,GP Patient survey
+1189,4,patient care
+1189,5,long-term
+1189,6,longstanding
+1189,7,long-standing
+1190,1,longterm condition
+1190,2,care plan
+1190,3,GP Patient survey
+1190,4,patient care
+1190,5,long-term
+1190,6,longstanding
+1190,7,long-standing
+1191,1,longterm condition
+1191,2,care plan
+1191,3,GP Patient survey
+1191,4,patient care
+1191,5,long-term
+1191,6,longstanding
+1191,7,long-standing
+1192,1,longterm condition
+1192,2,care plan
+1192,3,GP Patient survey
+1192,4,patient care
+1192,5,long-term
+1192,6,longstanding
+1192,7,long-standing
+1193,1,longterm condition
+1193,2,care plan
+1193,3,GP Patient survey
+1193,4,patient care
+1193,5,long-term
+1193,6,longstanding
+1193,7,long-standing
+1194,1,longterm condition
+1194,2,care plan
+1194,3,GP Patient survey
+1194,4,patient care
+1194,5,long-term
+1194,6,longstanding
+1194,7,long-standing
+1195,1,GP Patient survey
+1195,2,patient
+1195,3,demographics
+1196,1,GP Patient survey
+1196,2,patient
+1196,3,demographics
+1197,1,GP Patient survey
+1197,2,patient
+1197,3,demographics
+1198,1,GP Patient survey
+1198,2,patient
+1198,3,demographics
+1199,1,GP Patient survey
+1199,2,patient
+1199,3,demographics
+1200,1,GP Patient survey
+1200,2,patient
+1200,3,demographics
+1201,1,GP Patient survey
+1201,2,patient
+1201,3,demographics
+1202,1,GP Patient survey
+1202,2,patient
+1202,3,demographics
+1203,1,GP Patient survey
+1203,2,patient
+1203,3,demographics
+1204,1,GP Patient survey
+1204,2,patient
+1204,3,demographics
+1205,1,GP Patient survey
+1205,2,patient
+1205,3,demographics
+1206,1,GP Patient survey
+1206,2,patient
+1206,3,demographics
+1207,1,GP Patient survey
+1207,2,patient
+1207,3,demographics
+1208,1,Quality outcomes framework
+1208,2,asthma
+1208,3,respiratory system
+1208,4,QOF
+1209,1,Quality outcomes framework
+1209,2,asthma
+1209,3,respiratory system
+1209,4,QOF
+1210,1,Quality outcomes framework
+1210,2,asthma
+1210,3,respiratory system
+1210,4,QOF
+1211,1,Quality outcomes framework
+1211,2,asthma
+1211,3,respiratory system
+1211,4,record keeping
+1211,5,QOF
+1212,1,Quality outcomes framework
+1212,2,heart disease
+1212,3,circulatory system
+1212,4,atrial fibrillaton
+1212,5,record keeping
+1212,6,cardiac arrhythmia
+1212,7,QOF
+1213,1,Quality outcomes framework
+1213,2,heart disease
+1213,3,atiral fibrillaton
+1213,4,circulatory system
+1213,5,cardiac arrhythmia
+1213,6,QOF
+1214,1,Quality outcomes framework
+1214,2,heart disease
+1214,3,atiral fibrillaton
+1214,4,circulatory system
+1214,5,treatment
+1214,6,cardiac arrhythmia
+1214,7,QOF
+1215,1,leukaemia
+1215,2,skin cancer
+1215,3,Hodgkin's disease
+1215,4,lung cancer
+1215,5,melanoma
+1215,6,Quality outcomes framework
+1215,7,cancer
+1215,8,gastrointestinal cancer
+1215,9,breast cancer
+1215,10,prostrate cancer
+1215,11,lymphoma
+1215,12,bladder
+1215,13,oesophageal cancer
+1215,14,QOF
+1215,15,cervical cancer
+1216,1,leukaemia
+1216,2,skin cancer
+1216,3,Hodgkin's disease
+1216,4,lung cancer
+1216,5,melanoma
+1216,6,Quality outcomes framework
+1216,7,cancer
+1216,8,gastrointestinal cancer
+1216,9,breast cancer
+1216,10,prostrate cancer
+1216,11,lymphoma
+1216,12,bladder
+1216,13,oesophageal cancer
+1216,14,QOF
+1216,15,cervical cancer
+1217,1,kidney
+1217,2,CKD
+1217,3,quality outcomes framework. Genitourinary
+1217,4,kidney disease. QOF
+1218,1,kidney
+1218,2,CKD
+1218,3,quality outcomes framework. Genitourinary
+1218,4,kidney disease. QOF
+1219,1,kidney
+1219,2,CKD
+1219,3,quality outcomes framework. Genitourinary
+1219,4,kidney disease. QOF
+1220,1,kidney
+1220,2,CKD
+1220,3,quality outcomes framework. Genitourinary
+1220,4,kidney disease. QOF
+1221,1,kidney
+1221,2,CKD
+1221,3,Quality outcomes framework
+1221,4,kidney disease. QOF
+1221,5,record keeping
+1222,1,COPD
+1222,2,chronic obstructive lung disease
+1222,3,COAD
+1222,4,Quality outcomes framework
+1222,5,chronic obstructive airway disease
+1222,6,prevalence
+1222,7,smoker's lung
+1222,8,QOF
+1223,1,COPD
+1223,2,chronic obstructive lung disease
+1223,3,COAD
+1223,4,Quality outcomes framework
+1223,5,chronic obstructive airway disease
+1223,6,prevalence
+1223,7,smoker's lung
+1223,8,QOF
+1224,1,COPD
+1224,2,chronic obstructive lung disease
+1224,3,COAD
+1224,4,Quality outcomes framework
+1224,5,chronic obstructive airway disease
+1224,6,prevalence
+1224,7,smoker's lung
+1224,8,QOF
+1225,1,COPD
+1225,2,chronic obstructive lung disease
+1225,3,COAD
+1225,4,Quality outcomes framework
+1225,5,chronic obstructive airway disease
+1225,6,prevalence
+1225,7,smoker's lung
+1225,8,QOF
+1226,1,COPD
+1226,2,chronic obstructive lung disease
+1226,3,COAD
+1226,4,Quality outcomes framework
+1226,5,chronic obstructive airway disease
+1226,6,prevalence
+1226,7,smoker's lung
+1226,8,QOF
+1227,1,Angina
+1227,2,Quality outcomes framework
+1227,3,coronary disease
+1227,4,CHD
+1227,5,QOF
+1228,1,Angina
+1228,2,Quality outcomes framework
+1228,3,coronary disease
+1228,4,CHD
+1228,5,QOF
+1229,1,Angina
+1229,2,Quality outcomes framework
+1229,3,coronary disease
+1229,4,CHD
+1229,5,QOF
+1230,1,Angina
+1230,2,Quality outcomes framework
+1230,3,coronary disease
+1230,4,CHD
+1230,5,QOF
+1231,1,Angina
+1231,2,Quality outcomes framework
+1231,3,coronary disease
+1231,4,CHD
+1231,5,QOF
+1232,1,Angina
+1232,2,Quality outcomes framework
+1232,3,coronary disease
+1232,4,CHD
+1232,5,QOF
+1233,1,Angina
+1233,2,Quality outcomes framework
+1233,3,coronary disease
+1233,4,CHD
+1233,5,QOF
+1234,1,Angina
+1234,2,Quality outcomes framework
+1234,3,coronary disease
+1234,4,CHD
+1234,5,QOF
+1235,1,Angina
+1235,2,Quality outcomes framework
+1235,3,coronary disease
+1235,4,CHD
+1235,5,QOF
+1236,1,Angina
+1236,2,Quality outcomes framework
+1236,3,coronary disease
+1236,4,CHD
+1236,5,QOF
+1237,1,metabolic disorder
+1237,2,diabetes
+1237,3,Quality outcomes framework
+1237,4,QOF
+1238,1,metabolic disorder
+1238,2,diabetes
+1238,3,Quality outcomes framework
+1238,4,QOF
+1239,1,metabolic disorder
+1239,2,diabetes
+1239,3,Quality outcomes framework
+1239,4,QOF
+1240,1,metabolic disorder
+1240,2,diabetes
+1240,3,Quality outcomes framework
+1240,4,QOF
+1241,1,metabolic disorder
+1241,2,diabetes
+1241,3,Quality outcomes framework
+1241,4,QOF
+1242,1,metabolic disorder
+1242,2,diabetes
+1242,3,Quality outcomes framework
+1242,4,QOF
+1243,1,metabolic disorder
+1243,2,diabetes
+1243,3,Quality outcomes framework
+1243,4,QOF
+1244,1,metabolic disorder
+1244,2,diabetes
+1244,3,Quality outcomes framework
+1244,4,QOF
+1245,1,metabolic disorder
+1245,2,diabetes
+1245,3,Quality outcomes framework
+1245,4,QOF
+1246,1,metabolic disorder
+1246,2,diabetes
+1246,3,Quality outcomes framework
+1246,4,QOF
+1247,1,metabolic disorder
+1247,2,diabetes
+1247,3,Quality outcomes framework
+1247,4,QOF
+1248,1,metabolic disorder
+1248,2,diabetes
+1248,3,Quality outcomes framework
+1248,4,QOF
+1249,1,metabolic disorder
+1249,2,diabetes
+1249,3,Quality outcomes framework
+1249,4,QOF
+1250,1,metabolic disorder
+1250,2,diabetes
+1250,3,Quality outcomes framework
+1250,4,QOF
+1251,1,metabolic disorder
+1251,2,diabetes
+1251,3,Quality outcomes framework
+1251,4,QOF
+1252,1,metabolic disorder
+1252,2,diabetes
+1252,3,Quality outcomes framework
+1252,4,QOF
+1253,1,metabolic disorder
+1253,2,diabetes
+1253,3,Quality outcomes framework
+1253,4,QOF
+1254,1,fit
+1254,2,seizure
+1254,3,Quality outcomes framework
+1254,4,drug treatment
+1254,5,epilepsy
+1254,6,QOF
+1255,1,medication review
+1255,2,Quality outcomes framework
+1255,3,drug treatment
+1255,4,epilepsy
+1255,5,QOF
+1256,1,fit
+1256,2,seizure
+1256,3,Quality outcomes framework
+1256,4,drug treatment
+1256,5,epilepsy
+1256,6,QOF
+1257,1,Quality outcomes framework
+1257,2,drug treatment
+1257,3,epilepsy
+1257,4,QOF
+1258,1,cardiac arrest
+1258,2,Quality outcomes framework
+1258,3,cardiac decompensation
+1258,4,prevalence
+1258,5,cardiac failure
+1258,6,heart failure
+1258,7,QOF
+1259,1,cardiac arrest
+1259,2,Quality outcomes framework
+1259,3,cardiac decompensation
+1259,4,prevalence
+1259,5,cardiac failure
+1259,6,heart failure
+1259,7,QOF
+1260,1,cardiac arrest
+1260,2,Quality outcomes framework
+1260,3,cardiac decompensation
+1260,4,prevalence
+1260,5,cardiac failure
+1260,6,heart failure
+1260,7,QOF
+1261,1,cardiac arrest
+1261,2,Quality outcomes framework
+1261,3,cardiac decompensation
+1261,4,prevalence
+1261,5,cardiac failure
+1261,6,heart failure
+1261,7,QOF
+1262,1,cardiovascular disease
+1262,2,high arterial blood pressure
+1262,3,Quality outcomes framework
+1262,4,prevalence
+1262,5,Hypertension
+1262,6,QOF
+1262,7,High blood pressure
+1263,1,cardiovascular disease
+1263,2,high arterial blood pressure
+1263,3,Quality outcomes framework
+1263,4,prevalence
+1263,5,Hypertension
+1263,6,QOF
+1263,7,High blood pressure
+1264,1,cardiovascular disease
+1264,2,high arterial blood pressure
+1264,3,Quality outcomes framework
+1264,4,prevalence
+1264,5,Hypertension
+1264,6,QOF
+1264,7,High blood pressure
+1265,1,cardiovascular disease
+1265,2,high arterial blood pressure
+1265,3,Quality outcomes framework
+1265,4,prevalence
+1265,5,Hypertension
+1265,6,QOF
+1265,7,High blood pressure
+1266,1,cardiovascular disease
+1266,2,high arterial blood pressure
+1266,3,Quality outcomes framework
+1266,4,Hypertension
+1266,5,QOF
+1266,6,High blood pressure
+1267,1,hypothyroidism
+1267,2,Quality outcomes framework
+1267,3,QOF
+1268,1,hypothyroidism
+1268,2,Quality outcomes framework
+1268,3,QOF
+1269,1,vaccination
+1269,2,flu
+1269,3,Quality outcomes framework
+1269,4,immunisation
+1269,5,influenza
+1269,6,QOF
+1270,1,vaccination
+1270,2,flu
+1270,3,Quality outcomes framework
+1270,4,immunisation
+1270,5,influenza
+1270,6,QOF
+1271,1,mental health
+1271,2,Quality outcomes framework
+1271,3,QOF
+1272,1,mental health
+1272,2,Quality outcomes framework
+1272,3,dementia
+1272,4,QOF
+1273,1,mental health
+1273,2,Quality outcomes framework
+1273,3,dementia
+1273,4,QOF
+1274,1,diabetes
+1274,2,mental health
+1274,3,Quality outcomes framework
+1274,4,depression
+1274,5,QOF
+1275,1,diabetes
+1275,2,mental health
+1275,3,Quality outcomes framework
+1275,4,depression
+1275,5,QOF
+1276,1,mental health
+1276,2,Quality outcomes framework
+1276,3,depression
+1276,4,QOF
+1277,1,schizophrenia
+1277,2,mental health
+1277,3,Quality outcomes framework
+1277,4,bipolar
+1277,5,psychoses
+1277,6,QOF
+1278,1,schizophrenia
+1278,2,mental health
+1278,3,Quality outcomes framework
+1278,4,bipolar
+1278,5,psychoses
+1278,6,QOF
+1279,1,schizophrenia
+1279,2,mental health
+1279,3,Quality outcomes framework
+1279,4,bipolar
+1279,5,psychoses
+1279,6,QOF
+1280,1,maternal
+1280,2,Section 11
+1280,3,infant and child health
+1280,4,LBOHI
+1280,5,low birth weight
+1280,6,Basket of indicators
+1280,7,LBOI
+1280,8,Local basket of inequalities indicators
+1280,9,Local basket of indicators
+1281,1,mental health
+1281,2,Quality outcomes framework
+1281,3,learning disabilities
+1281,4,QOF
+1282,1,lithium therapy
+1282,2,mental health
+1282,3,Quality outcomes framework
+1282,4,QOF
+1283,1,lithium therapy
+1283,2,mental health
+1283,3,Quality outcomes framework
+1283,4,QOF
+1284,1,Quality outcomes framework
+1284,2,BMI
+1284,3,QOF
+1284,4,obesity
+1285,1,schizophrenia
+1285,2,transient ischaemic attack
+1285,3,chronic obstructive pulmonary disease
+1285,4,COPD
+1285,5,diabetes
+1285,6,CKD
+1285,7,bipolar
+1285,8,coronary disease
+1285,9,coronary heart disease
+1285,10,CHD
+1285,11,asthma
+1285,12,chronic kidney disorder
+1285,13,stroke
+1285,14,psychoses
+1285,15,Hypertension
+1285,16,Quallity outcomes framework
+1285,17,Smoking
+1285,18,QOF
+1285,19,TIA
+1286,1,schizophrenia
+1286,2,transient ischaemic attack
+1286,3,smoking cessation
+1286,4,chronic obstructive pulmonary disease
+1286,5,COPD
+1286,6,diabetes
+1286,7,CKD
+1286,8,stop smoking services
+1286,9,bipolar
+1286,10,coronary disease
+1286,11,coronary heart disease
+1286,12,CHD
+1286,13,asthma
+1286,14,chronic kidney disorder
+1286,15,stroke
+1286,16,psychoses
+1286,17,Hypertension
+1286,18,Quallity outcomes framework
+1286,19,Smoking
+1286,20,QOF
+1286,21,TIA
+1287,1,transient ischaemic attack
+1287,2,Quality outcomes framework
+1287,3,stroke
+1287,4,QOF
+1287,5,TIA
+1288,1,transient ischaemic attack
+1288,2,Quality outcomes framework
+1288,3,stroke
+1288,4,QOF
+1288,5,TIA
+1289,1,transient ischaemic attack
+1289,2,Quality outcomes framework
+1289,3,stroke
+1289,4,QOF
+1289,5,TIA
+1290,1,transient ischaemic attack
+1290,2,Quality outcomes framework
+1290,3,stroke
+1290,4,QOF
+1290,5,TIA
+1291,1,transient ischaemic attack
+1291,2,Quality outcomes framework
+1291,3,stroke
+1291,4,QOF
+1291,5,TIA
+1292,1,transient ischaemic attack
+1292,2,Quality outcomes framework
+1292,3,stroke
+1292,4,QOF
+1292,5,TIA
+1293,1,transient ischaemic attack
+1293,2,Quality outcomes framework
+1293,3,stroke
+1293,4,QOF
+1293,5,TIA
+1294,1,transient ischaemic attack
+1294,2,Quality outcomes framework
+1294,3,stroke
+1294,4,QOF
+1294,5,TIA
+1295,1,Quality outcomes framework
+1295,2,terminal care
+1295,3,palliative care
+1295,4,QOF
+1296,1,Quality outcomes framework
+1296,2,terminal care
+1296,3,palliative care
+1296,4,QOF
+1297,1,out of hours
+1297,2,Quality outcomes framework
+1297,3,out-of-hours
+1297,4,QOF
+1297,5,records
+1298,1,allergies
+1298,2,Quality outcomes framework
+1298,3,patient records
+1298,4,reactions
+1298,5,QOF
+1298,6,records
+1299,1,Quality outcomes framework
+1299,2,prescriptions
+1299,3,QOF
+1299,4,records
+1300,1,Quality outcomes framework
+1300,2,patient records
+1300,3,QOF
+1300,4,records
+1301,1,out of hours
+1301,2,Quality outcomes framework
+1301,3,out-of-hours
+1301,4,QOF
+1301,5,records
+1302,1,Quality outcomes framework
+1302,2,patient records
+1302,3,QOF
+1302,4,records
+1303,1,Quality outcomes framework
+1303,2,patient records
+1303,3,QOF
+1303,4,records
+1304,1,Quality outcomes framework
+1304,2,patient records
+1304,3,QOF
+1304,4,records
+1305,1,Quality outcomes framework
+1305,2,patient records
+1305,3,QOF
+1305,4,records
+1306,1,Quality outcomes framework
+1306,2,patient records
+1306,3,QOF
+1306,4,records
+1307,1,Quality outcomes framework
+1307,2,patient records
+1307,3,QOF
+1307,4,records
+1308,1,Quality outcomes framework
+1308,2,patient records
+1308,3,QOF
+1308,4,records
+1309,1,practice list
+1309,2,Quality outcomes framework
+1309,3,patient records
+1309,4,QOF
+1309,5,records
+1310,1,smoking cessation
+1310,2,Quality outcomes framework
+1310,3,stop smoking services
+1310,4,Smoking
+1310,5,QOF
+1311,1,Education
+1311,2,professional development
+1311,3,training
+1311,4,Quality outcomes framework
+1311,5,QOF
+1312,1,Education
+1312,2,professional development
+1312,3,training
+1312,4,Quality outcomes framework
+1312,5,QOF
+1313,1,Education
+1313,2,professional development
+1313,3,training
+1313,4,Quality outcomes framework
+1313,5,QOF
+1314,1,Education
+1314,2,professional development
+1314,3,training
+1314,4,Quality outcomes framework
+1314,5,QOF
+1315,1,Education
+1315,2,professional development
+1315,3,training
+1315,4,Quality outcomes framework
+1315,5,QOF
+1316,1,Education
+1316,2,professional development
+1316,3,training
+1316,4,Quality outcomes framework
+1316,5,QOF
+1317,1,Education
+1317,2,professional development
+1317,3,training
+1317,4,Quality outcomes framework
+1317,5,QOF
+1318,1,Quality outcomes framework
+1318,2,QOF
+1318,3,GP practice
+1318,4,Practice management
+1319,1,Quality outcomes framework
+1319,2,QOF
+1319,3,GP practice
+1319,4,Practice management
+1320,1,Quality outcomes framework
+1320,2,QOF
+1320,3,GP practice
+1320,4,Practice management
+1321,1,Quality outcomes framework
+1321,2,QOF
+1321,3,GP practice
+1321,4,Practice management
+1322,1,Quality outcomes framework
+1322,2,QOF
+1322,3,GP practice
+1322,4,Practice management
+1323,1,Quality outcomes framework
+1323,2,QOF
+1323,3,GP practice
+1323,4,Practice management
+1324,1,Quality outcomes framework
+1324,2,QOF
+1324,3,GP practice
+1324,4,Practice management
+1325,1,Quality outcomes framework
+1325,2,QOF
+1325,3,GP practice
+1325,4,Practice management
+1326,1,Quality outcomes framework
+1326,2,medicines
+1326,3,medicines management
+1326,4,QOF
+1327,1,Quality outcomes framework
+1327,2,medicines
+1327,3,medicines management
+1327,4,QOF
+1328,1,prescribing
+1328,2,Quality outcomes framework
+1328,3,medicines
+1328,4,medicines management
+1328,5,prescription
+1328,6,QOF
+1329,1,prescribing
+1329,2,Quality outcomes framework
+1329,3,medicines
+1329,4,medicines management
+1329,5,prescription
+1329,6,QOF
+1330,1,prescribing
+1330,2,Quality outcomes framework
+1330,3,medicines
+1330,4,medicines management
+1330,5,prescription
+1330,6,QOF
+1331,1,prescribing
+1331,2,Quality outcomes framework
+1331,3,medicines
+1331,4,medicines management
+1331,5,prescription
+1331,6,QOF
+1332,1,prescribing
+1332,2,Quality outcomes framework
+1332,3,medicines
+1332,4,medicines management
+1332,5,prescription
+1332,6,QOF
+1333,1,prescribing
+1333,2,Quality outcomes framework
+1333,3,medicines
+1333,4,medicines management
+1333,5,prescription
+1333,6,QOF
+1334,1,doctor
+1334,2,access
+1334,3,Quality outcomes framework
+1334,4,appointment
+1334,5,consultation
+1334,6,GP
+1334,7,QOF
+1335,1,doctor
+1335,2,access
+1335,3,Quality outcomes framework
+1335,4,appointment
+1335,5,consultation
+1335,6,GP
+1335,7,QOF
+1336,1,Quality outcomes framework
+1336,2,cervical smear
+1336,3,screening
+1336,4,QOF
+1336,5,cervical cancer
+1337,1,Quality outcomes framework
+1337,2,cervical smear
+1337,3,screening
+1337,4,QOF
+1337,5,cervical cancer
+1338,1,Quality outcomes framework
+1338,2,cervical smear
+1338,3,screening
+1338,4,QOF
+1338,5,cervical cancer
+1339,1,Quality outcomes framework
+1339,2,cervical smear
+1339,3,screening
+1339,4,QOF
+1339,5,cervical cancer
+1340,1,Children
+1340,2,health
+1340,3,Quality outcomes framework
+1340,4,young people
+1340,5,QOF
+1340,6,Child
+1341,1,Quality outcomes framework
+1341,2,pregnancy
+1341,3,maternity
+1341,4,Antenatal
+1341,5,QOF
+1342,1,contraceptive
+1342,2,Quality outcomes framework
+1342,3,family planning
+1342,4,contraception
+1342,5,QOF
+1343,1,contraceptive
+1343,2,Quality outcomes framework
+1343,3,family planning
+1343,4,contraception
+1343,5,QOF
+1344,1,contraceptive
+1344,2,Quality outcomes framework
+1344,3,family planning
+1344,4,contraception
+1344,5,QOF
+1345,1,referrals
+1345,2,footprint
+1345,3,hospital admission
+1345,4,A and E
+1345,5,Accident and emergency
+1345,6,admissions
+1346,1,referrals
+1346,2,footprint
+1346,3,hospital admission
+1346,4,A and E
+1346,5,Accident and emergency
+1346,6,admissions
+1347,1,referrals
+1347,2,footprint
+1347,3,hospital admission
+1347,4,A and E
+1347,5,Accident and emergency
+1347,6,admissions
+1348,1,referral
+1348,2,footprint
+1348,3,hospital admission
+1348,4,admission
+1349,1,footprint
+1349,2,hospital admission
+1349,3,admission
+1350,1,footprint
+1350,2,outpatient
+1350,3,appointment
+1351,1,footprint
+1351,2,outpatient
+1351,3,appointment
+1352,1,footprint
+1352,2,outpatient
+1352,3,appointment
+1353,1,footprint
+1353,2,outpatient
+1353,3,appointment
+1354,1,follow up
+1354,2,footprint
+1354,3,outpatient
+1354,4,appointment
+1354,5,follow-up
+1355,1,hospital admissions
+1355,2,admissions
+1356,1,hospital admissions
+1356,2,admissions
+1357,1,footprint
+1357,2,outpatient
+1357,3,appointment
+1358,1,footprint
+1358,2,outpatient
+1358,3,appointment
+1358,4,discharge
+1363,1,workforce
+1363,2,GP
+1364,1,mental health
+1364,2,prevalence
+1365,1,Transient Ischaemic Attacks
+1365,2,stroke
+1365,3,prevalence
+1365,4,TIA
+1366,1,referrals
+1366,2,footprint
+1366,3,hospital admission
+1366,4,A and E
+1366,5,Accident and emergency
+1366,6,admissions
+1367,1,footprint
+1367,2,hospital admission
+1367,3,admission
+1368,1,Section 13
+1368,2,LBOHI
+1368,3,Basket of indicators
+1368,4,Tackling the major killers
+1368,5,LBOI
+1368,6,Local basket of inequalities indicators
+1368,7,mortality
+1368,8,Local basket of indicators
+1369,1,Section 13
+1369,2,LBOHI
+1369,3,Basket of indicators
+1369,4,Tackling the major killers
+1369,5,LBOI
+1369,6,Local basket of inequalities indicators
+1369,7,mortality
+1369,8,Local basket of indicators
+1370,1,Section 13
+1370,2,death
+1370,3,LBOHI
+1370,4,Basket of indicators
+1370,5,Tackling the major killers
+1370,6,LBOI
+1370,7,Local basket of inequalities indicators
+1370,8,mortality
+1370,9,Local basket of indicators
+1370,10,deaths
+1371,1,Section 13
+1371,2,death
+1371,3,LBOHI
+1371,4,Basket of indicators
+1371,5,Tackling the major killers
+1371,6,LBOI
+1371,7,Local basket of inequalities indicators
+1371,8,mortality
+1371,9,Local basket of indicators
+1371,10,deaths
+1372,1,Section 13
+1372,2,hospital episodes
+1372,3,hospital episode
+1372,4,HES
+1372,5,hospital episode statistics
+1372,6,LBOHI
+1372,7,Basket of indicators
+1372,8,Tackling the major killers
+1372,9,LBOI
+1372,10,Local basket of inequalities indicators
+1372,11,Local basket of indicators
+1373,1,Section 13
+1373,2,hospital episodes
+1373,3,hospital episode
+1373,4,HES
+1373,5,hospital episode statistics
+1373,6,LBOHI
+1373,7,Basket of indicators
+1373,8,Tackling the major killers
+1373,9,LBOI
+1373,10,Local basket of inequalities indicators
+1373,11,Local basket of indicators
+1406,1,maternal
+1406,2,Section 11
+1406,3,infant and child health
+1406,4,LBOHI
+1406,5,low birth weight
+1406,6,Basket of indicators
+1406,7,LBOI
+1406,8,Local basket of inequalities indicators
+1406,9,Local basket of indicators
+1407,1,Section 13
+1407,2,LBOHI
+1407,3,Basket of indicators
+1407,4,Tackling the major killers
+1407,5,LBOI
+1407,6,Local basket of inequalities indicators
+1407,7,Local basket of indicators
+1408,1,Section 13
+1408,2,LBOHI
+1408,3,Basket of indicators
+1408,4,Tackling the major killers
+1408,5,LBOI
+1408,6,Local basket of inequalities indicators
+1408,7,Local basket of indicators
+1409,1,Wales
+1409,2,Population
+1409,3,England
+1415,1,summary care records
+1415,2,IT
+1415,3,patient records
+1415,4,information technology
+1415,5,SCR</DIV>
+1416,1,Electronic health records
+1416,2,IT
+1416,3,EHRs
+1416,4,patient records
+1416,5,GP2GP
+1416,6,information technology
+1417,1,IT
+1417,2,EPS
+1417,3,Electronic Prescription Service
+1417,4,information technology
+1418,1,IT
+1418,2,information technology
+1418,3,choose and book
+1419,1,PPV
+1419,2,Pneumoccal Polysaccharide Vaccine
+1419,3,immunisation
+1419,4,Public Health
+1426,1,1st attendances
+1426,2,outpatient
+1426,3,Referred GP
+1426,4,First attendances
+1427,1,Mean length stay
+1427,2,Mean
+1429,1,Mean length of stay
+1429,2,inpatients
+1429,3,Long term neurological conditions
+1429,4,LTNC
+1431,1,Day
+1431,2,Elective procedures
+1431,3,Day Case
+1432,1,Elective procedures
+1432,2,Not carried out
+1433,1,Emergency
+1433,2,Overnight beds
+1433,3,Occupied beds
+1434,1,Emergency bed days
+1434,2,Bed days
+1434,3,Long term conditions
+1434,4,LTNC
+1435,1,Practice
+1435,2,workforce
+1435,3,GP
+1436,1,GP Patient survey
+1436,2,patient experience
+1436,3,Composite
+1437,1,Carr Hill weighted
+1437,2,Statement of Financial Entitlements
+1437,3,List Size
+1437,4,Population
+1437,5,Market Forces Factor
+1438,1,Did not attend
+1438,2,DNA
+1438,3,First appointment
+1439,1,Emergency
+1439,2,Attendances
+1439,3,A and E
+1439,4,Accident
+1440,1,Non elective
+1440,2,admissions
+1441,1,Emergency
+1441,2,diabetes
+1441,3,asthma
+1441,4,admissions
+1441,5,epilepsy
+1442,1,19 ACS
+1442,2,Managing emergency admissions
+1442,3,ACS
+1442,4,19 ambulatory care conditions
+1443,1,DLA
+1443,2,Disability Living Allowance claimants
+1448,1,GP Patient survey
+1448,2,access
+1448,3,appointment
+1449,1,GP Patient survey
+1449,2,access
+1449,3,appointment
+1450,1,GP Patient survey
+1450,2,phone
+1450,3,access
+1451,1,GP Patient survey
+1451,2,access
+1451,3,appointment
+1452,1,GP Patient survey
+1452,2,access
+1452,3,appointment
+1453,1,GP Patient survey
+1453,2,access
+1453,3,appointment
+1454,1,GP Patient survey
+1454,2,access
+1454,3,appointment
+1455,1,GP Patient survey
+1455,2,preferred doctor
+1455,3,appointment
+1455,4,patient care
+1455,5,satisfaction
+1455,6,quality of care
+1456,1,GP Patient survey
+1456,2,preferred doctor
+1456,3,appointment
+1456,4,patient care
+1456,5,satisfaction
+1456,6,quality of care
+1457,1,GP Patient survey
+1457,2,access
+1457,3,appointment
+1458,1,GP Patient survey
+1458,2,access
+1458,3,appointment
+1459,1,GP Patient survey
+1459,2,appointment
+1459,3,patient care
+1459,4,satisfaction
+1459,5,quality of care
+1460,1,GP Patient survey
+1460,2,appointment
+1460,3,patient care
+1460,4,satisfaction
+1460,5,quality of care
+1461,1,GP Patient survey
+1461,2,appointment
+1461,3,patient care
+1461,4,satisfaction
+1461,5,quality of care
+1462,1,GP Patient survey
+1462,2,appointment
+1462,3,patient care
+1462,4,satisfaction
+1462,5,quality of care
+1463,1,GP Patient survey
+1463,2,appointment
+1463,3,patient care
+1463,4,satisfaction
+1463,5,quality of care
+1464,1,GP Patient survey
+1464,2,access
+1464,3,appointment
+1465,1,GP Patient survey
+1465,2,appointment
+1465,3,patient care
+1465,4,satisfaction
+1465,5,quality of care
+1466,1,GP Patient survey
+1466,2,access
+1466,3,waiting time
+1466,4,appointment
+1467,1,GP Patient survey
+1467,2,access
+1467,3,waiting time
+1467,4,appointment
+1468,1,GP Patient survey
+1468,2,access
+1468,3,opening hours
+1469,1,GP Patient survey
+1469,2,access
+1469,3,opening hours
+1470,1,GP Patient survey
+1470,2,access
+1470,3,opening hours
+1471,1,GP Patient survey
+1471,2,appointment
+1471,3,patient care
+1471,4,satisfaction
+1471,5,quality of care
+1472,1,GP Patient survey
+1472,2,appointment
+1472,3,patient care
+1472,4,satisfaction
+1472,5,quality of care
+1473,1,GP Patient survey
+1473,2,appointment
+1473,3,patient care
+1473,4,satisfaction
+1473,5,quality of care
+1474,1,GP Patient survey
+1474,2,appointment
+1474,3,patient care
+1474,4,satisfaction
+1474,5,quality of care
+1475,1,GP Patient survey
+1475,2,appointment
+1475,3,patient care
+1475,4,satisfaction
+1475,5,quality of care
+1476,1,GP Patient survey
+1476,2,appointment
+1476,3,patient care
+1476,4,satisfaction
+1476,5,quality of care
+1477,1,GP Patient survey
+1477,2,appointment
+1477,3,patient care
+1477,4,satisfaction
+1477,5,quality of care
+1478,1,GP Patient survey
+1478,2,appointment
+1478,3,patient care
+1478,4,satisfaction
+1478,5,quality of care
+1479,1,GP Patient survey
+1479,2,appointment
+1479,3,patient care
+1479,4,satisfaction
+1479,5,quality of care
+1480,1,GP Patient survey
+1480,2,appointment
+1480,3,patient care
+1480,4,satisfaction
+1480,5,quality of care
+1481,1,GP Patient survey
+1481,2,appointment
+1481,3,patient care
+1481,4,satisfaction
+1481,5,quality of care
+1482,1,GP Patient survey
+1482,2,appointment
+1482,3,patient care
+1482,4,satisfaction
+1482,5,quality of care
+1483,1,GP Patient survey
+1483,2,appointment
+1483,3,patient care
+1483,4,satisfaction
+1483,5,quality of care
+1484,1,GP Patient survey
+1484,2,patient care
+1484,3,satisfaction
+1484,4,quality of care
+1485,1,longterm condition
+1485,2,GP Patient survey
+1485,3,patient care
+1485,4,long-term
+1485,5,longstanding
+1485,6,long-standing
+1486,1,longterm condition
+1486,2,GP Patient survey
+1486,3,patient care
+1486,4,long-term
+1486,5,longstanding
+1486,6,long-standing
+1487,1,longterm condition
+1487,2,care plan
+1487,3,GP Patient survey
+1487,4,patient care
+1487,5,long-term
+1487,6,longstanding
+1487,7,long-standing
+1488,1,GP Patient survey
+1488,2,patient
+1489,1,GP Patient survey
+1489,2,patient
+1489,3,demographics
+1490,1,GP Patient survey
+1490,2,patient
+1490,3,demographics
+1491,1,GP Patient survey
+1491,2,patient
+1491,3,demographics
+1492,1,GP Patient survey
+1492,2,patient
+1492,3,demographics
+1493,1,GP Patient survey
+1493,2,patient
+1493,3,demographics
+1494,1,GP Patient survey
+1494,2,patient
+1494,3,demographics
+1495,1,GP Patient survey
+1495,2,patient
+1495,3,demographics
+1496,1,GP Patient survey
+1496,2,patient
+1496,3,demographics
+1497,1,GP Patient survey
+1497,2,patient
+1497,3,demographics
+1498,1,GP Patient survey
+1498,2,patient
+1498,3,demographics
+1499,1,GP Patient survey
+1499,2,patient
+1499,3,demographics
+1500,1,GP Patient survey
+1500,2,patient
+1500,3,demographics
+1508,1,ASCOF
+1508,2,Indicators
+1508,3,NIS
+1508,4,Outcomes
+1508,5,Social Care
+1508,6,Social Care Outcomes
+1508,7,Social Care Surveys
+1509,1,ASCOF
+1509,2,Indicators
+1509,3,NIS
+1509,4,Outcomes
+1509,5,Social Care
+1509,6,Social Care Outcomes
+1509,7,Social Care Surveys
+1510,1,ASCOF
+1510,2,Indicators
+1510,3,NIS
+1510,4,Outcomes
+1510,5,Social Care
+1510,6,Social Care Outcomes
+1510,7,Social Care Surveys
+1511,1,ASCOF
+1511,2,Indicators
+1511,3,NIS
+1511,4,Outcomes
+1511,5,Social Care
+1511,6,Social Care Outcomes
+1511,7,Social Care Surveys
+1512,1,ASCOF
+1512,2,Indicators
+1512,3,NIS
+1512,4,Outcomes
+1512,5,Social Care
+1512,6,Social Care Outcomes
+1512,7,Social Care Surveys
+1513,1,ASCOF
+1513,2,Indicators
+1513,3,NIS
+1513,4,Outcomes
+1513,5,Social Care
+1513,6,Social Care Outcomes
+1513,7,Social Care Surveys
+1514,1,ASCOF
+1514,2,Indicators
+1514,3,NIS
+1514,4,Outcomes
+1514,5,Social Care
+1514,6,Social Care Outcomes
+1514,7,Social Care Surveys
+1515,1,ASCOF
+1515,2,Indicators
+1515,3,NIS
+1515,4,Outcomes
+1515,5,Social Care
+1515,6,Social Care Outcomes
+1515,7,Social Care Surveys
+1516,1,ASCOF
+1516,2,Indicators
+1516,3,NIS
+1516,4,Outcomes
+1516,5,Social Care
+1516,6,Social Care Outcomes
+1516,7,Social Care Surveys
+1517,1,ASCOF
+1517,2,Indicators
+1517,3,NIS
+1517,4,Outcomes
+1517,5,Social Care
+1517,6,Social Care Outcomes
+1517,7,Social Care Surveys
+1518,1,ASCOF
+1518,2,Indicators
+1518,3,NIS
+1518,4,Outcomes
+1518,5,Social Care
+1518,6,Social Care Outcomes
+1518,7,Social Care Surveys
+1519,1,ASCOF
+1519,2,Indicators
+1519,3,NIS
+1519,4,Outcomes
+1519,5,Social Care
+1519,6,Social Care Outcomes
+1519,7,Social Care Surveys
+1520,1,ASCOF
+1520,2,Indicators
+1520,3,NIS
+1520,4,Outcomes
+1520,5,Social Care
+1520,6,Social Care Outcomes
+1520,7,Social Care Surveys
+1521,1,ASCOF
+1521,2,Indicators
+1521,3,NIS
+1521,4,Outcomes
+1521,5,Social Care
+1521,6,Social Care Outcomes
+1521,7,Social Care Surveys
+1544,1,Wales
+1544,2,Population
+1544,3,England
+1580,1,mental health
+1580,2,admissions
+1581,1,Long Term Neurological Condition
+1581,2,admissions
+1581,3,LTNC
+1583,1,Elective
+1583,2,admissions
+1584,1,PBC
+1584,2,prescriptions
+1584,3,Programme Budget Category
+1585,1,diabetes
+1585,2,admissions
+1586,1,diabetes
+1586,2,emergency admissions
+1587,1,Elective admissions
+1587,2,diabetes
+1588,1,asthma
+1588,2,admissions
+1589,1,Elective admissions
+1589,2,asthma
+1590,1,asthma
+1590,2,emergency admissions
+1591,1,Coronary Hearth Disease
+1591,2,CHD
+1591,3,admissions
+1592,1,Coronary Hearth Disease
+1592,2,CHD
+1592,3,emergency admissions
+1593,1,Elective admissions
+1593,2,Coronary Hearth Disease
+1593,3,CHD
+1594,1,chronic obstructive pulmonary disease
+1594,2,COPD
+1594,3,admissions
+1595,1,chronic obstructive pulmonary disease
+1595,2,COPD
+1595,3,emergency admissions
+1596,1,Elective admissions
+1596,2,chronic obstructive pulmonary disease
+1596,3,COPD
+1597,1,screening
+1597,2,bowel cancer
+1598,1,screening
+1598,2,bowel cancer
+1599,1,breast cancer
+1599,2,screening
+1600,1,breast cancer
+1600,2,screening
+1601,1,Standardised Mortality Rate
+1601,2,SMR
+1602,1,GP Appointments
+1602,2,Cancel Appointments
+1602,3,View Appointments
+1602,4,IT
+1602,5,GP System Functionality
+1602,6,System Function
+1602,7,Book Appointments
+1602,8,information technology
+1602,9,Systemic Functionality
+1603,1,Prescription Items
+1603,2,RX
+1603,3,IT
+1603,4,View Prescriptions
+1603,5,prescriptions
+1603,6,medication
+1603,7,GP System Functionality
+1603,8,System Function
+1603,9,Order Prescriptions
+1603,10,prescription
+1603,11,information technology
+1603,12,GP Prescription
+1603,13,Repeat Prescriptions
+1603,14,Systemic Functionality
+1604,1,GP Letters
+1604,2,View Letters
+1604,3,IT
+1604,4,System Functions
+1604,5,Information Technology
+1605,1,View Test Results
+1605,2,IT
+1605,3,GP System Functionality
+1605,4,System Function
+1605,5,GP Test Results
+1605,6,Test Results
+1605,7,information technology
+1605,8,Systemic Functionality
+1606,1,IT
+1606,2,GP System Functionality
+1606,3,System Function
+1606,4,Medical Record Access
+1606,5,GP Record Access
+1606,6,information technology
+1606,7,Systemic Functionality
+1607,1,IT
+1607,2,GP System Functionality
+1607,3,System Function
+1607,4,Medical Record Access
+1607,5,GP Record Access
+1607,6,information technology
+1607,7,Systemic Functionality
+1608,1,GP Patient survey
+1608,2,patient experience
+1608,3,Composite
+1631,1,Wales
+1631,2,Population
+1631,3,England
+1632,1,ASCOF
+1632,2,Indicators
+1632,3,NIS
+1632,4,Outcomes
+1632,5,Social Care
+1632,6,Social Care Outcomes
+1632,7,Social Care Surveys
+1633,1,ASCOF
+1633,2,Indicators
+1633,3,NIS
+1633,4,Outcomes
+1633,5,Social Care
+1633,6,Social Care Outcomes
+1633,7,Social Care Surveys
+1634,1,ASCOF
+1634,2,Indicators
+1634,3,NIS
+1634,4,Outcomes
+1634,5,Social Care
+1634,6,Social Care Outcomes
+1634,7,Social Care Surveys
+1691,1,ASCOF
+1691,2,Indicators
+1691,3,NIS
+1691,4,Outcomes
+1691,5,Social Care
+1691,6,Social Care Outcomes
+1691,7,Social Care Surveys
+1722,1,death
+1722,2,deaths
+1722,3,England
+1722,4,hospital care
+1722,5,mortality
+1723,1,death
+1723,2,deaths
+1723,3,England
+1723,4,hospital care
+1723,5,mortality
+1727,1,amenable
+1727,2,death
+1727,3,deaths
+1727,4,mortality
+1728,1,amenable
+1728,2,death
+1728,3,deaths
+1728,4,mortality
+1729,1,death
+1729,2,deaths
+1729,3,life expectancy
+1729,4,mortality
+1730,1,child health
+1730,2,death
+1730,3,deaths
+1730,4,infant health
+1730,5,mortality
+1730,6,stillbirths
+1731,1,circulatory system diseases
+1731,2,death
+1731,3,deaths
+1731,4,mortality
+1732,1,death
+1732,2,deaths
+1732,3,mortality
+1732,4,respiratory diseases
+1733,1,death
+1733,2,deaths
+1733,3,digestive disease
+1733,4,liver
+1733,5,mortality
+1734,1,cancer
+1734,2,death
+1734,3,deaths
+1734,4,mortality
+1735,1,cancer
+1735,2,death
+1735,3,deaths
+1735,4,mortality
+1736,1,cancer
+1736,2,death
+1736,3,deaths
+1736,4,mortality
+1737,1,bowel cancer
+1737,2,breast cancer
+1737,3,cancer
+1737,4,colon cancer
+1737,5,colorectal cancer
+1737,6,death
+1737,7,deaths
+1737,8,lung cancer
+1737,9,mortality
+1737,10,rectal cancer
+1738,1,bowel cancer
+1738,2,breast cancer
+1738,3,cancer
+1738,4,colon cancer
+1738,5,colorectal cancer
+1738,6,death
+1738,7,deaths
+1738,8,lung cancer
+1738,9,mortality
+1738,10,rectal cancer
+1741,1,community mental health services
+1741,2,death
+1741,3,deaths
+1741,4,mental health
+1741,5,mental illness
+1741,6,mortality
+1744,1,child health
+1744,2,death
+1744,3,deaths
+1744,4,infant health
+1744,5,mental health
+1744,6,mortality
+1745,1,cancer
+1745,2,child health
+1745,3,death
+1745,4,deaths
+1745,5,mortality
+1747,1,long-standing
+1747,2,longstanding condition
+1747,3,long-standing condition
+1747,4,long-term
+1747,5,longterm condition
+1747,6,long-term condition
+1748,1,long-standing
+1748,2,longstanding condition
+1748,3,long-standing condition
+1748,4,long-term
+1748,5,longterm condition
+1748,6,long-term condition
+1748,7,patient experience
+1749,1,long-standing
+1749,2,longstanding condition
+1749,3,long-standing condition
+1749,4,long-term
+1749,5,longterm condition
+1749,6,long-term condition
+1750,1,admissions
+1750,2,hospital admission
+1750,3,hospital episode
+1750,4,long-standing
+1750,5,longstanding condition
+1750,6,long-standing condition
+1750,7,long-term
+1750,8,longterm condition
+1750,9,long-term condition
+1751,1,admissions
+1751,2,asthma
+1751,3,child health
+1751,4,diabetes
+1751,5,epilepsy
+1751,6,hospital admission
+1751,7,hospital episode
+1751,8,long-standing
+1751,9,longstanding condition
+1751,10,long-standing condition
+1751,11,long-term
+1751,12,longterm condition
+1751,13,long-term condition
+1752,1,long-standing
+1752,2,longstanding condition
+1752,3,long-standing condition
+1752,4,long-term
+1752,5,longterm condition
+1752,6,long-term condition
+1753,1,long-standing
+1753,2,longstanding condition
+1753,3,long-standing condition
+1753,4,long-term
+1753,5,longterm condition
+1753,6,long-term condition
+1753,7,mental health
+1755,1,dementia
+1755,2,long-standing
+1755,3,longstanding condition
+1755,4,long-standing condition
+1755,5,long-term
+1755,6,longterm condition
+1755,7,long-term condition
+1755,8,mental health
+1757,1,long-standing
+1757,2,longstanding condition
+1757,3,long-standing condition
+1757,4,long-term
+1757,5,longterm condition
+1757,6,long-term condition
+1758,1,acute condition
+1758,2,admissions
+1758,3,hospital admissions
+1758,4,hospital episodes
+1759,1,hospital admissions
+1759,2,hospital care
+1759,3,hospital readmissions
+1759,4,secondary care
+1763,1,admissions
+1763,2,child health
+1763,3,hospital admissions
+1763,4,hospital episodes
+1763,5,respiratory diseases
+1766,1,hip fracture
+1766,2,hip-fracture
+1766,3,mobility
+1766,4,recovery
+1767,1,hip fracture
+1767,2,hip-fracture
+1767,3,mobility
+1767,4,recovery
+1768,1,independence
+1768,2,recovery
+1768,3,rehabilitation
+1769,1,independence
+1769,2,recovery
+1769,3,rehabilitation
+1771,1,admissions
+1771,2,children
+1771,3,dental
+1771,4,hospital admissions
+1771,5,hospital episodes
+1771,6,secondary care
+1771,7,tooth decay
+1772,1,general practice
+1772,2,GP
+1772,3,patient experience
+1772,4,primary care
+1773,1,general practice
+1773,2,GP
+1773,3,out of hours
+1773,4,out-of-hours
+1773,5,patient experience
+1773,6,primary care
+1774,1,dental
+1774,2,dentist
+1774,3,NHS
+1774,4,patient experience
+1774,5,primary care
+1775,1,hospital care
+1775,2,patient experience
+1775,3,secondary care
+1779,1,outpatients
+1779,2,patient experience
+1780,1,inpatients
+1780,2,patient experience
+1781,1,A&amp;E
+1781,2,accident and emergency
+1781,3,emergency services
+1781,4,patient experience
+1781,5,urgent care
+1782,1,access
+1782,2,appointment
+1782,3,general practice
+1782,4,GP
+1782,5,patient experience
+1782,6,primary care
+1783,1,access
+1783,2,appointment
+1783,3,dental
+1783,4,dentist
+1783,5,NHS
+1783,6,patient experience
+1783,7,primary care
+1784,1,antenatal care
+1784,2,maternity services
+1784,3,patient experience
+1784,4,postnatal care
+1785,1,bereaved carers
+1785,2,bereavement
+1785,3,carers
+1785,4,death
+1785,5,deaths
+1785,6,end of life
+1785,7,end-of-life
+1785,8,experience
+1786,1,community mental health services
+1786,2,healthcare
+1786,3,mental illness
+1786,4,patient experience
+1791,1,patient safety
+1791,2,venous thromboembolism
+1792,1,meticillin-resistant staphylococcus aureus
+1792,2,MRSA
+1792,3,patient safety
+1793,1,Clostridium difficile
+1793,2,patient safety
+1796,1,admissions
+1796,2,hospital admissions
+1796,3,hospital episodes
+1796,4,infant health
+1796,5,neonatal care
+1796,6,patient safety
+1798,1,amenable
+1798,2,death
+1798,3,deaths
+1798,4,mortality
+1799,1,patient experience
+1799,2,PROMS
+1800,1,children
+1800,2,patient safety
+1801,1,amenable
+1801,2,death
+1801,3,deaths
+1801,4,mortality
+1802,1,cardiovascular
+1802,2,circulatory system diseases
+1802,3,death
+1802,4,deaths
+1802,5,mortality
+1804,1,kidney disease
+1804,2,myocardial infarction
+1804,3,stroke
+1805,1,death
+1805,2,deaths
+1805,3,mortality
+1805,4,stroke
+1806,1,death
+1806,2,deaths
+1806,3,mortality
+1806,4,respiratory diseases
+1807,1,death
+1807,2,deaths
+1807,3,liver disease
+1807,4,mortality
+1808,1,acute condition
+1808,2,admissions
+1808,3,hospital admissions
+1808,4,hospital episodes
+1809,1,cancer
+1809,2,death
+1809,3,deaths
+1809,4,mortality
+1810,1,cancer
+1810,2,death
+1810,3,deaths
+1810,4,mortality
+1810,5,survival
+1811,1,bowel cancer
+1811,2,breast cancer
+1811,3,colon cancer
+1811,4,colorectal cancer
+1811,5,death
+1811,6,deaths
+1811,7,lung cancer
+1811,8,mortality
+1811,9,rectal cancer
+1812,1,general practitioner
+1812,2,GP
+1812,3,gpes
+1812,4,physical checks
+1812,5,serious mental illness
+1812,6,SMI
+1813,1,antenatal
+1813,2,ante-natal
+1813,3,antenatal assessment
+1813,4,assessment
+1814,1,delivery
+1814,2,smoking
+1814,3,smoking status
+1815,1,breast fed
+1815,2,breast feeding
+1815,3,prevalence
+1817,1,cancer
+1817,2,cancer diagnosis
+1818,1,cancer
+1818,2,cancer diagnosis
+1818,3,early detection
+1819,1,lung cancer
+1819,2,stage
+1819,3,staging
+1820,1,breast cancer
+1820,2,death
+1820,3,deaths
+1820,4,mortality
+1821,1,admission
+1821,2,death
+1821,3,deaths
+1821,4,emergency
+1821,5,heart failure
+1821,6,mortality
+1822,1,admissions
+1822,2,episodes
+1822,3,hip fracture
+1822,4,hip-fracture
+1822,5,hospital admissions
+1823,1,general practitioner
+1823,2,GP
+1823,3,gpes
+1823,4,serious mental illness
+1823,5,SMI
+1823,6,smoking
+1825,1,neonatal
+1825,2,neonatal deaths
+1825,3,still births
+1825,4,stillbirths
+1828,1,health-related quality
+1828,2,health-related quality of life
+1828,3,Long-term conditions
+1829,1,long term condition
+1829,2,long-term
+1829,3,long-term condition
+1829,4,patient experience
+1830,1,COPD
+1830,2,Dyspnoea
+1830,3,general practitioner
+1830,4,GP
+1830,5,gpes
+1830,6,pulmonary rehabilitation
+1830,7,rehab
+1832,1,diabetes
+1832,2,education
+1832,3,structured education
+1833,1,admissions
+1833,2,hospital admissions
+1833,3,hospital care
+1833,4,secondary care
+1834,1,admissions
+1834,2,hospital admissions
+1834,3,hospital care
+1834,4,secondary care
+1835,1,amputation
+1835,2,diabetes
+1835,3,ketoacidosis
+1835,4,lower limb amputation
+1836,1,BME
+1836,2,community mental health
+1836,3,mental health
+1837,1,black and minority ethnic
+1837,2,BME
+1837,3,psychological
+1837,4,therapy
+1838,1,change
+1838,2,IAPT
+1838,3,mental health
+1838,4,psychological therapies
+1838,5,recovery
+1838,6,referral
+1838,7,referrals
+1838,8,reliable
+1839,1,change
+1839,2,IAPT
+1839,3,improvement
+1839,4,mental health
+1839,5,psychological therapies
+1839,6,referral
+1839,7,referrals
+1839,8,reliable
+1840,1,change
+1840,2,deterioration
+1840,3,IAPT
+1840,4,mental health
+1840,5,psychological therapies
+1840,6,referral
+1840,7,referrals
+1840,8,reliable
+1843,1,health-related quality
+1843,2,health-related quality of life
+1843,3,mental health
+1844,1,health-related quality
+1844,2,health-related quality of life
+1844,3,Long-term conditions
+1844,4,mental health
+1845,1,acute condition
+1845,2,admissions
+1845,3,hospital admissions
+1845,4,hospital episodes
+1846,1,acute condition
+1846,2,admissions
+1846,3,hospital admissions
+1846,4,hospital episodes
+1846,5,readmissions
+1847,1,groin hernia
+1847,2,hip replacement
+1847,3,knee replacement
+1847,4,patient experience
+1847,5,PROMS
+1847,6,varicose veins
+1851,1,acute condition
+1851,2,admissions
+1851,3,hospital admissions
+1851,4,hospital episodes
+1852,1,acute stroke
+1852,2,stroke
+1852,3,stroke unit
+1853,1,acute stroke
+1853,2,stroke
+1853,3,thrombolysis
+1854,1,acute stroke
+1854,2,care plan
+1854,3,health and social care plan
+1854,4,stroke
+1855,1,acute stroke
+1855,2,follow-up
+1855,3,review
+1855,4,stroke
+1856,1,acute stroke
+1856,2,stroke
+1856,3,stroke unit
+1857,1,hip fracture
+1857,2,hip-fracture
+1857,3,mobility
+1857,4,recovery
+1858,1,hip fracture
+1858,2,hip-fracture
+1858,3,mobility
+1858,4,recovery
+1859,1,hip fracture
+1859,2,hip-fracture
+1859,3,orthogeriatric
+1860,1,hip fracture
+1860,2,hip-fracture
+1860,3,surgery
+1861,1,assessment
+1861,2,hip fracture
+1861,3,hip-fracture
+1862,1,admissions
+1862,2,alcohol
+1862,3,alcohol-specific
+1862,4,episodes
+1862,5,hospital admissions
+1863,1,alcohol
+1863,2,alcohol-specific
+1863,3,episodes
+1863,4,readmission
+1863,5,readmissions
+1864,1,admissions
+1864,2,hospital admissions
+1864,3,hospital episodes
+1864,4,mental health
+1864,5,readmissions
+1865,1,employment
+1865,2,mental health
+1867,1,general practice
+1867,2,GP
+1867,3,out of hours
+1867,4,out-of-hours
+1867,5,patient experience
+1867,6,primary care
+1868,1,inpatients
+1868,2,patient experience
+1871,1,inpatients
+1871,2,patient experience
+1876,1,incidents
+1876,2,patient safety
+1878,1,infection
+1878,2,Methicillin
+1878,3,meticillin-resistant staphylococcus aureus
+1878,4,MRSA
+1878,5,patient safety
+1879,1,C. difficile
+1879,2,Clostridium difficile
+1879,3,infection
+1879,4,patient safety
+2155,1,Book Appointments
+2155,2,Cancel Appointments
+2155,3,GP Appointments
+2155,4,GP System Functionality
+2155,5,Information Technology
+2155,6,IT
+2155,7,System Function
+2155,8,Systemic Functionality
+2155,9,View Appointments
+2156,1,GP Prescription
+2156,2,GP System Functionality
+2156,3,Information Technology
+2156,4,IT
+2156,5,Medication
+2156,6,Order Prescriptions
+2156,7,Prescription
+2156,8,Prescription Items
+2156,9,Prescriptions
+2156,10,Repeat Prescriptions
+2156,11,RX
+2156,12,System Function
+2156,13,Systemic Functionality
+2157,1,GP Letters
+2157,2,Information Technology
+2157,3,IT
+2157,4,System Functions
+2157,5,View Letters
+2158,1,GP System Functionality
+2158,2,GP Test Results
+2158,3,Information Technology
+2158,4,IT
+2158,5,System Function
+2158,6,Systemic Functionality
+2158,7,Test Results
+2158,8,View Test Results
+2159,1,atherosclerosis
+2159,2,CABG
+2159,3,coronary artery bypass graft
+2159,4,coronary heart disease
+2159,5,death
+2159,6,deaths
+2159,7,HES
+2159,8,hospital episode statistics
+2159,9,mortality
+2159,10,surgery
+2160,1,atherosclerosis
+2160,2,CABG
+2160,3,coronary artery bypass graft
+2160,4,coronary heart disease
+2160,5,death
+2160,6,deaths
+2160,7,HES
+2160,8,hospital episode statistics
+2160,9,mortality
+2160,10,surgery
+2161,1,atherosclerosis
+2161,2,CABG
+2161,3,coronary artery bypass graft
+2161,4,coronary heart disease
+2161,5,death
+2161,6,deaths
+2161,7,HES
+2161,8,hospital episode statistics
+2161,9,mortality
+2161,10,surgery
+2162,1,atherosclerosis
+2162,2,CABG
+2162,3,coronary artery bypass graft
+2162,4,coronary heart disease
+2162,5,death
+2162,6,deaths
+2162,7,HES
+2162,8,hospital episode statistics
+2162,9,mortality
+2162,10,surgery
+2163,1,coronary disease
+2163,2,coronary heart disease
+2163,3,death
+2163,4,deaths
+2163,5,heart attack
+2163,6,HES
+2163,7,hospital episode
+2163,8,hospital episode statistics
+2163,9,mortality
+2163,10,myocardial infarction
+2164,1,coronary disease
+2164,2,coronary heart disease
+2164,3,death
+2164,4,deaths
+2164,5,heart attack
+2164,6,HES
+2164,7,hospital episode
+2164,8,hospital episode statistics
+2164,9,mortality
+2164,10,myocardial infarction
+2165,1,death
+2165,2,deaths
+2165,3,femur
+2165,4,fractured
+2165,5,fractured proximal femur
+2165,6,HES
+2165,7,hospital episode
+2165,8,hospital episode statistics
+2165,9,mortality
+2165,10,proximal
+2166,1,death
+2166,2,deaths
+2166,3,femur
+2166,4,fractured
+2166,5,fractured proximal femur
+2166,6,HES
+2166,7,hospital episode
+2166,8,hospital episode statistics
+2166,9,mortality
+2166,10,proximal
+2167,1,death
+2167,2,deaths
+2167,3,HES
+2167,4,hospital episode
+2167,5,hospital episode statistics
+2167,6,mortality
+2167,7,non-elective admissions
+2168,1,circulatory diseases
+2168,2,death
+2168,3,deaths
+2168,4,HES
+2168,5,hospital episode
+2168,6,hospital episode statistics
+2168,7,mortality
+2168,8,stroke
+2169,1,circulatory diseases
+2169,2,death
+2169,3,deaths
+2169,4,HES
+2169,5,hospital episode
+2169,6,hospital episode statistics
+2169,7,mortality
+2169,8,stroke
+2170,1,ASCOF
+2170,2,Indicators
+2170,3,NIS
+2170,4,Outcomes
+2170,5,Social Care
+2170,6,Social Care Outcomes
+2170,7,Social Care Surveys
+2171,1,babies
+2171,2,birth
+2171,3,birthweight
+2171,4,low birth weight
+2172,1,best practice
+2172,2,best practice tariff
+2172,3,hip fracture
+2172,4,hip-fracture
+2173,1,Coded Records
+2173,2,Detailed Coded Records
+2173,3,GP Record Access
+2173,4,GP System Functionality
+2173,5,Information Technology
+2173,6,IT
+2173,7,Medical Record Access
+2173,8,Medical Records
+2173,9,System Function
+2173,10,Systemic Functionality
+2174,1,all conditions
+2174,2,emergency hospital admissions
+2174,3,HES
+2174,4,hospital episode
+2174,5,hospital episode statistics
+2176,1,accidents
+2176,2,broken bones
+2176,3,broken leg
+2176,4,episodes
+2176,5,fractures
+2176,6,HES
+2176,7,hospital
+2176,8,hospital episode
+2176,9,hospital episode statistics
+2176,10,surgery
+2177,1,accidents
+2177,2,broken bones
+2177,3,broken leg
+2177,4,episodes
+2177,5,fractures
+2177,6,HES
+2177,7,hospital
+2177,8,hospital episode
+2177,9,hospital episode statistics
+2177,10,surgery
+2178,1,admissions
+2178,2,coma
+2178,3,diabetes
+2178,4,diabetic ketoacedosis
+2178,5,HES
+2178,6,hospital
+2178,7,hospital episode
+2178,8,hospital episode statistics
+2179,1,admissions
+2179,2,coma
+2179,3,diabetes
+2179,4,diabetic ketoacedosis
+2179,5,HES
+2179,6,hospital
+2179,7,hospital episode
+2179,8,hospital episode statistics
+2180,1,emergency hospital admissions
+2180,2,HES
+2180,3,hospital episode
+2180,4,hospital episode statistics
+2180,5,mental
+2180,6,mental health
+2180,7,neuroses
+2181,1,emergency hospital admissions
+2181,2,HES
+2181,3,hospital episode
+2181,4,hospital episode statistics
+2181,5,mental
+2181,6,mental health
+2181,7,neuroses
+2182,1,emergency hospital admissions
+2182,2,HES
+2182,3,hospital episode
+2182,4,hospital episode statistics
+2182,5,mental
+2182,6,mental health
+2182,7,neuroses
+2183,1,emergency hospital admissions
+2183,2,HES
+2183,3,hospital episode
+2183,4,hospital episode statistics
+2183,5,mental
+2183,6,mental health
+2183,7,neuroses
+2184,1,acute conditions
+2184,2,emergency hospital admissions
+2184,3,HES
+2184,4,hospital episode
+2184,5,hospital episode statistics
+2185,1,admissions
+2185,2,chronic conditions
+2185,3,emergency hospital admissions
+2185,4,HES
+2185,5,hospital episode
+2185,6,hospital episode statistics
+2186,1,child
+2186,2,child health
+2186,3,children
+2186,4,emergency hospital admissions
+2186,5,HES
+2186,6,hospital episode
+2186,7,hospital episode statistics
+2186,8,infant
+2186,9,infant health
+2186,10,lower respiratory tract infections
+2186,11,respiratory
+2187,1,child
+2187,2,child health
+2187,3,children
+2187,4,emergency hospital admissions
+2187,5,gastroenteritis
+2187,6,HES
+2187,7,hospital episode
+2187,8,hospital episode statistics
+2187,9,infant
+2187,10,infant health
+2188,1,circulatory system diseases
+2188,2,emergency hospital admissions
+2188,3,HES
+2188,4,hospital episode
+2188,5,hospital episode statistics
+2188,6,stroke
+2189,1,circulatory system diseases
+2189,2,emergency hospital admissions
+2189,3,HES
+2189,4,hospital episode
+2189,5,hospital episode statistics
+2189,6,stroke
+2190,1,asthma
+2190,2,child health
+2190,3,children
+2190,4,emergency hospital admissions
+2190,5,HES
+2190,6,hospital episode
+2190,7,hospital episode statistics
+2190,8,infant health
+2191,1,asthma
+2191,2,child health
+2191,3,children
+2191,4,emergency hospital admissions
+2191,5,HES
+2191,6,hospital episode
+2191,7,hospital episode statistics
+2191,8,infant health
+2192,1,child
+2192,2,child health
+2192,3,children
+2192,4,emergency hospital admissions
+2192,5,HES
+2192,6,hospital episode
+2192,7,hospital episode statistics
+2192,8,infant
+2192,9,infant health
+2192,10,lower respiratory tract infections
+2192,11,respiratory
+2193,1,child
+2193,2,child health
+2193,3,children
+2193,4,emergency hospital admissions
+2193,5,gastroenteritis
+2193,6,HES
+2193,7,hospital episode
+2193,8,hospital episode statistics
+2193,9,infant
+2193,10,infant health
