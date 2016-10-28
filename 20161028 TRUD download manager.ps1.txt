@@ -1,0 +1,96 @@
+<#
+TRUD download manager
+
+PURPOSE:
+  Weekly update of TRUD downloads (where needed)
+
+	Fully automated TRUD downloader
+	Just make it a weekly job and your sorted
+
+	So get in there yourself, subscribe to the 180 (of 186, today 28-Oct-2016) thingies you can subscribe to (the other 6 require you to be a certifed clinical coder), and automate it.
+
+OPERATION:
+  logs in and moves to substrictions page
+  downloads all new files (NEW = not existing in downloaddirectory)
+  NEEDS to be run at least once a week, as subscriptions page only links to latest downloads
+
+FUTURE:
+  taking IE out of theequation is left as an exercise to the reader;^)
+  I would be interested, but it works good enough for me.
+  Probably it breaks when the IE login times out, for example when you download all for the first time, but for a short weekly update job that should not matter
+
+INSPIRED BY:
+	https://github.com/glfharris/TrudManager/blob/master/TrudManager.py
+#>
+
+$emailAddress = ""
+$password = ""
+$downloaddirectory = "S:\d\"
+
+  # change window title
+  $host.ui.RawUI.WindowTitle = "TRUD download manager"
+
+  #[Net.ServicePointManager]::SecurityProtocol = 'Tls12'
+
+  # initiate client
+  $wc = New-Object net.webclient
+
+  # initiate IE
+  $ie  = New-Object -com "InternetExplorer.Application"
+  $ie.Visible = $true
+  $url = "https://isd.hscic.gov.uk/trud3/user/guest/group/0/login/form"
+  $ie.navigate($url)
+  while ($ie.busy) {start-sleep -milliseconds 20}
+  while ($ie.ReadyState -ne 4) {start-sleep -milliseconds 20} 
+  while ($ie.document.title -eq $null) {start-sleep -milliseconds 20}    
+#  $ie.document.title
+  while (!($ie.document.title -eq "TRUD - Log in")) {start-sleep -milliseconds 20}    
+
+  # login
+  $ie.document.getElementById("emailAddress").Value = $emailAddress
+  $ie.document.getElementById("password").Value = $password
+  $ie.document.forms(1).submit()
+  while ($ie.busy) {start-sleep -milliseconds 20}
+  while ($ie.ReadyState -ne 4) {start-sleep -milliseconds 20} 
+  while ($ie.document.title -eq $null) {start-sleep -milliseconds 20}    
+#  $ie.document.title
+  while (!($ie.document.title -eq "TRUD - Welcome")) {start-sleep -milliseconds 20}    
+
+  # goto subscribed items
+  $url = "https://isd.hscic.gov.uk/trud3/user/authenticated/group/0/subscriptions/manage"
+  $ie.navigate($url)
+  while ($ie.busy) {start-sleep -milliseconds 20}
+  while ($ie.ReadyState -ne 4) {start-sleep -milliseconds 20} 
+  while ($ie.document.title -eq $null) {start-sleep -milliseconds 20}    
+#  $ie.document.title
+  while (!($ie.document.title -eq "TRUD - Account subscriptions")) {start-sleep -milliseconds 20}    
+
+  $ie.document.links | where-object {$_.href -like "*artefact*"} | Select href | % {
+    $href = $_.href
+    $filename = $href.Substring($href.LastIndexOf("/")+1, $href.Length - $href.LastIndexOf("/")-1)
+    $releasedate = $href.Substring($href.Length -18, 18).Substring(0,8)
+    # download $href if file doesn't exist yet
+
+    $destination = "$downloaddirectory\$filename"
+
+    # create zero length file and directory structure 
+    # check if file exists
+    $fileexists = Test-Path $destination
+    if ($fileexists -eq $true) {
+      # do nothing
+    }else{
+      # Force create empty file (also creates any higher dirs needed)
+      New-Item -ItemType File -Force -Path $destination  | Out-Null <# Out-Null to suppress output #>
+#      if ($releasedate -eq "20161027") {
+        $wc.Downloadfile($href, $destination)
+#      }
+    } 
+  }
+
+# destroy client
+$wc = $Null
+
+# close IE
+$ie.Quit()
+$ie = $null
+
