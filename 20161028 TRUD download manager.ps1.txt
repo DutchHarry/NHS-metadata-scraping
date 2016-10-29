@@ -69,10 +69,9 @@ $downloaddirectory = "S:\d\"
     $href = $_.href
     $filename = $href.Substring($href.LastIndexOf("/")+1, $href.Length - $href.LastIndexOf("/")-1)
     $releasedate = $href.Substring($href.Length -18, 18).Substring(0,8)
-    # download $href if file doesn't exist yet
 
+    # grab $href if file doesn't exist yet
     $destination = "$downloaddirectory\$filename"
-
     # create zero length file and directory structure 
     # check if file exists
     $fileexists = Test-Path $destination
@@ -81,9 +80,23 @@ $downloaddirectory = "S:\d\"
     }else{
       # Force create empty file (also creates any higher dirs needed)
       New-Item -ItemType File -Force -Path $destination  | Out-Null <# Out-Null to suppress output #>
-#      if ($releasedate -eq "20161027") {
+      if ($releasedate -eq "20161027") {
         $wc.Downloadfile($href, $destination)
-#      }
+      }
+    } 
+    # grab checksumfile
+    $checksumlink = $href.Substring(0,$href.LastIndexOf("/")+1)+"trud_"+$filename.Substring(0,$filename.length-4)+".xml"
+    $checksumfilename = $filename.Substring(0,$filename.length-4)+".xml"
+    $destinationchecksum = "$downloaddirectory\$checksumfilename"
+    $fileexists = Test-Path $destinationchecksum
+    if ($fileexists -eq $true) {
+      # do nothing
+    }else{
+      # Force create empty file (also creates any higher dirs needed)
+      New-Item -ItemType File -Force -Path $destinationchecksum  | Out-Null <# Out-Null to suppress output #>
+      if ($releasedate -eq "20161027") {
+        $wc.Downloadfile($checksumlink, $destinationchecksum)
+      }
     } 
   }
 
@@ -91,6 +104,15 @@ $downloaddirectory = "S:\d\"
 $wc = $Null
 
 # close IE
+# log out, so script can run again soon and doesn't fill because of auto-login
+$url = "https://isd.hscic.gov.uk/trud3/user/authenticated/account/logout"
+$ie.navigate($url)
+
 $ie.Quit()
 $ie = $null
 
+# clean empty files
+Get-ChildItem $downloaddirectory | Where {$_.Length -eq 0} | Remove-Item | Out-Null
+
+# garbage collector, in case you use window again
+[GC]::Collect()
