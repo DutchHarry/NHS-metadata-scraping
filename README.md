@@ -2,6 +2,7 @@
 Powershell scripts to get metadata of NHS datasets
 
 Towards OpenAnalytics
+
 Here will gradually appear a (near fully automated) production line for handling NHS (public) data.
 Using tools from freely accessible MS stack (as that’s what most NHS organisations still use for analytics), thus 
 Powershell: https://github.com/powershell
